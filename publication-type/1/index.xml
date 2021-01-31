@@ -5,7 +5,7 @@
     <link>/publication-type/1/</link>
       <atom:link href="/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jul 2014 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_huc40b6c30c374ef46b178ecef36b7d1d2_36046_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
@@ -13,30 +13,459 @@
     </image>
     
     <item>
-      <title>Reconciling Multiple Categorical Preferences with Double Pareto-based Aggregation</title>
-      <link>/publication/2014_dasfaa/</link>
-      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>/publication/2014_dasfaa/</guid>
+      <title>A Decentralized Recommendation Engine in the Social Internet of Things</title>
+      <link>/publication/dblp-confum-defiebre-sg-20/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confum-defiebre-sg-20/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>An example conference paper</title>
-      <link>/publication/example/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/example/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <title>A recommender system for investing in early-stage enterprises</title>
+      <link>/publication/2020-sac-a/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/2020-sac-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building User Trust in Recommendations via Fairness and Explanations</title>
+      <link>/publication/dblp-confum-sacharidis-20/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confum-sacharidis-20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DANOS: A Human-Centered Decentralized Simulator in SIOT</title>
+      <link>/publication/dblp-confum-defiebre-gs-20/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confum-defiebre-gs-20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Databases and Information Systems in the AI Era: Contributions from ADBIS, TPDL and EDA 2020 Workshops and Doctoral Consortium</title>
+      <link>/publication/dblp-confadbis-bellatreche-bbbc-20/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confadbis-bellatreche-bbbc-20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Designing a recommender system for board games</title>
+      <link>/publication/dblp-confsac-ion-sw-20/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confsac-ion-sw-20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fairness and Diversity in Social-Based Recommender Systems</title>
+      <link>/publication/dblp-confum-sacharidis-mw-20/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confum-sacharidis-mw-20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Common Approach for Consumer and Provider Fairness in Recommendations</title>
+      <link>/publication/dblp-confrecsys-sacharidis-mk-19/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confrecsys-sacharidis-mk-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Defining and measuring fairness in location recommendations</title>
+      <link>/publication/dblp-confgis-weydemann-sw-19/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confgis-weydemann-sw-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diversity and Novelty in Social-Based Collaborative Filtering</title>
+      <link>/publication/dblp-confum-sacharidis-19/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confum-sacharidis-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Uncertainty in Group Recommendations</title>
+      <link>/publication/dblp-confum-sacharidis-19-a/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confum-sacharidis-19-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Impact of Social Connections in Personalization</title>
+      <link>/publication/dblp-confum-mukamakuza-sw-19/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confum-mukamakuza-sw-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Top-N group recommendations with fairness</title>
+      <link>/publication/dblp-confsac-sacharidis-19/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confsac-sacharidis-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient progressive and diversified top-k best region search</title>
+      <link>/publication/dblp-confgis-skoutas-sp-18/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confgis-skoutas-sp-18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mining User Behavior in Social Recommender Systems</title>
+      <link>/publication/dblp-confwims-mukamakuza-sw-18/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confwims-mukamakuza-sw-18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selecting representative and diverse spatio-textual posts over sliding windows</title>
+      <link>/publication/dblp-confssdbm-sacharidis-mspv-18/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confssdbm-sacharidis-mspv-18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>(μ)TOP: Spatio-Temporal Detection and Summarization of Locally Trending Topics in Microblog Posts</title>
+      <link>/publication/dblp-confedbt-mehta-ksspv-17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confedbt-mehta-ksspv-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Continuous Summarization of Streaming Spatio-Textual Posts</title>
+      <link>/publication/dblp-confgis-sacharidis-mspv-17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confgis-sacharidis-mspv-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finding Socio-Textual Associations Among Locations</title>
+      <link>/publication/dblp-confedbt-mehta-ssv-17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confedbt-mehta-ssv-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finding The Most Preferred Path</title>
+      <link>/publication/dblp-confgis-sacharidis-bc-17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confgis-sacharidis-bc-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Group Recommendations by Learning Rating Behavior</title>
+      <link>/publication/dblp-confum-sacharidis-17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confum-sacharidis-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inferring Venue Visits from GPS Trajectories</title>
+      <link>/publication/dblp-confgis-gu-smw-17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confgis-gu-smw-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coverage and diversity aware top-k query for spatio-temporal posts</title>
+      <link>/publication/dblp-confgis-mehta-ssv-16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confgis-mehta-ssv-16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High Performance Parallel Summed-Area Table Kernels for Multi-core and Many-core Systems</title>
+      <link>/publication/dblp-confeuropar-papatriantafyllou-16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confeuropar-papatriantafyllou-16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identifying and Describing Streets of Interest</title>
+      <link>/publication/dblp-confedbt-skoutas-s-16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confedbt-skoutas-s-16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keyword-based retrieval of frequent location sets in geotagged photo trails</title>
+      <link>/publication/dblp-confwebsci-mehta-ssv-16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confwebsci-mehta-ssv-16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Point-Based Trajectory Search</title>
+      <link>/publication/dblp-confssd-qi-bsm-15/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confssd-qi-bsm-15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning the Role and Behavior of Users in Group Decision Making</title>
+      <link>/publication/dblp-confdmrs-sacharidis-dn-15/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confdmrs-sacharidis-dn-15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LocalRec&#39;15: Workshop on Location-Aware Recommendations</title>
+      <link>/publication/dblp-confrecsys-bouros-lrrs-15/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confrecsys-bouros-lrrs-15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatial cohesion queries</title>
+      <link>/publication/dblp-confgis-sacharidis-d-15/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confgis-sacharidis-d-15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Study on External Memory Scan-Based Skyline Algorithms</title>
+      <link>/publication/dblp-confdexa-bikakis-ss-14/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confdexa-bikakis-ss-14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Continuous monitoring of nearest trajectories</title>
+      <link>/publication/dblp-confgis-sacharidis-ss-14/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confgis-sacharidis-ss-14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Identification of the Highest Diversity Gain Object</title>
+      <link>/publication/dblp-confisipers-sacharidis-s-14/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confisipers-sacharidis-s-14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MR-microT: a MapReduce-based MicroRNA target prediction method</title>
+      <link>/publication/dblp-confssdbm-kanellos-vsdhss-14/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confssdbm-kanellos-vsdhss-14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reconciling Multiple Categorical Preferences with Double Pareto-Based Aggregation</title>
+      <link>/publication/dblp-confdasfaa-bikakis-bs-14/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confdasfaa-bikakis-bs-14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regionally influential users in location-aware social networks</title>
+      <link>/publication/dblp-confgis-bouros-sb-14/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confgis-bouros-sb-14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RIPPLE: A Scalable Framework for Distributed Processing of Rank Queries</title>
+      <link>/publication/dblp-confedbt-tsatsanifos-ss-14/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confedbt-tsatsanifos-ss-14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Routing directions: keeping it fast and simple</title>
+      <link>/publication/dblp-confgis-sacharidis-b-13/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confgis-sacharidis-b-13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diachronic linked data: towards long-term preservation of structured interrelated information</title>
+      <link>/publication/dblp-confwod-auer-dpbfsbkscpt-12/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confwod-auer-dpbfsbkscpt-12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Majority-Rule-Based Web Service Selection</title>
+      <link>/publication/dblp-confwise-benouaret-sbh-12/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confwise-benouaret-sbh-12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Pickup and Delivery with Transfers</title>
+      <link>/publication/dblp-confssd-bouros-sds-11/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confssd-bouros-sds-11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MIDAS: Multi-attribute Indexing for Distributed Architecture Systems</title>
+      <link>/publication/dblp-confssd-tsatsanifos-ss-11/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confssd-tsatsanifos-ss-11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On enhancing scalability for distributed RDF/S stores</title>
+      <link>/publication/dblp-confedbt-tsatsanifos-ss-11/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confedbt-tsatsanifos-ss-11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Probabilistic contextual skylines</title>
+      <link>/publication/dblp-conficde-sacharidis-as-10/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-conficde-sacharidis-as-10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluating Reachability Queries over Path Collections</title>
+      <link>/publication/dblp-confssdbm-bouros-sdss-09/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confssdbm-bouros-sdss-09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Top-emphk dominant web services under multi-criteria matching</title>
+      <link>/publication/dblp-confedbt-skoutas-ssks-09/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confedbt-skoutas-ssks-09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Topologically Sorted Skylines for Partially Ordered Domains</title>
+      <link>/publication/dblp-conficde-sacharidis-pp-09/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-conficde-sacharidis-pp-09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Caching Dynamic Skyline Queries</title>
+      <link>/publication/dblp-confssdbm-sacharidis-bs-08/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confssdbm-sacharidis-bs-08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Semantic Web Service Discovery in Centralized and P2P Environments</title>
+      <link>/publication/dblp-confsemweb-skoutas-sks-08/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confsemweb-skoutas-sks-08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On-line discovery of hot motion paths</title>
+      <link>/publication/dblp-confedbt-sacharidis-ptkpms-08/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confedbt-sacharidis-ptkpms-08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Serving the Sky: Discovering and Selecting Semantic Web Services through Dynamic Skyline Queries</title>
+      <link>/publication/dblp-confsemco-skoutas-sss-08/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confsemco-skoutas-sss-08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Continuous Medoid Queries over Moving Objects</title>
+      <link>/publication/dblp-confssd-papadopoulos-sm-07/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confssd-papadopoulos-sm-07/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploiting duality in summarization with deterministic guarantees</title>
+      <link>/publication/dblp-confkdd-karras-ms-07/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confkdd-karras-ms-07/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A study on workload-aware wavelet synopses for point and range-sum queries</title>
+      <link>/publication/dblp-confdolap-mathioudakis-ss-06/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confdolap-mathioudakis-ss-06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constructing Optimal Wavelet Synopses</title>
+      <link>/publication/dblp-confedbtw-sacharidis-06/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confedbtw-sacharidis-06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast Approximate Wavelet Tracking on Streams</title>
+      <link>/publication/dblp-confedbt-cormode-gs-06/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confedbt-cormode-gs-06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SHIFT-SPLIT: I/O Efficient Maintenance of Wavelet-Transformed Multidimensional Data</title>
+      <link>/publication/dblp-confsigmod-jahangiri-ss-05/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confsigmod-jahangiri-ss-05/</guid>
+      <description></description>
     </item>
     
   </channel>

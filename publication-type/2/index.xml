@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Dimitris Sacharidis</title>
+    <link>/publication-type/2/</link>
+      <atom:link href="/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_huc40b6c30c374ef46b178ecef36b7d1d2_36046_512x512_fill_lanczos_center_2.png</url>
+      <title>2</title>
+      <link>/publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>Ranking Papers by their Short-Term Scientific Impact</title>
+      <link>/publication/dblp-journalscorrabs-2006-00951/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-journalscorrabs-2006-00951/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LocalRec 2019 workshop report: The Third ACM SIGSPATIAL Workshop on Location-Based Recommendations, Geosocial Networks and Geoadvertising: Chicago, Illinois, USA - November 5, 2019</title>
+      <link>/publication/dblp-journalssigspatial-bouros-dkrs-19/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-journalssigspatial-bouros-dkrs-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Role of Activity and Similarity in Rating and Social Behavior in Social Recommender Systems</title>
+      <link>/publication/dblp-journalsijait-mukamakuza-sw-19/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-journalsijait-mukamakuza-sw-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LocalRec 2018 workshop report the second ACM SIGSPATIAL workshop on recommendations for location-based services and social networks(^mbox*) Seattle, Washington, USA - November 6, 2018</title>
+      <link>/publication/dblp-journalssigspatial-bouros-rs-18/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-journalssigspatial-bouros-rs-18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Localrec 2017 workshop report: the First ACM SIGSPATIAL Workshop on Recommendations for Location-Based Services and Social Networks: Redondo Beach, California, USA - November 7, 2017</title>
+      <link>/publication/dblp-journalssigspatial-bouros-rs-17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-journalssigspatial-bouros-rs-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snapshot and continuous points-based trajectory search</title>
+      <link>/publication/dblp-journalsgeoinformatica-qi-sbm-17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-journalsgeoinformatica-qi-sbm-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finding desirable objects under group categorical preferences</title>
+      <link>/publication/dblp-journalskais-bikakis-bs-16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-journalskais-bikakis-bs-16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finding Desirable Objects under Group Categorical Preferences</title>
+      <link>/publication/dblp-journalscorr-bikakis-bs-15/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-journalscorr-bikakis-bs-15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Index-based query processing on distributed multidimensional data</title>
+      <link>/publication/dblp-journalsgeoinformatica-tsatsanifos-ss-13/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-journalsgeoinformatica-tsatsanifos-ss-13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Routing Directions: Keeping it Fast and Simple</title>
+      <link>/publication/dblp-journalscorr-sacharidis-b-13/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-journalscorr-sacharidis-b-13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Approximate regional sequence matching for genomic databases</title>
+      <link>/publication/dblp-journalsvldb-vergoulis-dss-12/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-journalsvldb-vergoulis-dss-12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluating Path Queries over Frequently Updated Route Collections</title>
+      <link>/publication/dblp-journalstkde-bouros-sdss-12/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-journalstkde-bouros-sdss-12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>k-Anonymity in the Presence of External Databases</title>
+      <link>/publication/dblp-journalstkde-sacharidis-mp-10/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-journalstkde-sacharidis-mp-10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ranking and Clustering Web Services Using Multicriteria Dominance Relationships</title>
+      <link>/publication/dblp-journalstsc-skoutas-sss-10/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-journalstsc-skoutas-sss-10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hierarchically compressed wavelet synopses</title>
+      <link>/publication/dblp-journalsvldb-sacharidis-ds-09/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-journalsvldb-sacharidis-ds-09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Partially materialized digest scheme: an efficient verification method for outsourced databases</title>
+      <link>/publication/dblp-journalsvldb-mouratidis-sp-09/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-journalsvldb-mouratidis-sp-09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hybrid Query and Data Ordering for Fast and Progressive Range-Aggregate Query Answering</title>
+      <link>/publication/dblp-journalsjdwm-shahabi-js-05/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-journalsjdwm-shahabi-js-05/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

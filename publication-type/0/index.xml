@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0 | Dimitris Sacharidis</title>
+    <link>/publication-type/0/</link>
+      <atom:link href="/publication-type/0/index.xml" rel="self" type="application/rss+xml" />
+    <description>0</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_huc40b6c30c374ef46b178ecef36b7d1d2_36046_512x512_fill_lanczos_center_2.png</url>
+      <title>0</title>
+      <link>/publication-type/0/</link>
+    </image>
+    
+    <item>
+      <title>LocalRec&#39;20: Proceedings of the 4th ACM SIGSPATIAL Workshop on Location-Based Recommendations, Geosocial Networks, and Geoadvertising, LocalRec@SIGSPATIAL 2020, November 3, 2020, Seattle, WA, USA</title>
+      <link>/publication/dblp-confgis-2020-localrec/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confgis-2020-localrec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SSDBM 2020: 32nd International Conference on Scientific and Statistical Database Management, Vienna, Austria, July 7-9, 2020</title>
+      <link>/publication/dblp-confssdbm-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confssdbm-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proceedings of the 16th International Symposium on Spatial and Temporal Databases, SSTD 2019, Vienna, Austria, August 19-21, 2019</title>
+      <link>/publication/dblp-confssd-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confssd-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proceedings of the 3rd ACM SIGSPATIAL International Workshop on Location-based Recommendations, Geosocial Networks and Geoadvertising, LocalRec@SIGSPATIAL 2019, Chicago, Illinois, USA, November 5, 2019</title>
+      <link>/publication/dblp-confgis-2019-localrec/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confgis-2019-localrec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proceedings of the 2nd ACM SIGSPATIAL Workshop on Recommendations for Location-based Services and Social Networks, LocalRec@SIGSPATIAL 2018, Seattle, WA, USA, November 6, 2018</title>
+      <link>/publication/dblp-confgis-2018-localrec/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confgis-2018-localrec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proceedings of the 30th International Conference on Scientific and Statistical Database Management, SSDBM 2018, Bozen-Bolzano, Italy, July 09-11, 2018</title>
+      <link>/publication/dblp-confssdbm-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confssdbm-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proceedings of the 1st ACM SIGSPATIAL Workshop on Recommendations for Location-based Services and Social Networks, LocalRec@SIGSPATIAL 2017, Redondo Beach, CA, USA, November 7-10, 2017</title>
+      <link>/publication/dblp-confgis-2017-localrec/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confgis-2017-localrec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proceedings of the 8th ACM SIGSPATIAL International Workshop on Location-Based Social Networks, LBSN 2015, Bellevue, WA, USA, November 3-6, 2015</title>
+      <link>/publication/dblp-confgis-2015-lbsn/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confgis-2015-lbsn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proceedings of the Workshop on Location-Aware Recommendations, LocalRec 2015, co-located with the 9th ACM Conference on Recommender Systems (RecSys 2015), Vienna, Austria, September 19, 2015</title>
+      <link>/publication/dblp-confrecsys-2015-localrec/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/dblp-confrecsys-2015-localrec/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
