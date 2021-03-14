@@ -206,9 +206,9 @@
     
     <item>
       <title>Proceedings of the 2nd ACM SIGSPATIAL Workshop on Recommendations for Location-Based Services and Social Networks (LocalRec)</title>
-      <link>/publication/2018-local-rec-brs/</link>
+      <link>/publication/2018-localrec-brs/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/2018-local-rec-brs/</guid>
+      <guid>/publication/2018-localrec-brs/</guid>
       <description></description>
     </item>
     
@@ -389,7 +389,7 @@
     </item>
     
     <item>
-      <title>Proceedings of the Workshop on Location-Aware Recommendations, LocalRec 2015, co-located with the 9th ACM Conference on Recommender Systems (RecSys 2015), Vienna, Austria, September 19, 2015</title>
+      <title>Proceedings of the Workshop on Location-Aware Recommendations (LocalRec)</title>
       <link>/publication/2015-localrec-blr/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <guid>/publication/2015-localrec-blr/</guid>

@@ -21,14 +21,6 @@
     </item>
     
     <item>
-      <title>Ranking Papers by their Short-Term Scientific Impact</title>
-      <link>/publication/2020-corr-kvs/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/2020-corr-kvs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>LocalRec 2019 Workshop Report: The Third ACM SIGSPATIAL Workshop on Location-Based Recommendations, Geosocial Networks and Geoadvertising (LocalRec)</title>
       <link>/publication/2019-sigspatial-s-bdk/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -85,26 +77,10 @@
     </item>
     
     <item>
-      <title>Finding Desirable Objects under Group Categorical Preferences</title>
-      <link>/publication/2015-corr-bbs/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/2015-corr-bbs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Index-based query processing on distributed multidimensional data</title>
       <link>/publication/2013-geoinformatica-tss/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       <guid>/publication/2013-geoinformatica-tss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Routing Directions: Keeping it Fast and Simple</title>
-      <link>/publication/2013-corr-sb/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/2013-corr-sb/</guid>
       <description></description>
     </item>
     
