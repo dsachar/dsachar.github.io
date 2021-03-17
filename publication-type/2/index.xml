@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Dimitris Sacharidis</title>
+    <link>/publication-type/2/</link>
+      <atom:link href="/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_huc40b6c30c374ef46b178ecef36b7d1d2_36046_512x512_fill_lanczos_center_2.png</url>
+      <title>2</title>
+      <link>/publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>LocalRec 2020 Workshop Report: The Fourth ACM SIGSPATIAL Workshop on Location-Based Recommendations, Geosocial Networks and Geoadvertising (LocalRec)</title>
+      <link>/publication/2020-sigspatial-s-bdk/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/2020-sigspatial-s-bdk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LocalRec 2019 Workshop Report: The Third ACM SIGSPATIAL Workshop on Location-Based Recommendations, Geosocial Networks and Geoadvertising (LocalRec)</title>
+      <link>/publication/2019-sigspatial-s-bdk/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/2019-sigspatial-s-bdk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Role of Activity and Similarity in Rating and Social Behavior in Social Recommender Systems</title>
+      <link>/publication/2019-ijait-msw/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/2019-ijait-msw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LocalRec 2018 Workshop Report: The Second ACM SIGSPATIAL Workshop on Recommendations for Location-Based Services and Social Networks (LocalRec)</title>
+      <link>/publication/2018-sigspatial-s-brs/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/2018-sigspatial-s-brs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selecting Services for Multiple Users: Let&#39;s Be Democratic</title>
+      <link>/publication/2018-tsc-bsbh/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/2018-tsc-bsbh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LocalRec 2017 Workshop Report: The First ACM SIGSPATIAL Workshop on Recommendations for Location-Based Services and Social Networks (LocalRec)</title>
+      <link>/publication/2017-sigspatial-s-brs/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/2017-sigspatial-s-brs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snapshot and continuous points-based trajectory search</title>
+      <link>/publication/2017-geoinformatica-qsbm/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/2017-geoinformatica-qsbm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finding desirable objects under group categorical preferences</title>
+      <link>/publication/2016-kais-bbs/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/2016-kais-bbs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Index-based query processing on distributed multidimensional data</title>
+      <link>/publication/2013-geoinformatica-tss/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/2013-geoinformatica-tss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Approximate regional sequence matching for genomic databases</title>
+      <link>/publication/2012-vldbj-vdss/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/2012-vldbj-vdss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluating Path Queries over Frequently Updated Route Collections</title>
+      <link>/publication/2012-tkde-bsd/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/2012-tkde-bsd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>k-Anonymity in the Presence of External Databases</title>
+      <link>/publication/2010-tkde-smp/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/2010-tkde-smp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ranking and Clustering Web Services Using Multicriteria Dominance Relationships</title>
+      <link>/publication/2010-tsc-ssss/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/2010-tsc-ssss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hierarchically compressed wavelet synopses</title>
+      <link>/publication/2009-vldbj-sds/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/2009-vldbj-sds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Partially materialized digest scheme: an efficient verification method for outsourced databases</title>
+      <link>/publication/2009-vldbj-msp/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/2009-vldbj-msp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hybrid Query and Data Ordering for Fast and Progressive Range-Aggregate Query Answering</title>
+      <link>/publication/2005-ijdwm-sjs/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      <guid>/publication/2005-ijdwm-sjs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
