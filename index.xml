@@ -12,33 +12,5 @@
       <link>/</link>
     </image>
     
-    <item>
-      <title>About</title>
-      <link>/home/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/home/about/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>/home/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/home/contact/</guid>
-      <description>&lt;p&gt;
-  &lt;i class=&#34;fas fa-map-marker-alt  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Address&lt;/strong&gt; &lt;br&gt;
-Web and Information Technologies Lab&lt;br&gt;
-Campus du Solbosch - CP 165/15&lt;br&gt;
-Avenue F. D. Roosevelt 50&lt;br&gt;
-1050 Brussels, Belgium&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-building  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Office&lt;/strong&gt;&lt;br&gt;
-S.UB.4.125 (&lt;a href=&#34;https://polytech.ulb.be/en/location-and-access&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;campus map&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-envelope  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Email&lt;/strong&gt;&lt;br&gt;
-&lt;a href=&#34;mailto:dimitris.sacharidis@ulb.be&#34;&gt;dimitris.sacharidis@ulb.be&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>
