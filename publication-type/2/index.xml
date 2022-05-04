@@ -5,7 +5,7 @@
     <link>https://dsachar.github.io/publication-type/2/</link>
       <atom:link href="https://dsachar.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dsachar.github.io/media/icon_huc40b6c30c374ef46b178ecef36b7d1d2_36046_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
@@ -13,10 +13,42 @@
     </image>
     
     <item>
+      <title>Impact-Based Ranking of Scientific Publications: A Survey and Experimental Evaluation</title>
+      <link>https://dsachar.github.io/publication/2021-tkde-kvs/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.github.io/publication/2021-tkde-kvs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New trends in scientific knowledge graphs and research impact assessment</title>
+      <link>https://dsachar.github.io/publication/2021-qss-mmo/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.github.io/publication/2021-qss-mmo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selecting Services for Multiple Users: Let&#39;s Be Democratic</title>
+      <link>https://dsachar.github.io/publication/2021-tsc-bsb/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.github.io/publication/2021-tsc-bsb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>LocalRec 2020 Workshop Report: The Fourth ACM SIGSPATIAL Workshop on Location-Based Recommendations, Geosocial Networks and Geoadvertising (LocalRec)</title>
       <link>https://dsachar.github.io/publication/2020-sigspatial-s-bdk/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://dsachar.github.io/publication/2020-sigspatial-s-bdk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ranking Papers by their Short-Term Scientific Impact</title>
+      <link>https://dsachar.github.io/publication/2020-corr-kvs/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.github.io/publication/2020-corr-kvs/</guid>
       <description></description>
     </item>
     
@@ -45,14 +77,6 @@
     </item>
     
     <item>
-      <title>Selecting Services for Multiple Users: Let&#39;s Be Democratic</title>
-      <link>https://dsachar.github.io/publication/2018-tsc-bsbh/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.github.io/publication/2018-tsc-bsbh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>LocalRec 2017 Workshop Report: The First ACM SIGSPATIAL Workshop on Recommendations for Location-Based Services and Social Networks (LocalRec)</title>
       <link>https://dsachar.github.io/publication/2017-sigspatial-s-brs/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
@@ -62,9 +86,9 @@
     
     <item>
       <title>Snapshot and continuous points-based trajectory search</title>
-      <link>https://dsachar.github.io/publication/2017-geoinformatica-qsbm/</link>
+      <link>https://dsachar.github.io/publication/2017-geoinformatica-qsb/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.github.io/publication/2017-geoinformatica-qsbm/</guid>
+      <guid>https://dsachar.github.io/publication/2017-geoinformatica-qsb/</guid>
       <description></description>
     </item>
     
@@ -77,6 +101,14 @@
     </item>
     
     <item>
+      <title>Finding Desirable Objects under Group Categorical Preferences</title>
+      <link>https://dsachar.github.io/publication/2015-corr-bbs/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.github.io/publication/2015-corr-bbs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Index-based query processing on distributed multidimensional data</title>
       <link>https://dsachar.github.io/publication/2013-geoinformatica-tss/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
@@ -85,10 +117,18 @@
     </item>
     
     <item>
+      <title>Routing Directions: Keeping it Fast and Simple</title>
+      <link>https://dsachar.github.io/publication/2013-corr-sb/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.github.io/publication/2013-corr-sb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Approximate regional sequence matching for genomic databases</title>
-      <link>https://dsachar.github.io/publication/2012-vldbj-vdss/</link>
+      <link>https://dsachar.github.io/publication/2012-vldbj-vds/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.github.io/publication/2012-vldbj-vdss/</guid>
+      <guid>https://dsachar.github.io/publication/2012-vldbj-vds/</guid>
       <description></description>
     </item>
     
@@ -110,9 +150,9 @@
     
     <item>
       <title>Ranking and Clustering Web Services Using Multicriteria Dominance Relationships</title>
-      <link>https://dsachar.github.io/publication/2010-tsc-ssss/</link>
+      <link>https://dsachar.github.io/publication/2010-tsc-sss/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.github.io/publication/2010-tsc-ssss/</guid>
+      <guid>https://dsachar.github.io/publication/2010-tsc-sss/</guid>
       <description></description>
     </item>
     

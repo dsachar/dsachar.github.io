@@ -5,7 +5,7 @@
     <link>https://dsachar.github.io/</link>
       <atom:link href="https://dsachar.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Dimitris Sacharidis</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dsachar.github.io/media/icon_huc40b6c30c374ef46b178ecef36b7d1d2_36046_512x512_fill_lanczos_center_3.png</url>
       <title>Dimitris Sacharidis</title>
@@ -13,10 +13,82 @@
     </image>
     
     <item>
+      <title>MAGE: Discovering Mixture-based Areas of Interest over Geolocated Entities</title>
+      <link>https://dsachar.github.io/publication/2022-edbt-pss/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.github.io/publication/2022-edbt-pss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discovering Mixture-Based Best Regions of Arbitrary Shapes</title>
+      <link>https://dsachar.github.io/publication/2021-sigspatial-ssp/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.github.io/publication/2021-sigspatial-ssp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impact-Based Ranking of Scientific Publications: A Survey and Experimental Evaluation</title>
+      <link>https://dsachar.github.io/publication/2021-tkde-kvs/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.github.io/publication/2021-tkde-kvs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactivity, Fairness and Explanations in Recommendations</title>
+      <link>https://dsachar.github.io/publication/2021-umap-a-gps/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.github.io/publication/2021-umap-a-gps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LocalRec &#39;21: Proceedings of the 5th ACM SIGSPATIAL International Workshop on Location-based Recommendations, Geosocial Networks and Geoadvertising, Virtual Event / Beijing, China, 2 November 2021</title>
+      <link>https://dsachar.github.io/publication/2021-localrec-bdk/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.github.io/publication/2021-localrec-bdk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Model-Agnostic Counterfactual Explanations of Recommendations</title>
+      <link>https://dsachar.github.io/publication/2021-umap-ksg/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.github.io/publication/2021-umap-ksg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New trends in scientific knowledge graphs and research impact assessment</title>
+      <link>https://dsachar.github.io/publication/2021-qss-mmo/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.github.io/publication/2021-qss-mmo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ranking Papers by their Short-Term Scientific Impact</title>
+      <link>https://dsachar.github.io/publication/2021-icde-kvs/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.github.io/publication/2021-icde-kvs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selecting Services for Multiple Users: Let&#39;s Be Democratic</title>
+      <link>https://dsachar.github.io/publication/2021-tsc-bsb/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.github.io/publication/2021-tsc-bsb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Recommender System for Investing in Early-Stage Enterprises</title>
-      <link>https://dsachar.github.io/publication/2020-sac-losw/</link>
+      <link>https://dsachar.github.io/publication/2020-sac-los/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.github.io/publication/2020-sac-losw/</guid>
+      <guid>https://dsachar.github.io/publication/2020-sac-los/</guid>
       <description></description>
     </item>
     
@@ -30,9 +102,9 @@
     
     <item>
       <title>Building User Trust in Recommendations via Fairness and Explanations</title>
-      <link>https://dsachar.github.io/publication/2020-umap-a-sac/</link>
+      <link>https://dsachar.github.io/publication/2020-umap-a-s/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.github.io/publication/2020-umap-a-sac/</guid>
+      <guid>https://dsachar.github.io/publication/2020-umap-a-s/</guid>
       <description></description>
     </item>
     
@@ -94,9 +166,9 @@
     
     <item>
       <title>SSDBM 2020: 32nd International Conference on Scientific and Statistical Database Management, Vienna, Austria, July 7-9, 2020</title>
-      <link>https://dsachar.github.io/publication/2020-ssdbm-pssv/</link>
+      <link>https://dsachar.github.io/publication/2020-ssdbm-pss/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.github.io/publication/2020-ssdbm-pssv/</guid>
+      <guid>https://dsachar.github.io/publication/2020-ssdbm-pss/</guid>
       <description></description>
     </item>
     
@@ -118,9 +190,9 @@
     
     <item>
       <title>Diversity and Novelty in Social-Based Collaborative Filtering</title>
-      <link>https://dsachar.github.io/publication/2019-umap-sac/</link>
+      <link>https://dsachar.github.io/publication/2019-umap-s/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.github.io/publication/2019-umap-sac/</guid>
+      <guid>https://dsachar.github.io/publication/2019-umap-s/</guid>
       <description></description>
     </item>
     
@@ -134,9 +206,9 @@
     
     <item>
       <title>Modeling Uncertainty in Group Recommendations</title>
-      <link>https://dsachar.github.io/publication/2019-umap-a-sac/</link>
+      <link>https://dsachar.github.io/publication/2019-umap-a-s/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.github.io/publication/2019-umap-a-sac/</guid>
+      <guid>https://dsachar.github.io/publication/2019-umap-a-s/</guid>
       <description></description>
     </item>
     
@@ -174,9 +246,9 @@
     
     <item>
       <title>Top-N group recommendations with fairness</title>
-      <link>https://dsachar.github.io/publication/2019-sac-sac/</link>
+      <link>https://dsachar.github.io/publication/2019-sac-s/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.github.io/publication/2019-sac-sac/</guid>
+      <guid>https://dsachar.github.io/publication/2019-sac-s/</guid>
       <description></description>
     </item>
     
@@ -229,14 +301,6 @@
     </item>
     
     <item>
-      <title>Selecting Services for Multiple Users: Let&#39;s Be Democratic</title>
-      <link>https://dsachar.github.io/publication/2018-tsc-bsbh/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.github.io/publication/2018-tsc-bsbh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>(μ)TOP: Spatio-Temporal Detection and Summarization of Locally Trending Topics in Microblog Posts</title>
       <link>https://dsachar.github.io/publication/2017-edbt-mks/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
@@ -254,9 +318,9 @@
     
     <item>
       <title>Finding Socio-Textual Associations Among Locations</title>
-      <link>https://dsachar.github.io/publication/2017-edbt-mssv/</link>
+      <link>https://dsachar.github.io/publication/2017-edbt-mss/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.github.io/publication/2017-edbt-mssv/</guid>
+      <guid>https://dsachar.github.io/publication/2017-edbt-mss/</guid>
       <description></description>
     </item>
     
@@ -270,17 +334,17 @@
     
     <item>
       <title>Group Recommendations by Learning Rating Behavior</title>
-      <link>https://dsachar.github.io/publication/2017-umap-sac/</link>
+      <link>https://dsachar.github.io/publication/2017-umap-s/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.github.io/publication/2017-umap-sac/</guid>
+      <guid>https://dsachar.github.io/publication/2017-umap-s/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Inferring Venue Visits from GPS Trajectories</title>
-      <link>https://dsachar.github.io/publication/2017-sigspatial-gsmw/</link>
+      <link>https://dsachar.github.io/publication/2017-sigspatial-gsm/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.github.io/publication/2017-sigspatial-gsmw/</guid>
+      <guid>https://dsachar.github.io/publication/2017-sigspatial-gsm/</guid>
       <description></description>
     </item>
     
@@ -302,17 +366,17 @@
     
     <item>
       <title>Snapshot and continuous points-based trajectory search</title>
-      <link>https://dsachar.github.io/publication/2017-geoinformatica-qsbm/</link>
+      <link>https://dsachar.github.io/publication/2017-geoinformatica-qsb/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.github.io/publication/2017-geoinformatica-qsbm/</guid>
+      <guid>https://dsachar.github.io/publication/2017-geoinformatica-qsb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Coverage and diversity aware top-k query for spatio-temporal posts</title>
-      <link>https://dsachar.github.io/publication/2016-sigspatial-mssv/</link>
+      <link>https://dsachar.github.io/publication/2016-sigspatial-mss/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.github.io/publication/2016-sigspatial-mssv/</guid>
+      <guid>https://dsachar.github.io/publication/2016-sigspatial-mss/</guid>
       <description></description>
     </item>
     
@@ -342,17 +406,17 @@
     
     <item>
       <title>Keyword-based retrieval of frequent location sets in geotagged photo trails</title>
-      <link>https://dsachar.github.io/publication/2016-websci-mssv/</link>
+      <link>https://dsachar.github.io/publication/2016-websci-mss/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.github.io/publication/2016-websci-mssv/</guid>
+      <guid>https://dsachar.github.io/publication/2016-websci-mss/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Efficient Point-Based Trajectory Search</title>
-      <link>https://dsachar.github.io/publication/2015-sstd-qbsm/</link>
+      <link>https://dsachar.github.io/publication/2015-sstd-qbs/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.github.io/publication/2015-sstd-qbsm/</guid>
+      <guid>https://dsachar.github.io/publication/2015-sstd-qbs/</guid>
       <description></description>
     </item>
     
@@ -389,7 +453,7 @@
     </item>
     
     <item>
-      <title>Proceedings of the Workshop on Location-Aware Recommendations (LocalRec)</title>
+      <title>Proceedings of the Workshop on Location-Aware Recommendations, LocalRec 2015, co-located with the 9th ACM Conference on Recommender Systems (RecSys 2015), Vienna, Austria, September 19, 2015</title>
       <link>https://dsachar.github.io/publication/2015-localrec-blr/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://dsachar.github.io/publication/2015-localrec-blr/</guid>
@@ -486,9 +550,9 @@
     
     <item>
       <title>Approximate regional sequence matching for genomic databases</title>
-      <link>https://dsachar.github.io/publication/2012-vldbj-vdss/</link>
+      <link>https://dsachar.github.io/publication/2012-vldbj-vds/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.github.io/publication/2012-vldbj-vdss/</guid>
+      <guid>https://dsachar.github.io/publication/2012-vldbj-vds/</guid>
       <description></description>
     </item>
     
@@ -510,17 +574,17 @@
     
     <item>
       <title>Majority-Rule-Based Web Service Selection</title>
-      <link>https://dsachar.github.io/publication/2012-wise-bsbh/</link>
+      <link>https://dsachar.github.io/publication/2012-wise-bsb/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.github.io/publication/2012-wise-bsbh/</guid>
+      <guid>https://dsachar.github.io/publication/2012-wise-bsb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dynamic Pickup and Delivery with Transfers</title>
-      <link>https://dsachar.github.io/publication/2011-sstd-bsds/</link>
+      <link>https://dsachar.github.io/publication/2011-sstd-bsd/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.github.io/publication/2011-sstd-bsds/</guid>
+      <guid>https://dsachar.github.io/publication/2011-sstd-bsd/</guid>
       <description></description>
     </item>
     
@@ -558,9 +622,9 @@
     
     <item>
       <title>Ranking and Clustering Web Services Using Multicriteria Dominance Relationships</title>
-      <link>https://dsachar.github.io/publication/2010-tsc-ssss/</link>
+      <link>https://dsachar.github.io/publication/2010-tsc-sss/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.github.io/publication/2010-tsc-ssss/</guid>
+      <guid>https://dsachar.github.io/publication/2010-tsc-sss/</guid>
       <description></description>
     </item>
     
@@ -614,9 +678,9 @@
     
     <item>
       <title>Efficient Semantic Web Service Discovery in Centralized and P2P Environments</title>
-      <link>https://dsachar.github.io/publication/2008-iswc-ssks/</link>
+      <link>https://dsachar.github.io/publication/2008-iswc-ssk/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.github.io/publication/2008-iswc-ssks/</guid>
+      <guid>https://dsachar.github.io/publication/2008-iswc-ssk/</guid>
       <description></description>
     </item>
     
@@ -630,9 +694,9 @@
     
     <item>
       <title>Serving the Sky: Discovering and Selecting Semantic Web Services through Dynamic Skyline Queries</title>
-      <link>https://dsachar.github.io/publication/2008-icsc-ssss/</link>
+      <link>https://dsachar.github.io/publication/2008-icsc-sss/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.github.io/publication/2008-icsc-ssss/</guid>
+      <guid>https://dsachar.github.io/publication/2008-icsc-sss/</guid>
       <description></description>
     </item>
     
@@ -662,9 +726,9 @@
     
     <item>
       <title>Constructing Optimal Wavelet Synopses</title>
-      <link>https://dsachar.github.io/publication/2006-edbt-w-sac/</link>
+      <link>https://dsachar.github.io/publication/2006-edbt-w-s/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.github.io/publication/2006-edbt-w-sac/</guid>
+      <guid>https://dsachar.github.io/publication/2006-edbt-w-s/</guid>
       <description></description>
     </item>
     
