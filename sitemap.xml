@@ -4,6 +4,32 @@
   
   
   <url>
+    <loc>https://dsachar.github.io/course/recsys/1-intro/</loc><lastmod>2022-05-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dsachar.github.io/course/recsys/2-uu-cf/</loc><lastmod>2022-05-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dsachar.github.io/course/recsys/3-ii-cf/</loc><lastmod>2022-05-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dsachar.github.io/course/recsys/4-implicit/</loc><lastmod>2022-05-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dsachar.github.io/course/recsys/5-mf/</loc><lastmod>2022-05-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dsachar.github.io/course/recsys/6-model/</loc><lastmod>2022-05-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dsachar.github.io/course/recsys/7-content/</loc><lastmod>2022-05-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dsachar.github.io/course/recsys/8-accuracy/</loc><lastmod>2022-05-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dsachar.github.io/course/recsys/9-evaluation/</loc><lastmod>2022-05-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dsachar.github.io/course/recsys/10-sequence/</loc><lastmod>2022-05-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dsachar.github.io/course/</loc><lastmod>2022-05-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dsachar.github.io/</loc><lastmod>2022-05-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dsachar.github.io/course/recsys/</loc><lastmod>2022-05-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc></loc><lastmod>2022-05-04T19:39:37+02:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dsachar.github.io/publication-type/1/</loc><lastmod>2022-05-04T19:39:37+02:00</lastmod><changefreq>weekly</changefreq></url>
@@ -11,8 +37,6 @@
     <loc></loc><lastmod>2022-05-04T19:39:37+02:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc></loc><lastmod>2022-05-04T19:39:37+02:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dsachar.github.io/</loc><lastmod>2022-05-04T19:39:37+02:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc></loc><lastmod>2022-05-04T19:39:37+02:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -423,5 +447,7 @@
     <loc>https://dsachar.github.io/categories/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc></loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dsachar.github.io/tag/preface/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dsachar.github.io/tags/</loc><changefreq>weekly</changefreq></url></urlset>
