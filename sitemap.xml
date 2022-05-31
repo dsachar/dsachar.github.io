@@ -448,6 +448,8 @@
   <url>
     <loc></loc><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dsachar.github.io/post/</loc><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dsachar.github.io/tag/preface/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dsachar.github.io/tags/</loc><changefreq>weekly</changefreq></url></urlset>
