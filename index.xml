@@ -5,7 +5,7 @@
     <link>https://dsachar.github.io/</link>
       <atom:link href="https://dsachar.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Dimitris Sacharidis</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 18 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dsachar.github.io/media/icon_huc40b6c30c374ef46b178ecef36b7d1d2_36046_512x512_fill_lanczos_center_3.png</url>
       <title>Dimitris Sacharidis</title>
@@ -106,6 +106,90 @@
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
       <guid>https://dsachar.github.io/course/recsys/10-sequence/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Causal Inference and Statistical Parity</title>
+      <link>https://dsachar.github.io/post/causal/</link>
+      <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.github.io/post/causal/</guid>
+      <description>&lt;p&gt;This post was inspired by an example in the AAAI 2018 paper &lt;a href=&#34;https://arxiv.org/abs/1705.10378&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fair Inference on Outcomes&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Consider the following hypothetical scenario. A company employs an &lt;em&gt;algorithm&lt;/em&gt; for its hiring decisions. The algorithm bases its decisions on the education level of the candidate, and on whether the candidate has a prior conviction. Let&amp;rsquo;s further assume that according to law a hiring decision should not discriminate on the grounds of prior conviction.&lt;/p&gt;
+&lt;p&gt;Our goal is to investigate whether the algorithm is non-discriminatory, or fair.&lt;/p&gt;
+&lt;h2 id=&#34;bayesian-networks&#34;&gt;Bayesian Networks&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s denote the hiring decision with the boolean random variable $H$, where $H=1$ means the candidate is hired. Similarly, let $E$, $C$ denote the boolean random variables for education level (higher education or not) and prior conviction, respectively.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s assume we have observed the hiring decisions for several candidates over time. For each candidate we observe their $H, E, C$ values, and collect their joint distribution, shown in the following table.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;joint.pdf&#34; alt=&#34;Joint distribution of $H, E, C$&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Any joint probability distribution, such as $p(H,E,C)$, can be represented, or &lt;em&gt;factorized&lt;/em&gt;, as a product of marginal and conditional probability distributions by applying the &lt;a href=&#34;https://en.wikipedia.org/wiki/Chain_rule_%28probability%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;chain rule&lt;/a&gt;. Note that there are multiple factorizations for a given joint probability. One such factorization of our joint distribution is&lt;/p&gt;
+&lt;p&gt;$$ p(H,E,C) = p(H|E,C) \cdot p(C|E) \cdot p(E) .$$&lt;/p&gt;
+&lt;p&gt;Factorizations are visually represented by &lt;a href=&#34;https://en.wikipedia.org/wiki/Bayesian_network&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bayesian networks&lt;/a&gt;. These are directed acyclic graphs, where nodes represent random variables, and edges encode conditional dependences. Each node is associated with a function that specifies its probability distribution conditional on its parents&amp;rsquo; values; if a node has no parents, the function is the node&amp;rsquo;s marginal distribution. Below is Bayesian network corresponding to the aforementioned factorization. The depicted probabilities can be computed directly from the join probability distribution by appropriately marginalizing and conditioning. (In fact, to illustrate this example, the opposite direction was taken: the conditional and marginal probabilities were set, and the joint distribution was then derived &amp;mdash; which explains the strange values in the latter.) The direction of edges indicate &lt;em&gt;forward probabilities&lt;/em&gt;. For example, the edge from $E$ to $C$, means we have the conditional $p(C|E)$ in our factorization. To compute reverse probabilities, e.g., $p(E|C)$, one has to apply Bayes rule, i.e., $p(E|C) = p(C|E)\cdot p(E)/p(C)$ &amp;mdash; hence the name Bayesian networks!&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;bayes_net.pdf&#34; alt=&#34;A Bayesian network for $p(H,E,C)$&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;So if there are multiple factorizations (and thus Bayesian networks) for a given joint probability distribution, why might we care for a specific one? Well for one, certain &lt;em&gt;forward probabilities&lt;/em&gt; might make more sense to explicitly encode than others. For example, $p(C|E)$ might be observable or could be easier to model compared to $p(E|C)$. As we later discuss, it is often the case that we encode conditional probabilities that reflect cause-effect relationships, e.g., $E$ causes $C$ and not the other way around.&lt;/p&gt;
+&lt;p&gt;Bayesian networks visualize (some of) the probabilistic dependencies in the joint distribution. If such dependencies exist, then the factorization is a compact representation of the joint distribution. This is not the case in our example, where 7 probability values are required in the Bayesian network to fully specify the probability of the $2^3-1$ possible configurations of $H, E, C$. One can see that there are no conditional independencies in this Bayesian network, because there is at least one &lt;em&gt;non-blocked&lt;/em&gt; undirected path between each pair of nodes &amp;mdash; the edge connecting them. In general, the notion of &lt;a href=&#34;https://en.wikipedia.org/wiki/Bayesian_network#d-separation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;d-separation&lt;/a&gt; defines what blocking means and reveals the conditional independence relationships that are encoded in a Bayesian network.&lt;/p&gt;
+&lt;h2 id=&#34;statistical-parity&#34;&gt;Statistical Parity&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s return to our main goal and investigate if the algorithm responsible for the hiring decision is fair. First, we need to formalize what fairness, or no discrimination, means. As mentioned, the algorithm should not discriminate on prior conviction. This can be conceptualized as the requirement for &lt;strong&gt;statistical parity&lt;/strong&gt;, which says that the conditional probabilities of hiring given a prior conviction and given no prior conviction should be equal i.e., $p(H=1|C=0) = p(H=1|C=1)$.&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;&lt;em&gt;Hide boring computations.&lt;/em&gt;&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;To compute these conditional probabilities, we need to first compute $p(H,C)$ and $p(C)$.&lt;/p&gt;
+&lt;p&gt;We can compute $p(H,C)$ using the conditional probabilities available in the Bayesian network: $ p(H,C) = \sum_{E} p(H|E,C) \cdot p(C|E) \cdot p(E) $. Therefore, we get:&lt;/p&gt;
+&lt;p&gt;$$ p(H=0,C=0) = 0.95 \cdot 0.99 \cdot 0.9 + 0.8 \cdot 0.01 \cdot 0.1  = 0.84725 $$
+$$ p(H=1,C=0) = 0.05 \cdot 0.99 \cdot 0.9 + 0.2 \cdot 0.01 \cdot 0.1  = 0.04475 $$
+$$ p(H=0,C=1) = 0.99 \cdot 0.01 \cdot 0.9 + 0.94 \cdot 0.99 \cdot 0.1 = 0.10197 $$
+$$ p(H=1,C=1) = 0.01 \cdot 0.01 \cdot 0.9 + 0.06 \cdot 0.99 \cdot 0.1 = 0.00603 $$&lt;/p&gt;
+&lt;p&gt;From $p(H,C)$, we can marginalize $H$ out to compute $p(C) = \sum_{H} p(H,C)$. Therefore, we get:&lt;/p&gt;
+&lt;p&gt;$$ p(C=0) = 0.84725 + 0.04475 = 0.892 $$
+$$ p(C=1) = 0.10197 + 0.00603 = 0.108 $$&lt;/p&gt;
+&lt;p&gt;Plugging in these probabilities, we can straightforwardly compute $p(H=1|C=0) = p(H=1, C=0) / p(C=0)$ and $p(H=1|C=1) = p(H=1, C=1) / p(C=1)$.&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;p&gt;It turns out that $p(H=1|C=0) \approx 0.0502$ and $p(H=1|C=1) \approx 0.0558$. Seeing they are roughly equal, we conclude that there is no discrimination according to the statistical parity definition.&lt;/p&gt;
+&lt;h2 id=&#34;causal-effect&#34;&gt;Causal Effect&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s re-examine what statistical parity tells us. The probability of hiring a convict is almost the same as that of hiring a non-convict &amp;mdash; this is what the conditional probability $p(H|C)$ reveals. But to convincingly argue there is no discrimination, we need to show that prior conviction plays no role in the hiring decision, or, in other words, that prior conviction does not &lt;em&gt;cause&lt;/em&gt; the hiring outcome. We are thus looking for the &lt;strong&gt;causal effect&lt;/strong&gt; of $C$ on $H$.&lt;/p&gt;
+&lt;p&gt;We can conceptualize and calculate the causal effect in two different but equivalent ways, one based on the &lt;a href=&#34;https://en.wikipedia.org/wiki/Rubin_causal_model&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;potential outcomes framework&lt;/a&gt; of J. Neyman and D. Rubin, and one based on the &lt;a href=&#34;https://en.wikipedia.org/wiki/Causal_graph&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;causal graphs&lt;/a&gt; of S. Wright and J. Pearl.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s start with potential outcomes. Consider some candidate. The potential outcome $H_{C=0}$ for this candidate corresponds to the value the $H$ would have taken, had variable $C$ been assigned the value $0$. Since, the variable $C$ is binary, there is just one other potential outcome $H_{C=1}$ for this candidate. Note that the &lt;strong&gt;factual&lt;/strong&gt; outcome, which is denoted as $H$, can only be one of these two potential outcomes &amp;mdash; the other is a &lt;strong&gt;counterfactual&lt;/strong&gt; outcome that corresponds to an imaginary world where the candidate&amp;rsquo;s prior conviction is reversed. H, &lt;em&gt;H&lt;/em&gt; $H$&lt;/p&gt;
+&lt;p&gt;$$ p(H=1|do(C=0)) $$&lt;/p&gt;
+&lt;p&gt;$$ p(H|do(C)) = \sum_E p(H|E,C) \cdot p(E) \text{hello} $$&lt;/p&gt;
+</description>
     </item>
     
     <item>

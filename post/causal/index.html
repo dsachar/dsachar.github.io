@@ -646,7 +646,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    4 min read
+    5 min read
   </span>
   
 
@@ -729,9 +729,27 @@
 <p>Bayesian networks visualize (some of) the probabilistic dependencies in the joint distribution. If such dependencies exist, then the factorization is a compact representation of the joint distribution. This is not the case in our example, where 7 probability values are required in the Bayesian network to fully specify the probability of the $2^3-1$ possible configurations of $H, E, C$. One can see that there are no conditional independencies in this Bayesian network, because there is at least one <em>non-blocked</em> undirected path between each pair of nodes &mdash; the edge connecting them. In general, the notion of <a href="https://en.wikipedia.org/wiki/Bayesian_network#d-separation" target="_blank" rel="noopener">d-separation</a> defines what blocking means and reveals the conditional independence relationships that are encoded in a Bayesian network.</p>
 <h2 id="statistical-parity">Statistical Parity</h2>
 <p>Let&rsquo;s return to our main goal and investigate if the algorithm responsible for the hiring decision is fair. First, we need to formalize what fairness, or no discrimination, means. As mentioned, the algorithm should not discriminate on prior conviction. This can be conceptualized as the requirement for <strong>statistical parity</strong>, which says that the conditional probabilities of hiring given a prior conviction and given no prior conviction should be equal i.e., $p(H=1|C=0) = p(H=1|C=1)$.</p>
-<p>Using the conditional probabilities available in the Bayesian network, one way to compute $p(H|C)$ is by marginalizing $E$ and $C$ out of $p(H|E, C)$:</p>
-<p>$$ p(H|C) =  \frac{}{} =  \sum_{E} p(H,E|C) \cdot p(E|C). $$</p>
-<p>We now compute $p(H=1|C=0) = 0.5 \cdot (0.05 + 0.2) = $</p>
+<details class="spoiler "  id="spoiler-0">
+  <summary><em>Hide boring computations.</em></summary>
+  <p><p>To compute these conditional probabilities, we need to first compute $p(H,C)$ and $p(C)$.</p>
+<p>We can compute $p(H,C)$ using the conditional probabilities available in the Bayesian network: $ p(H,C) = \sum_{E} p(H|E,C) \cdot p(C|E) \cdot p(E) $. Therefore, we get:</p>
+<p>$$ p(H=0,C=0) = 0.95 \cdot 0.99 \cdot 0.9 + 0.8 \cdot 0.01 \cdot 0.1  = 0.84725 $$
+$$ p(H=1,C=0) = 0.05 \cdot 0.99 \cdot 0.9 + 0.2 \cdot 0.01 \cdot 0.1  = 0.04475 $$
+$$ p(H=0,C=1) = 0.99 \cdot 0.01 \cdot 0.9 + 0.94 \cdot 0.99 \cdot 0.1 = 0.10197 $$
+$$ p(H=1,C=1) = 0.01 \cdot 0.01 \cdot 0.9 + 0.06 \cdot 0.99 \cdot 0.1 = 0.00603 $$</p>
+<p>From $p(H,C)$, we can marginalize $H$ out to compute $p(C) = \sum_{H} p(H,C)$. Therefore, we get:</p>
+<p>$$ p(C=0) = 0.84725 + 0.04475 = 0.892 $$
+$$ p(C=1) = 0.10197 + 0.00603 = 0.108 $$</p>
+<p>Plugging in these probabilities, we can straightforwardly compute $p(H=1|C=0) = p(H=1, C=0) / p(C=0)$ and $p(H=1|C=1) = p(H=1, C=1) / p(C=1)$.</p>
+</p>
+</details>
+<p>It turns out that $p(H=1|C=0) \approx 0.0502$ and $p(H=1|C=1) \approx 0.0558$. Seeing they are roughly equal, we conclude that there is no discrimination according to the statistical parity definition.</p>
+<h2 id="causal-effect">Causal Effect</h2>
+<p>Let&rsquo;s re-examine what statistical parity tells us. The probability of hiring a convict is almost the same as that of hiring a non-convict &mdash; this is what the conditional probability $p(H|C)$ reveals. But to convincingly argue there is no discrimination, we need to show that prior conviction plays no role in the hiring decision, or, in other words, that prior conviction does not <em>cause</em> the hiring outcome. We are thus looking for the <strong>causal effect</strong> of $C$ on $H$.</p>
+<p>We can conceptualize and calculate the causal effect in two different but equivalent ways, one based on the <a href="https://en.wikipedia.org/wiki/Rubin_causal_model" target="_blank" rel="noopener">potential outcomes framework</a> of J. Neyman and D. Rubin, and one based on the <a href="https://en.wikipedia.org/wiki/Causal_graph" target="_blank" rel="noopener">causal graphs</a> of S. Wright and J. Pearl.</p>
+<p>Let&rsquo;s start with potential outcomes. Consider some candidate. The potential outcome $H_{C=0}$ for this candidate corresponds to the value the $H$ would have taken, had variable $C$ been assigned the value $0$. Since, the variable $C$ is binary, there is just one other potential outcome $H_{C=1}$ for this candidate. Note that the <strong>factual</strong> outcome, which is denoted as $H$, can only be one of these two potential outcomes &mdash; the other is a <strong>counterfactual</strong> outcome that corresponds to an imaginary world where the candidate&rsquo;s prior conviction is reversed. H, <em>H</em> $H$</p>
+<p>$$ p(H=1|do(C=0)) $$</p>
+<p>$$ p(H|do(C)) = \sum_E p(H|E,C) \cdot p(E) \text{hello} $$</p>
 
     </div>
 

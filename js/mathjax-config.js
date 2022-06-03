@@ -4,19 +4,23 @@
 // - The CommonHTML.linebreaks option is not yet implemented (but may be in a future release)
 // - The TeX.noUndefined.attributes option is not yet implemented (but may be in a future release)
 window.MathJax = {
-  tex: {
-    inlineMath: [
-      ['$', '$'],
-      ['\\(', '\\)'],
-    ],
-    displayMath: [
-      ['$$', '$$'],
-      ['\\[', '\\]'],
-    ],
-    processEscapes: false,
-    packages: {'[+]': ['noerrors']},
-  },
-  loader: {
-    load: ['[tex]/noerrors'],
-  },
-};
+    tex: {
+      inlineMath: [
+        ['$', '$'],
+        ['\\(', '\\)'],
+      ],
+      displayMath: [
+        ['$$', '$$'],
+        ['\\[', '\\]'],
+      ],
+      processEscapes: false,
+      packages: {'[+]': ['noerrors']},
+    },
+    loader: {
+      load: ['[tex]/noerrors'],
+    },
+    chtml: {
+        scale: 0.85,
+        mtextInheritFont: true,
+    },
+  };
