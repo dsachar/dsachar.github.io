@@ -42,7 +42,9 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;joint.pdf&#34; alt=&#34;Joint distribution of $H, E, C$&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Joint distribution of $H, E, C$&#34;
+           src=&#34;https://dsachar.github.io/post/causal-statistical-parity/joint.svg&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Any joint probability distribution, such as $p(H,E,C)$, can be represented, or &lt;em&gt;factorized&lt;/em&gt;, as a product of marginal and conditional probability distributions by applying the &lt;a href=&#34;https://en.wikipedia.org/wiki/Chain_rule_%28probability%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;chain rule&lt;/a&gt;. Note that there are multiple factorizations for a given joint probability. One such factorization of our joint distribution is&lt;/p&gt;
@@ -69,7 +71,9 @@ p(H,E,C) = p(H|E,C) \cdot p(C|E) \cdot p(E).
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;bayes_net.pdf&#34; alt=&#34;A Bayesian network for $p(H,E,C)$&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;A Bayesian network for $p(H,E,C)$&#34;
+           src=&#34;https://dsachar.github.io/post/causal-statistical-parity/bayes_net.svg&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;So if there are multiple factorizations (and thus Bayesian networks) for a given joint probability distribution, why might we care for a specific one? Well for one, certain &lt;em&gt;forward probabilities&lt;/em&gt; might make more sense to explicitly encode than others. For example, $p(C|E)$ might be observable or could be easier to model compared to $p(E|C)$. As we later discuss, it is often the case that we encode conditional probabilities that reflect cause-effect relationships, e.g., $E$ causes $C$ and not the other way around.&lt;/p&gt;
@@ -150,7 +154,9 @@ p(H=1|do(C=0)) = p(H=1|do(C=1)).
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;intervention.pdf&#34; alt=&#34;Causal graph after intervention&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Causal graph after intervention&#34;
+           src=&#34;https://dsachar.github.io/post/causal-statistical-parity/intervention.svg&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;We will now compute $p(H|do(C=1))$ from this causal graph, using the three rules of do calculus. The goal is to rewrite this interventional probability in a way that contains only observational probabilities, i.e., there is no conditioning on the intervention $do(C=1)$. In our case, this is simple and we only need to apply a rule we have briefly mentioned. If there is no common cause of $C$ and $H$, then $p(H|do(C=1)) = p(H|C=1)$. Examining the causal graph after the intervention, it should be clear that this property now holds. $E$ used to be a common cause for $C$ and $H$. Now that we have intervened and assigned its value, $C$ is no longer affected by any other variable.&lt;/p&gt;
@@ -183,7 +189,9 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;population.pdf&#34; alt=&#34;Populations, observed and after intervention&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Populations, observed and after intervention&#34;
+           src=&#34;https://dsachar.github.io/post/causal-statistical-parity/population.svg&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;The first, termed &lt;em&gt;Observation&lt;/em&gt;, is when the $E$, $C$, and $H$ values are distributed as in their observed joint probability distribution $p(H,E,C)$, also captured by the Bayesian network. This situation corresponds to the left half of the table. The number of candidates in the $E$, $C$ groups is governed by the joint distribution $p(E,C)$ shown in the table below. The number of hired candidates depends on the number of candidates in the $E$, $C$ groups and the hiring probability $p(H|E,C)$, also depicted; e.g., there are 30 candidates with $E=0, C=0$ and, because $p(H=1|E=0, C=0)=0.1$, only 3 among them are hired. Moreover, observe that a total 219 (resp. 72) out of 750 non-convicted (resp. 250 convicted) candidates are hired resulting in the two $p(H=1|C)$ probabilities being roughly equal. Note that the $p(H=1,E,C)$ probabilities match the observed ones shown in the beginning of this post.&lt;/p&gt;
@@ -205,7 +213,9 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;prob_obs.pdf&#34; alt=&#34;Population and hiring probabilities in Observation&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Population and hiring probabilities in Observation&#34;
+           src=&#34;https://dsachar.github.io/post/causal-statistical-parity/prob_obs.svg&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;In the second situation, termed &lt;em&gt;Intervention&lt;/em&gt;, we&amp;rsquo;re making a $do(C)$ intervention. Specifically, in a random half of the candidates, we&amp;rsquo;re assigning a non-prior conviction $do(C=0)$, while in the other half we&amp;rsquo;re assigning a prior conviction $do(C=1)$. This situation represents an RCT, where the $do(C=0)$ half corresponds to World 0, while the $do(C=1)$ to World 1. This situation is depicted in the right half of the table, where the top (resp. bottom) is World 0 (resp. 1). The number of candidates in the $E$, $C$ groups has now changed, because we have intervened and manually set $C$ independent of $E$. The joint distribution now becomes $p(E,C) = p(E)\cdot p(C) = 0.5 \cdot p(E)$, since being assigned a prior conviction or not are equally likely. The following table shows the $p(E,C)$ under the intervention, and the hiring probability $p(H|E,C)$, which is unchanged.&lt;/p&gt;
@@ -227,7 +237,9 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;prob_int.pdf&#34; alt=&#34;Population and hiring probabilities in Intervention&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Population and hiring probabilities in Intervention&#34;
+           src=&#34;https://dsachar.github.io/post/causal-statistical-parity/prob_int.svg&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;The most significant change in Intervention concerns the prior convicted candidates. There are now twice as many previously convicted candidates. More importantly, there are five times as many prior convicts with high school education (the $E=1,C=1$ group). Because the algorithm hires candidates in this population group with a low probability $p(H=1|E=1,C=1)=0.05$, it turns out that the total number of prior convicts hired is less than before, even thought there are twice as many. Specifically, only 60 out of 500 prior convicts are hired, which results in the low interventional probability $p(H=1|do(C=1))=0.12$.&lt;/p&gt;
@@ -253,7 +265,9 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;alternate.pdf&#34; alt=&#34;Alternate causal graph, before and after an intervention&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alternate causal graph, before and after an intervention&#34;
+           src=&#34;https://dsachar.github.io/post/causal-statistical-parity/alternate.svg&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Since just the causal graph has changed and all observations are still valid, the conditional hiring probability $p(H|C)$ given prior conviction is unchanged. Therefore, the hiring decision is still fair in terms of statistical parity.&lt;/p&gt;
