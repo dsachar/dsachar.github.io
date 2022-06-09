@@ -1,0 +1,1203 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.5.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Dimitris Sacharidis" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Explore fairness from a causality viewpoint." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://dsachar.github.io/post/causal-statistical-parity/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#D2B69D" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'" disabled>
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'">
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.82637d5e9eb509c8649cd612e40c7dc0.css" />
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_huc40b6c30c374ef46b178ecef36b7d1d2_36046_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_huc40b6c30c374ef46b178ecef36b7d1d2_36046_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://dsachar.github.io/post/causal-statistical-parity/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Dimitris Sacharidis" />
+  <meta property="og:url" content="https://dsachar.github.io/post/causal-statistical-parity/" />
+  <meta property="og:title" content="Causality, Fairness, and Statistical Parity | Dimitris Sacharidis" />
+  <meta property="og:description" content="Explore fairness from a causality viewpoint." /><meta property="og:image" content="https://dsachar.github.io/media/icon_huc40b6c30c374ef46b178ecef36b7d1d2_36046_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://dsachar.github.io/media/icon_huc40b6c30c374ef46b178ecef36b7d1d2_36046_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2022-05-24T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2022-06-09T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://dsachar.github.io/post/causal-statistical-parity/"
+  },
+  "headline": "Causality, Fairness, and Statistical Parity",
+  
+  "datePublished": "2022-05-24T00:00:00Z",
+  "dateModified": "2022-06-09T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Dimitris Sacharidis"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Dimitris Sacharidis",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://dsachar.github.io/media/icon_huc40b6c30c374ef46b178ecef36b7d1d2_36046_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Explore fairness from a causality viewpoint."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Causality, Fairness, and Statistical Parity | Dimitris Sacharidis</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="5aa5400eb867492ae1a2a674ffeb4964" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.6a6813e7ed475370e052267c3a688edc.js"></script>
+
+  
+
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Dimitris Sacharidis</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Dimitris Sacharidis</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/publication"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <div class="container-fluid docs">
+  
+
+  
+  
+  <div class="row flex-xl-nowrap">
+
+    
+    
+    <div class="col-12 d-none d-md-block col-md-2 docs-toc" >
+      
+
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#bayesian-networks">Bayesian Networks</a></li>
+    <li><a href="#fairness-in-terms-of-statistical-parity">Fairness in Terms of Statistical Parity</a></li>
+    <li><a href="#causality">Causality</a>
+      <ul>
+        <li><a href="#potential-outcomes-framework">Potential Outcomes Framework</a></li>
+        <li><a href="#causal-graphs">Causal Graphs</a></li>
+      </ul>
+    </li>
+    <li><a href="#fairness-in-terms-of-causality">Fairness in Terms of Causality</a>
+      <ul>
+        <li><a href="#observation-vs-intervention">Observation vs Intervention</a></li>
+        <li><a href="#alternate-causality-assumptions">Alternate Causality Assumptions</a></li>
+      </ul>
+    </li>
+    <li><a href="#suggested-readings">Suggested Readings</a></li>
+  </ul>
+</nav>
+
+      
+    </div>
+    
+
+
+
+    <main class="col-12 col-md-10 docs-content" role="main">
+
+      <article class="article">
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Causality, Fairness, and Statistical Parity</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      Dimitris Sacharidis</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jun 9, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+        <div class="article-container">
+
+          <div class="article-style">
+            <h2 id="introduction">Introduction</h2>
+<p>This post explores fairness, specifically the notion of statistical parity, from a causality viewpoint. Its goal is to gently introduce the reader to the causality frameworks, presenting the basics about Bayesian networks, potential outcomes, randomized control trials, and causal graphs. The post was inspired by an example in the AAAI 2018 paper <a href="https://arxiv.org/abs/1705.10378" target="_blank" rel="noopener">Fair Inference on Outcomes</a>, that shows how statistical parity may be unable to reveal an underlying causal effect that is discriminatory.</p>
+<p>Consider the following hypothetical scenario. A company employs an <em>algorithm</em> for its hiring decisions. The algorithm bases its decisions on the education level of the candidate, and on whether the candidate has a prior conviction. Let&rsquo;s further assume that according to law a hiring decision should not discriminate on the grounds of prior conviction.</p>
+<p>Our goal is to investigate whether the algorithm is non-discriminatory, or fair.</p>
+<h2 id="bayesian-networks">Bayesian Networks</h2>
+<p>Let&rsquo;s denote the hiring decision with the boolean random variable $H$, where $H=1$ means the candidate is hired. Similarly, let $E$, $C$ denote the boolean random variables for education level (high school education or not) and prior conviction, respectively.</p>
+<p>Let&rsquo;s assume we have observed the hiring decisions for several candidates over time. For each candidate we observe their $H, E, C$ values, and collect their joint distribution, shown in the following table.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="joint.pdf" alt="Joint distribution of $H, E, C$" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>Any joint probability distribution, such as $p(H,E,C)$, can be represented, or <em>factorized</em>, as a product of marginal and conditional probability distributions by applying the <a href="https://en.wikipedia.org/wiki/Chain_rule_%28probability%29" target="_blank" rel="noopener">chain rule</a>. Note that there are multiple factorizations for a given joint probability. One such factorization of our joint distribution is</p>
+<p>\begin{equation}
+p(H,E,C) = p(H|E,C) \cdot p(C|E) \cdot p(E).
+\label{eq:factorization}
+\end{equation}</p>
+<p>Factorizations are visually represented by <a href="https://en.wikipedia.org/wiki/Bayesian_network" target="_blank" rel="noopener">Bayesian networks</a>. These are directed acyclic graphs, where nodes represent random variables, and edges encode conditional dependences. Each node is associated with a function that specifies its probability distribution conditional on its parents&rsquo; values; if a node has no parents, the function is the node&rsquo;s marginal distribution. Below is Bayesian network corresponding to the aforementioned factorization. The depicted probabilities can be computed directly from the join probability distribution by appropriately marginalizing and conditioning. (In fact, to illustrate this example, the opposite direction was taken: the conditional and marginal probabilities were set, and the joint distribution was then derived &mdash; which explains the strange values in the latter.) The direction of edges indicate <em>forward probabilities</em>. For example, the edge from $E$ to $C$, means we have the conditional $p(C|E)$ in our factorization. To compute reverse probabilities, e.g., $p(E|C)$, one has to apply Bayes rule, i.e., $p(E|C) = p(C|E)\cdot p(E)/p(C)$ &mdash; hence the name Bayesian networks!</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="bayes_net.pdf" alt="A Bayesian network for $p(H,E,C)$" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>So if there are multiple factorizations (and thus Bayesian networks) for a given joint probability distribution, why might we care for a specific one? Well for one, certain <em>forward probabilities</em> might make more sense to explicitly encode than others. For example, $p(C|E)$ might be observable or could be easier to model compared to $p(E|C)$. As we later discuss, it is often the case that we encode conditional probabilities that reflect cause-effect relationships, e.g., $E$ causes $C$ and not the other way around.</p>
+<p>Bayesian networks visualize (some of) the probabilistic dependencies in the joint distribution. If such dependencies exist, then the factorization is a compact representation of the joint distribution. This is not the case in our example, where 7 probability values are required in the Bayesian network to fully specify the probability of the $2^3-1$ possible configurations of $H, E, C$. One can see that there are no conditional independencies in this Bayesian network, because there is at least one <em>non-blocked</em> undirected path between each pair of nodes &mdash; the edge connecting them. In general, the notion of <a href="https://en.wikipedia.org/wiki/Bayesian_network#d-separation" target="_blank" rel="noopener">d-separation</a> defines what blocking means and reveals the conditional independence relationships that are encoded in a Bayesian network.</p>
+<p>Using this Bayesian network, let&rsquo;s examine what the observations tell us. Finishing high school is very common with a probability of $p(E=1)=0.8$. Moreover, education level and prior conviction are strongly correlated. There is a $85\%$ chance that a candidate will have a prior conviction if they have not finished high school, i.e., $p(C=1|E=0)=0.85$. Conversely, there is a $90\%$ chance that a candidate will not have a prior conviction if they have finished high school, i.e., $p(C=0|E=1)=0.9$. Lastly, observe that the hiring decisions are summarized by the conditional probability table of $p(H|E,C)$. One thing to notice is that, among the non-high school graduates ($E=0$), the hiring decision appears to favor prior convicts ($C=1$). The situation is reversed for high school graduates ($E=1$), where non-convicts are favored ($C=0$). So, what can we tell about the hiring decision in terms of discrimination based on prior conviction?</p>
+<h2 id="fairness-in-terms-of-statistical-parity">Fairness in Terms of Statistical Parity</h2>
+<p>Let&rsquo;s return to our main goal and investigate if the algorithm responsible for the hiring decision is fair. First, we need to formalize what fairness, or no discrimination, means. As mentioned, the algorithm should not discriminate on prior conviction. This can be conceptualized as the requirement for <strong>statistical parity</strong>, which says that the conditional probabilities of hiring given a prior conviction and given no prior conviction should be equal i.e.,</p>
+<p>\begin{equation}
+(H=1|C=0) = p(H=1|C=1).
+\label{eq:stat_parity}
+\end{equation}</p>
+<details class="spoiler "  id="spoiler-0">
+  <summary><em>Hide boring computations.</em></summary>
+  <p><p>To compute these conditional probabilities, we need to first compute $p(H,C)$ and $p(C)$.</p>
+<p>We can compute $p(H,C)$ using the conditional probabilities available in the Bayesian network: $ p(H,C) = \sum_{E} p(H|E,C) \cdot p(C|E) \cdot p(E) $. Therefore, we get:</p>
+<p>$$ p(H=0,C=0) = 0.9 \cdot 0.15 \cdot 0.2 + 0.7 \cdot 0.9 \cdot 0.8  = 0.531 $$
+$$ p(H=1,C=0) = 0.1 \cdot 0.15 \cdot 0.2 + 0.3 \cdot 0.9 \cdot 0.8  = 0.219 $$
+$$ p(H=0,C=1) = 0.6 \cdot 0.85 \cdot 0.2 + 0.95 \cdot 0.1 \cdot 0.8 = 0.178 $$
+$$ p(H=1,C=1) = 0.4 \cdot 0.85 \cdot 0.2 + 0.05 \cdot 0.1 \cdot 0.8 = 0.072 $$</p>
+<p>From $p(H,C)$, we can marginalize $H$ out to compute $p(C) = \sum_{H} p(H,C)$. Therefore, we get:</p>
+<p>$$ p(C=0) = 0.531 + 0.219 = 0.75 $$
+$$ p(C=1) = 0.178 + 0.072 = 0.25 $$</p>
+<p>Plugging in these probabilities, we can straightforwardly compute $p(H=1|C=0) = p(H=1, C=0) / p(C=0)$ and $p(H=1|C=1) = p(H=1, C=1) / p(C=1)$.</p>
+</p>
+</details>
+<p>It turns out that $p(H=1|C=0) = 0.292$ and $p(H=1|C=1) = 0.288$. Seeing they are roughly equal, we conclude that there is <strong>no discrimination</strong> according to the statistical parity definition.</p>
+<h2 id="causality">Causality</h2>
+<p>Let&rsquo;s re-examine what statistical parity tells us. The probability of hiring a convict is almost the same as that of hiring a non-convict &mdash; this is what the conditional probability $p(H|C)$ reveals. But to convincingly argue there is no discrimination, we need to show that prior conviction plays no role in the hiring decision, or, in other words, that prior conviction does not <em>cause</em> the hiring outcome. We are thus looking for the <strong>causal effect</strong> of $C$ on $H$.</p>
+<p>We can conceptualize and calculate the causal effect in two different but equivalent ways, one based on the <a href="https://en.wikipedia.org/wiki/Rubin_causal_model" target="_blank" rel="noopener">potential outcomes framework</a> of J. Neyman and D. Rubin, and one based on the <a href="https://en.wikipedia.org/wiki/Causal_graph" target="_blank" rel="noopener">causal graphs</a> of S. Wright and J. Pearl.</p>
+<h3 id="potential-outcomes-framework">Potential Outcomes Framework</h3>
+<p>Consider some candidate. The potential outcome $H_{C=0}$ for this candidate corresponds to the value the $H$ would have taken, had variable $C$ been assigned the value $0$. Since, the variable $C$ is binary, there is just one other potential outcome, $H_{C=1}$, for this candidate. Note that the observed outcome, which is denoted as $H$, can only be one of these two potential outcomes. That potential outcome which coincides with the observed is called the <strong>factual</strong> outcome, while the other is a <strong>counterfactual</strong> outcome that corresponds to an imaginary world where the candidate&rsquo;s prior conviction is reversed.</p>
+<p>So let&rsquo;s assume we can create worlds where we can assign to candidates their prior conviction status. We&rsquo;re going to create world 0 where every candidate has no prior conviction, and world 1 where every candidate has a prior conviction. In world 0, we observe the potential outcome $H_{C=0}$ for all candidates, and $p(H_{C=0}=1)$ denotes the probability that a candidate is hired in this world. Similarly, $p(H_{C=1}=1)$ denotes the same probability for world 1. We can say that there is <em>no discrimination</em> on prior conviction $C$ from the hiring decision process if getting hired is equally likely in both worlds, that is:</p>
+<p>\begin{equation}
+p(H_{C=0}=1) = p(H_{C=1}=1).
+\label{eq:causal_fairness}
+\end{equation}</p>
+<p>This is equivalent to saying there is no <a href="https://en.wikipedia.org/wiki/Average_treatment_effect" target="_blank" rel="noopener">average causal effect</a> of $C$ to $H$, i.e., the expected values of the potential outcomes are equal $\mathbb{E}[H_{C=1}] - \mathbb{E}[H_{C=0}] = 0$, which holds since $\mathbb{E}[X] = p(X=1)$ for binary variable $X$.</p>
+<p>Assuming we cannot create worlds at will, the gold standard for measuring causal effects is to perform a <a href="https://en.wikipedia.org/wiki/Randomized_controlled_trial" target="_blank" rel="noopener">randomized control trial</a> (RCT), that helps quantify the causal effect of a treatment to an outcome. An RCT assigns individuals randomly to either the <em>control group</em>, where they will not be treated, or to the <em>experimental group</em>, where they will be treated. Observe that the control and experimental groups can be seen as a random sample of hypothetical worlds 0 and 1, respectively. Thus we can estimate the expected value of the potential outcomes by computing the means of the outcomes in the groups.</p>
+<p>In our case, to perform an RCT means we should treat prior conviction $C$ as the treatment, and the hiring decision $H$ as the outcome. Clearly, this is not feasible &mdash; we cannot force people to become convicts. Whenever it&rsquo;s impossible or unethical to control the treatment, e.g., the race, smoking habits, we cannot use RCTs to measure causal effects, e.g., in discrimination, lung cancer.</p>
+<p>But not all is lost. Causal inference frameworks allow us to <em>identify</em> causal effects from observations (i.e., not experiments such as RCTs) under some <strong>causality assumptions</strong>. In the potential outcomes framework, the most important assumption we need to make is <a href="https://en.wikipedia.org/wiki/Ignorability" target="_blank" rel="noopener">conditional ignorability</a>.
+This specifies a set of variables, called <strong>confounders</strong>, given which the potential outcome becomes independent of the assigned treatment. To make this more concrete, let&rsquo;s assume in our case that the potential outcome $H_C$ becomes independent of the assigned value of $C$ given the value of the confounder $E$. Ignorability can be expressed as $p(H_{C=0}|E) = p(H_{C=1}|E)$. Essentially, we can <em>ignore</em> the treatment assignment if we <em>control for</em> the confounders.</p>
+<p>Ignorability implies that we can express the, conditional on $E$, probability of a potential outcome in terms of the conditional probability on $E$ and $C$ of the observed outcome as: $p(H_C|E) = p(H|E,C)$. In other words, computing the hiring probability among the candidates with some fixed education level $E$ in a hypothetical world, say 0 where candidates are assigned $C$ to be 0, is the same as computing the hiring probability among the candidates who have $C=0$ and that fixed education level $E$. So instead of performing an RCT to randomize the assignment of $C$, we can just condition on $C$ and measure probabilities per stratum of $E$. We can then aggregate these per-stratum probabilities to compute the probability of the potential outcome. This gives us the famous <a href="https://en.wikipedia.org/wiki/Confounding#Control" target="_blank" rel="noopener">adjustment formula</a>, which in our setting, where $H$ is the outcome, $H_C$ is the potential outcome, $C$ is the treatment, and $E$ is the confounder, is expressed as:</p>
+<p>\begin{equation}
+p(H_C) = \sum_E p(H_C|E) p(E) = \sum_E p(H|E,C) p(E).
+\label{eq:adjustment}
+\end{equation}</p>
+<p>The causal effect can be now computed. But we&rsquo;ll come back to it.</p>
+<h3 id="causal-graphs">Causal Graphs</h3>
+<p>As the previous section illustrated, determining causal effects from observations is only possible if we make some causality assumptions. Specifically, we previously made the ignorability assumption that $E$ acts as a confounder in the relationship of $C$ and $H$, which led us to use the adjustment formula as the means to compute the causal effect of $C$ on $H$.</p>
+<p>In the causal graphs framework, the causality assumptions are encoded directly in a graph. A <strong>causal graph</strong> (more accurately a causal Bayesian network) is a Bayesian network where the direction of the edges implies a causal relationship between the two variables. The edge $A \to B$ means that the value of $B$ is derived from that of $A$, or as J. Pearl puts it, $B$ <em>listens</em> to $A$. Essentially, the set of edges in a causal graph expresses the data generating process. While there can be many Bayesian networks that give rise to the same observed data (by representing different factorizations of one joint distribution), there is a single Bayesian network, the causal graph, that explains how the data is generated. This ability is endowed to a Bayesian network by the causality assumptions encoded in its edges. One could write down such a mnemonic:</p>
+<p>$$ \textit{causal graph} = \textit{Bayesian network} + \textit{causality assumptions}. $$</p>
+<p>As a side note, there are some causality questions, e.g., computing counterfactuals about individuals, that require stronger causality assumptions. Briefly, in <a href="https://en.wikipedia.org/wiki/Causal_model" target="_blank" rel="noopener">structural causal models</a>, the value of a variable $X$ is determined by some function $f_X$ of the values of $X$&rsquo;s parents in the causal graph, i.e., $X = f_X(pa(X))$, where $pa(X)$ denotes the set of $X$&rsquo;s parents. These <em>structural equations</em>, or response functions, replace the conditional probability functions, with stronger causality assumptions.</p>
+<p>Let&rsquo;s return to our example, and let&rsquo;s assume that the Bayesian network we have seen so far is a causal one. That is, education level affects both prior conviction and the hiring outcome, and the hiring outcome is affected by prior conviction and education level alone. This is what the direction of edges suggests, and this is what the causality assumptions we have made imply. So given this causal graph, let&rsquo;s see how we can determine if there is discrimination of the hiring decision based on prior conviction. We will built our answer based on the observations we have collected and which are summarized in the conditional probability tables.</p>
+<p>To reach there, we first have to talk about <em>interventions</em> and distinguish them from <em>observations</em>. Consider our causal graph that encodes all causality assumptions regarding the hiring decision, prior conviction, and education level. To answer causality questions, we have to argue about hypothetical situations, and we need a language to express these situations. Suppose we were to change the value of prior conviction for all candidates and set it to 0. This would be an <strong>intervention</strong>, and we use the <strong>do operator</strong> to express it, here $do(C=0)$. Intervening on some variable <em>causes</em> changes in those variables that causally depend on it, but will leave the rest of the variables unaffected.</p>
+<p>To argue about hypothetical situations, we have to express the effect of an intervention on some variable. Let $p(H|do(C=0))$ denote the probability of $H$ given the <em>intervention</em> of assigning to $C$ the value 0. To better understand what this means, let&rsquo;s contrast it to the conditional probability $p(H|C=0)$. The latter tells us what is the probability of $H$ given that we have observed $C$ to be 0. It&rsquo;s the answer to this question: among those who happen to have $C=0$, what is their $H$ value? The former is the probability of $H$ if we intervene and set $C$ to 0. It&rsquo;s the answer to a different, hypothetical question: if everyone were to have $C=0$, what would their $H$ value be? It should be clear that $p(H|do(C=0))$ and $p(H|C=0)$ are different probabilities. They are only equal if there is no <em>confounding</em>, i.e., common cause of $C$ and $H$. This is not the case in our example, and in fact this is the reason why statistical parity, \eqref{eq:stat_parity}, and causal non-discrimination, \eqref{eq:causal_fairness} and \eqref{eq:causal_fairness_do}, are distinct notions of non-discrimination.</p>
+<p>Let&rsquo;s now express non-discrimination in our example with the causal graphs language. We argue there is <em>no discrimination</em> on prior conviction $C$ from the hiring decision process if getting hired $H$ remains equally likely whichever way we intervene and change the value of $C$, that is:</p>
+<p>\begin{equation}
+p(H=1|do(C=0)) = p(H=1|do(C=1)).
+\label{eq:causal_fairness_do}
+\end{equation}</p>
+<p>Contrast this with \eqref{eq:causal_fairness}. Observe that the hypothetical situation where we intervene with $do(C=0)$ corresponds to the world 0 in the potential outcomes framework. So the probability $p(H|do(C=0))$ is exactly the probability $p(H_{C=0})$ of the potential outcome $H_{C=0}$ in world 0. Although \eqref{eq:causal_fairness} and \eqref{eq:causal_fairness_do} use different notation, they convey the same non-discrimination concept. The benefit of expressing this concept using the causal graphs framework, is that we can employ a powerful toolset, the <a href="https://en.wikipedia.org/wiki/Causal_model#Do_calculus" target="_blank" rel="noopener">do calculus</a>, to compute probabilities given interventions.</p>
+<p>Recall, that an intervention, like $do(C=1)$ means that we explicitly set the value of some variable, in our case $C$ to $1$. In the causal graphs framework, this translates to the intervened variable no longer listening to any other variables. As a result, all edges leading to the intervened variable should be removed. Equivalently, its conditional probability table is reduced to $p(C=1)=1$; in structural causal models, the structural equation for $C$ is replaced by $C=1$. The causal graph below illustrates the effect of the $do(C=1)$ intervention.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="intervention.pdf" alt="Causal graph after intervention" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>We will now compute $p(H|do(C=1))$ from this causal graph, using the three rules of do calculus. The goal is to rewrite this interventional probability in a way that contains only observational probabilities, i.e., there is no conditioning on the intervention $do(C=1)$. In our case, this is simple and we only need to apply a rule we have briefly mentioned. If there is no common cause of $C$ and $H$, then $p(H|do(C=1)) = p(H|C=1)$. Examining the causal graph after the intervention, it should be clear that this property now holds. $E$ used to be a common cause for $C$ and $H$. Now that we have intervened and assigned its value, $C$ is no longer affected by any other variable.</p>
+<p>So it turns out we need to compute $p(H|C)$ in the intervened causal graph. Using the probabilities encoded in this new Bayesian network, we proceed by computing $p(H,C)$ and $p(C)$. The latter is trivial because for the intervention $do(C=1)$ it holds that $p(C=1)=1$. To compute the former, we will marginalize $E$ out of the joint distribution. As we are working on this new Bayesian network, note that the joint distribution is now factorized differently as $p(H,E,C) = p(H|E,C) \cdot p(E) \cdot p(C)$. Therefore, for either intervention $do(C=1)$ or $do(C=0)$, we derive that:</p>
+<p>\begin{equation}
+p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
+\label{eq:adjustment_do}
+\end{equation}</p>
+<p>This is again the adjustment formula of \eqref{eq:adjustment}, which should come as no surprise. The only difference is the way we have derived it; using the language of causal graphs and the do calculus might appear to be more intuitive.</p>
+<h2 id="fairness-in-terms-of-causality">Fairness in Terms of Causality</h2>
+<p>We have now formulated two identical causality-based fairness notions, \eqref{eq:causal_fairness} and \eqref{eq:causal_fairness_do}, and two identical ways to compute them, \eqref{eq:adjustment} and \eqref{eq:adjustment_do}. Let&rsquo;s pick the do notation and continue to test whether the hiring decision is non-discriminatory from our causality viewpoint.</p>
+<p>We compute $p(H=1|do(C=0))=0.260$ and $p(H=1|do(C=1))=0.120$, showing that hiring a candidate without prior conviction is more than twice more likely than hiring a prior convict. There is a strong causal effect of prior conviction $C$ on the hiring decision $H$, and therefore we find there is <strong>discrimination</strong> against prior convicts.</p>
+<h3 id="observation-vs-intervention">Observation vs Intervention</h3>
+<p>Based on the notion of statistical parity, we find no discrimination, while with a causality viewpoint, we find discrimination. So why do we see this discrepancy? Consider a dataset of 1,000 candidates, and let&rsquo;s compare two situations.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="population.pdf" alt="Populations, observed and after intervention" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>The first, termed <em>Observation</em>, is when the $E$, $C$, and $H$ values are distributed as in their observed joint probability distribution $p(H,E,C)$, also captured by the Bayesian network. This situation corresponds to the left half of the table. The number of candidates in the $E$, $C$ groups is governed by the joint distribution $p(E,C)$ shown in the table below. The number of hired candidates depends on the number of candidates in the $E$, $C$ groups and the hiring probability $p(H|E,C)$, also depicted; e.g., there are 30 candidates with $E=0, C=0$ and, because $p(H=1|E=0, C=0)=0.1$, only 3 among them are hired. Moreover, observe that a total 219 (resp. 72) out of 750 non-convicted (resp. 250 convicted) candidates are hired resulting in the two $p(H=1|C)$ probabilities being roughly equal. Note that the $p(H=1,E,C)$ probabilities match the observed ones shown in the beginning of this post.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="prob_obs.pdf" alt="Population and hiring probabilities in Observation" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>In the second situation, termed <em>Intervention</em>, we&rsquo;re making a $do(C)$ intervention. Specifically, in a random half of the candidates, we&rsquo;re assigning a non-prior conviction $do(C=0)$, while in the other half we&rsquo;re assigning a prior conviction $do(C=1)$. This situation represents an RCT, where the $do(C=0)$ half corresponds to World 0, while the $do(C=1)$ to World 1. This situation is depicted in the right half of the table, where the top (resp. bottom) is World 0 (resp. 1). The number of candidates in the $E$, $C$ groups has now changed, because we have intervened and manually set $C$ independent of $E$. The joint distribution now becomes $p(E,C) = p(E)\cdot p(C) = 0.5 \cdot p(E)$, since being assigned a prior conviction or not are equally likely. The following table shows the $p(E,C)$ under the intervention, and the hiring probability $p(H|E,C)$, which is unchanged.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="prob_int.pdf" alt="Population and hiring probabilities in Intervention" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>The most significant change in Intervention concerns the prior convicted candidates. There are now twice as many previously convicted candidates. More importantly, there are five times as many prior convicts with high school education (the $E=1,C=1$ group). Because the algorithm hires candidates in this population group with a low probability $p(H=1|E=1,C=1)=0.05$, it turns out that the total number of prior convicts hired is less than before, even thought there are twice as many. Specifically, only 60 out of 500 prior convicts are hired, which results in the low interventional probability $p(H=1|do(C=1))=0.12$.</p>
+<p>Note how the $p(H=1,E,C)$ probabilities in Intervention differ from the corresponding in Observation. This results in the discrepancy between the $p(H|C)$ and $p(H|do(C))$. Because we have made some causality assumptions, captured in the causal graph, we are able to derive $p(H|do(C))$ in Intervention from the probabilities in Observation.</p>
+<h3 id="alternate-causality-assumptions">Alternate Causality Assumptions</h3>
+<p>Let&rsquo;s now explore what would happen if we had made an alternate set of  causality assumptions. Let&rsquo;s now assume that the education level $E$ does not cause the prior conviction $C$, and rather it&rsquo;s $C$ that causes $E$. This is our alternate assumption, possible not as plausible, but it serves to understand the implications of causality assumptions.</p>
+<p>The alternate causal graph is shown below in the left part, where only the direction of the edge $E$,$C$ is reversed. This corresponds to a different factorization of the same joint distribution. Note that we do not show in the graph the marginal and conditional probability distributions.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="alternate.pdf" alt="Alternate causal graph, before and after an intervention" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>Since just the causal graph has changed and all observations are still valid, the conditional hiring probability $p(H|C)$ given prior conviction is unchanged. Therefore, the hiring decision is still fair in terms of statistical parity.</p>
+<p>Let&rsquo;s now investigate fairness in terms of causality. To determine the effect of $C$ on $H$, we have to intervene on $C$, and compute $p(H|do(C))$. Graphically, this intervention means we have to sever all incoming edges to $C$. As there is none, we get the identical causal graph, shown in the right part of the figure. Because the causal graph has not changed, we now have that the interventional probability $p(H|do(C))$ is equal to the observational probability $p(H|C)$. Therefore, the hiring decision is also fair in terms of causality. No discrepancy this time.</p>
+<p>So, we see that causality-based fairness crucially depends on the causality assumptions we introduce. In contrast, statistical parity is agnostic to any causality assumptions and only depends on the observed data.</p>
+<p>As a general note, the initial causal assumptions suggest that $E$ is a common cause, or a <a href="https://en.wikipedia.org/wiki/Confounding" target="_blank" rel="noopener">confounder</a>, of $C$ and $H$. Therefore, we have to control for $E$ in order to discover the causal effect of $C$ on $H$. In contrast, the alternate causal assumptions suggest that $E$ is just a <a href="https://en.wikipedia.org/wiki/Mediation_%28statistics%29" target="_blank" rel="noopener">mediator</a> of the effect of $C$ on $H$. There are no common causes of $C$, so we don&rsquo;t need to control for them. The observed relationship between $C$ and $H$ corresponds to their causal relationship.</p>
+<p>In general, if fairness or discrimination is with respect to a variable (such as $C$ in our case) that is not caused by any other variable (as in the alternate causality assumptions), we will find no distinction between statistical parity and causality-based fairness. This is typically the case when we study discrimination in terms of attributes such as race and gender, whose assignment is random by nature.</p>
+<h2 id="suggested-readings">Suggested Readings</h2>
+<ul>
+<li><a href="http://bayes.cs.ucla.edu/PRIMER/" target="_blank" rel="noopener">Causal Inference in Statistics: A Primer</a>, by J. Pearl, M. Glymour, N. P. Jewell. A book that introduces the causal graphs framework.</li>
+<li><a href="http://bayes.cs.ucla.edu/WHY/" target="_blank" rel="noopener">The Book of Why</a>, by J. Pearl, D. Mackenzie. A book that is a lighter read on causal graphs and their connection to the potential outcomes framework.</li>
+<li><a href="https://arxiv.org/abs/1705.10378" target="_blank" rel="noopener">Fair Inference On Outcomes</a>, by R. Nabi, I. Shpitser AAAI 2018. A paper on causality-based fairness and path specific effects.</li>
+</ul>
+
+          </div>
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+      </article>
+
+    </main>
+
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+  
+
+  <p class="powered-by">
+    
+  </p>
+
+  
+  
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2022 Dimitris Sacharidis. This work is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="noopener noreferrer" target="_blank">CC BY SA 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-sa fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+  
+  
+  <div style="visibility:hidden">
+    
+    <a href="http://extremetracking.com/open?login=dsachar"
+    target="_top"><img src="http://t1.extreme-dm.com/i.gif"
+    name="EXim" border="0" height="38" width="41"
+    alt="eXTReMe Tracker"></img></a>
+    <script type="text/javascript" language="javascript1.2"><!--
+    EXs=screen;EXw=EXs.width;navigator.appName!="Netscape"?
+    EXb=EXs.colorDepth:EXb=EXs.pixelDepth;
+    </script><script type="text/javascript"><!--
+    var EXlogin='dsachar' 
+    var EXvsrv='s9' 
+    navigator.javaEnabled()==1?EXjv="y":EXjv="n";
+    EXd=document;EXw?"":EXw="na";EXb?"":EXb="na";
+    EXd.write("<img src=http://e0.extreme-dm.com",
+    "/"+EXvsrv+".g?login="+EXlogin+"&amp;",
+    "jv="+EXjv+"&amp;j=y&amp;srw="+EXw+"&amp;srb="+EXb+"&amp;",
+    "l="+escape(EXd.referrer)+" height=1 width=1>");
+    </script><noscript><img height="1" width="1" alt=""
+    src="http://e0.extreme-dm.com/s9.g?login=dsachar&amp;j=n&amp;jv=n"/>
+    </noscript>
+
+  </div>
+  
+  
+</footer>
+
+    </div>
+    
+  </div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.53d67dc2cb1ebceb89d5e2aba2f86112.js"></script>
+
+    
+    
+    
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/en/js/wowchemy.min.7f1b1dd0ac003ce1a21fecee17dfb5c6.js"></script>
+
+    
+    
+    
+    
+    
+    
+      
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+</body>
+</html>

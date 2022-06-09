@@ -15,12 +15,20 @@ window.MathJax = {
       ],
       processEscapes: false,
       packages: {'[+]': ['noerrors']},
+      packages: {'[+]': ['tagformat']},
+      tags: 'ams'
     },
     loader: {
-      load: ['[tex]/noerrors'],
+      load: ['[tex]/noerrors', '[tex]/tagformat'],
     },
     chtml: {
         scale: 0.85,
         mtextInheritFont: true,
     },
+    tagformat: {
+      number: (n) => n.toString(),
+      tag:    (tag) => 'x' + tag + 'x',
+      id:     (id) => 'mjx-eqn:' + id.replace(/\s/g, '_'),
+      url:    (id, base) => base + '#' + encodeURIComponent(id),
+    }
   };
