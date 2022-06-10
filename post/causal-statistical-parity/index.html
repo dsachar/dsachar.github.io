@@ -788,7 +788,7 @@
 p(H,E,C) = p(H|E,C) \cdot p(C|E) \cdot p(E).
 \label{eq:factorization}
 \end{equation}</p>
-<p>Factorizations are visually represented by <a href="https://en.wikipedia.org/wiki/Bayesian_network" target="_blank" rel="noopener">Bayesian networks</a>. These are directed acyclic graphs, where nodes represent random variables, and edges encode conditional dependences. Each node is associated with a function that specifies its probability distribution conditional on its parents&rsquo; values; if a node has no parents, the function is the node&rsquo;s marginal distribution. Below is Bayesian network corresponding to the aforementioned factorization. The depicted probabilities can be computed directly from the join probability distribution by appropriately marginalizing and conditioning. (In fact, to illustrate this example, the opposite direction was taken: the conditional and marginal probabilities were set, and the joint distribution was then derived &mdash; which explains the strange values in the latter.) The direction of edges indicate <em>forward probabilities</em>. For example, the edge from $E$ to $C$, means we have the conditional $p(C|E)$ in our factorization. To compute reverse probabilities, e.g., $p(E|C)$, one has to apply Bayes rule, i.e., $p(E|C) = p(C|E)\cdot p(E)/p(C)$ &mdash; hence the name Bayesian networks!</p>
+<p>Factorizations are visually represented by <a href="https://en.wikipedia.org/wiki/Bayesian_network" target="_blank" rel="noopener">Bayesian networks</a>. These are directed acyclic graphs, where nodes represent random variables, and edges encode conditional dependences. Each node is associated with a function that specifies its probability distribution conditional on its parents&rsquo; values; if a node has no parents, the function is the node&rsquo;s marginal distribution. Below is Bayesian network corresponding to the aforementioned factorization. The depicted probabilities can be computed directly from the joint probability distribution by appropriately marginalizing and conditioning. (In fact, to illustrate this example, the opposite direction was taken: the conditional and marginal probabilities were set, and the joint distribution was then derived &mdash; which explains the strange values in the latter.) The direction of edges indicate <em>forward probabilities</em>. For example, the edge from $E$ to $C$, means we have the conditional $p(C|E)$ in our factorization. To compute reverse probabilities, e.g., $p(E|C)$, one has to apply Bayes rule, i.e., $p(E|C) = p(C|E)\cdot p(E)/p(C)$ &mdash; hence the name Bayesian networks!</p>
 <p>
 
 
@@ -818,7 +818,7 @@ p(H,E,C) = p(H|E,C) \cdot p(C|E) \cdot p(E).
 <h2 id="fairness-in-terms-of-statistical-parity">Fairness in Terms of Statistical Parity</h2>
 <p>Let&rsquo;s return to our main goal and investigate if the algorithm responsible for the hiring decision is fair. First, we need to formalize what fairness, or no discrimination, means. As mentioned, the algorithm should not discriminate on prior conviction. This can be conceptualized as the requirement for <strong>statistical parity</strong>, which says that the conditional probabilities of hiring given a prior conviction and given no prior conviction should be equal i.e.,</p>
 <p>\begin{equation}
-(H=1|C=0) = p(H=1|C=1).
+p(H=1|C=0) = p(H=1|C=1).
 \label{eq:stat_parity}
 \end{equation}</p>
 <details class="spoiler "  id="spoiler-0">
