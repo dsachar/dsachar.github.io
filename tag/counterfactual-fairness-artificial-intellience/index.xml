@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>counterfactual ; Fairness ; Artificial intellience | Dimitris Sacharidis</title>
+    <link>https://dsachar.net/tag/counterfactual-fairness-artificial-intellience/</link>
+      <atom:link href="https://dsachar.net/tag/counterfactual-fairness-artificial-intellience/index.xml" rel="self" type="application/rss+xml" />
+    <description>counterfactual ; Fairness ; Artificial intellience</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dsachar.net/media/icon_huc40b6c30c374ef46b178ecef36b7d1d2_36046_512x512_fill_lanczos_center_3.png</url>
+      <title>counterfactual ; Fairness ; Artificial intellience</title>
+      <link>https://dsachar.net/tag/counterfactual-fairness-artificial-intellience/</link>
+    </image>
+    
+    <item>
+      <title>Fairness Aware Counterfactuals for Subgroups</title>
+      <link>https://dsachar.net/publication/2023-neurips-ktg/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2023-neurips-ktg/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

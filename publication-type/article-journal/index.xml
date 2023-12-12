@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>article-journal | Dimitris Sacharidis</title>
+    <link>https://dsachar.net/publication-type/article-journal/</link>
+      <atom:link href="https://dsachar.net/publication-type/article-journal/index.xml" rel="self" type="application/rss+xml" />
+    <description>article-journal</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dsachar.net/media/icon_huc40b6c30c374ef46b178ecef36b7d1d2_36046_512x512_fill_lanczos_center_3.png</url>
+      <title>article-journal</title>
+      <link>https://dsachar.net/publication-type/article-journal/</link>
+    </image>
+    
+    <item>
+      <title>And synopses for all: A synopses data engine for extreme scale analytics-as-a-service</title>
+      <link>https://dsachar.net/publication/2023-is-kgs/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2023-is-kgs/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Towards Mobility Data Science (Vision Paper)</title>
+      <link>https://dsachar.net/publication/2023-arxiv-msx/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2023-arxiv-msx/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A human-centered decentralized architecture and recommendation engine in SIoT</title>
+      <link>https://dsachar.net/publication/2022-umuai-dsg/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2022-umuai-dsg/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LocalRec 2022 Workshop Report: The Sixth ACM SIGSPATIAL Workshop on Location-Based Recommendations, Geosocial Networks and Geoadvertising Seattle, Washington, USA, November 1, 2022</title>
+      <link>https://dsachar.net/publication/2022-sigspatial-s-bdk/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2022-sigspatial-s-bdk/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mobility Data Science (Dagstuhl Seminar 22021)</title>
+      <link>https://dsachar.net/publication/2022-dr-msx/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2022-dr-msx/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TokenJoin: Efficient Filtering for Set Similarity Join with Maximum Weighted Bipartite Matching</title>
+      <link>https://dsachar.net/publication/2022-vldb-zss/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2022-vldb-zss/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Impact-Based Ranking of Scientific Publications: A Survey and Experimental Evaluation</title>
+      <link>https://dsachar.net/publication/2021-tkde-kvs/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2021-tkde-kvs/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New trends in scientific knowledge graphs and research impact assessment</title>
+      <link>https://dsachar.net/publication/2021-qss-mmo/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2021-qss-mmo/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Selecting Services for Multiple Users: Let&#39;s Be Democratic</title>
+      <link>https://dsachar.net/publication/2021-tsc-bsb/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2021-tsc-bsb/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LocalRec 2020 Workshop Report: The Fourth ACM SIGSPATIAL Workshop on Location-Based Recommendations, Geosocial Networks and Geoadvertising (LocalRec)</title>
+      <link>https://dsachar.net/publication/2020-sigspatial-s-bdk/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2020-sigspatial-s-bdk/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ranking Papers by their Short-Term Scientific Impact</title>
+      <link>https://dsachar.net/publication/2020-corr-kvs/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2020-corr-kvs/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LocalRec 2019 Workshop Report: The Third ACM SIGSPATIAL Workshop on Location-Based Recommendations, Geosocial Networks and Geoadvertising (LocalRec)</title>
+      <link>https://dsachar.net/publication/2019-sigspatial-s-bdk/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2019-sigspatial-s-bdk/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Role of Activity and Similarity in Rating and Social Behavior in Social Recommender Systems</title>
+      <link>https://dsachar.net/publication/2019-ijait-msw/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2019-ijait-msw/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LocalRec 2018 Workshop Report: The Second ACM SIGSPATIAL Workshop on Recommendations for Location-Based Services and Social Networks (LocalRec)</title>
+      <link>https://dsachar.net/publication/2018-sigspatial-s-brs/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2018-sigspatial-s-brs/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LocalRec 2017 Workshop Report: The First ACM SIGSPATIAL Workshop on Recommendations for Location-Based Services and Social Networks (LocalRec)</title>
+      <link>https://dsachar.net/publication/2017-sigspatial-s-brs/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2017-sigspatial-s-brs/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Snapshot and continuous points-based trajectory search</title>
+      <link>https://dsachar.net/publication/2017-geoinformatica-qsb/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2017-geoinformatica-qsb/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Finding desirable objects under group categorical preferences</title>
+      <link>https://dsachar.net/publication/2016-kais-bbs/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2016-kais-bbs/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Finding Desirable Objects under Group Categorical Preferences</title>
+      <link>https://dsachar.net/publication/2015-corr-bbs/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2015-corr-bbs/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Index-based query processing on distributed multidimensional data</title>
+      <link>https://dsachar.net/publication/2013-geoinformatica-tss/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2013-geoinformatica-tss/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Routing Directions: Keeping it Fast and Simple</title>
+      <link>https://dsachar.net/publication/2013-corr-sb/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2013-corr-sb/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Approximate regional sequence matching for genomic databases</title>
+      <link>https://dsachar.net/publication/2012-vldbj-vds/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2012-vldbj-vds/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Evaluating Path Queries over Frequently Updated Route Collections</title>
+      <link>https://dsachar.net/publication/2012-tkde-bsd/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2012-tkde-bsd/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>k-Anonymity in the Presence of External Databases</title>
+      <link>https://dsachar.net/publication/2010-tkde-smp/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2010-tkde-smp/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ranking and Clustering Web Services Using Multicriteria Dominance Relationships</title>
+      <link>https://dsachar.net/publication/2010-tsc-sss/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2010-tsc-sss/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hierarchically compressed wavelet synopses</title>
+      <link>https://dsachar.net/publication/2009-vldbj-sds/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2009-vldbj-sds/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Partially materialized digest scheme: an efficient verification method for outsourced databases</title>
+      <link>https://dsachar.net/publication/2009-vldbj-msp/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2009-vldbj-msp/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hybrid Query and Data Ordering for Fast and Progressive Range-Aggregate Query Answering</title>
+      <link>https://dsachar.net/publication/2005-ijdwm-sjs/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2005-ijdwm-sjs/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
