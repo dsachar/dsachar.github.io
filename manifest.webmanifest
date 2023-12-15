@@ -2,8 +2,8 @@
   "name": "Dimitris Sacharidis",
   "short_name": "Dimitris Sacharidis",
   "lang": "en-us",
-  "theme_color": "#D2B69D",
-  "background_color": "#D2B69D",
+  "theme_color": "#b6b9bd",
+  "background_color": "#b6b9bd",
   "icons": [{
     "src": "/media/icon_huc40b6c30c374ef46b178ecef36b7d1d2_36046_192x192_fill_lanczos_center_3.png",
     "sizes": "192x192",

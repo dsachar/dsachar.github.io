@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fairness | Dimitris Sacharidis</title>
+    <link>https://dsachar.net/tag/fairness/</link>
+      <atom:link href="https://dsachar.net/tag/fairness/index.xml" rel="self" type="application/rss+xml" />
+    <description>fairness</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dsachar.net/media/icon_huc40b6c30c374ef46b178ecef36b7d1d2_36046_512x512_fill_lanczos_center_3.png</url>
+      <title>fairness</title>
+      <link>https://dsachar.net/tag/fairness/</link>
+    </image>
+    
+    <item>
+      <title>Fairness Aware Counterfactuals for Subgroups</title>
+      <link>https://dsachar.net/publication/2023-neurips-ktg/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2023-neurips-ktg/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s a &lt;a href=&#34;https://recorder-v3.slideslive.com/?share=86403&amp;amp;s=20bcf4d5-9ce1-4e30-b6d8-829ff8359c64&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video presentation&lt;/a&gt; of this work by Loukas Kavouras.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Auditing for Spatial Fairness</title>
+      <link>https://dsachar.net/publication/2023-edbt-sgp/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2023-edbt-sgp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

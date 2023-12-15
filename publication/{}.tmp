@@ -1,0 +1,1 @@
+file ./2005-ijdwm-sjs/index.md; awk -v pattern=Add the **full text** or **supplementary notes** for the publication here using Markdown formatting. !($0 ~ pattern) ./2005-ijdwm-sjs/index.md
