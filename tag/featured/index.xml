@@ -29,5 +29,37 @@
       <description></description>
     </item>
     
+    <item>
+      <title>TokenJoin: Efficient Filtering for Set Similarity Join with Maximum Weighted Bipartite Matching</title>
+      <link>https://dsachar.net/publication/2022-vldb-zss/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2022-vldb-zss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Model-Agnostic Counterfactual Explanations of Recommendations</title>
+      <link>https://dsachar.net/publication/2021-umap-ksg/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2021-umap-ksg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ranking Papers by their Short-Term Scientific Impact</title>
+      <link>https://dsachar.net/publication/2021-icde-kvs/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2021-icde-kvs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building User Trust in Recommendations via Fairness and Explanations</title>
+      <link>https://dsachar.net/publication/2020-umap-a-s/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2020-umap-a-s/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
