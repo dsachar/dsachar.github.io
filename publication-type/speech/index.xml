@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>speech | Dimitris Sacharidis</title>
+    <link>https://dsachar.net/publication-type/speech/</link>
+      <atom:link href="https://dsachar.net/publication-type/speech/index.xml" rel="self" type="application/rss+xml" />
+    <description>speech</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dsachar.net/media/icon_huc40b6c30c374ef46b178ecef36b7d1d2_36046_512x512_fill_lanczos_center_3.png</url>
+      <title>speech</title>
+      <link>https://dsachar.net/publication-type/speech/</link>
+    </image>
+    
+    <item>
+      <title>Assessing Research Impact by Leveraging Open Scholarly Knowledge Graphs</title>
+      <link>https://dsachar.net/publication/2022-www-t-ksv/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2022-www-t-ksv/</guid>
+      <description>&lt;p&gt;Tutorial at The Web Conference 2022&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
