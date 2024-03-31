@@ -122,6 +122,10 @@
     <lastmod>2022-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://dsachar.net/tag/preface/</loc>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://dsachar.net/post/causal-statistical-parity/</loc>
     <lastmod>2022-06-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -545,7 +549,7 @@
     <loc>https://dsachar.net/categories/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://dsachar.net/tag/preface/</loc>
+    <loc>https://dsachar.net/research/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
