@@ -58,43 +58,83 @@
     <lastmod>2022-05-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://dsachar.net/tag/counterfactuals/</loc>
-    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://dsachar.net/</loc>
-    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://dsachar.net/tag/explainability/</loc>
-    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://dsachar.net/tag/fairness/</loc>
-    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://dsachar.net/publication/2023-neurips-ktg/</loc>
-    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://dsachar.net/tag/featured/</loc>
-    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dsachar.net/publication/2024-icde-kss/</loc>
+    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dsachar.net/publication/2024-icde-rnr/</loc>
+    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://dsachar.net/publication-type/paper-conference/</loc>
-    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dsachar.net/tag/pipelines/</loc>
+    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://dsachar.net/publication_types/</loc>
-    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://dsachar.net/publication/</loc>
-    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://dsachar.net/tags/</loc>
+    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dsachar.net/tag/text/</loc>
+    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dsachar.net/preprint/aide/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dsachar.net/tag/counterfactuals/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dsachar.net/tag/explainability/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dsachar.net/preprint/glance/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dsachar.net/tag/influence/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dsachar.net/publication-type/manuscript/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dsachar.net/preprint/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dsachar.net/publication/2023-edbt-sgp/</loc>
+    <lastmod>2023-12-12T17:14:17+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dsachar.net/tag/fairness/</loc>
+    <lastmod>2023-12-12T17:14:17+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dsachar.net/publication/2023-neurips-ktg/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -107,10 +147,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://dsachar.net/publication-type/article-journal/</loc>
-    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://dsachar.net/publication/2023-edbt-sgp/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

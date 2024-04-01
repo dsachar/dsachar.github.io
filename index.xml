@@ -5,7 +5,7 @@
     <link>https://dsachar.net/</link>
       <atom:link href="https://dsachar.net/index.xml" rel="self" type="application/rss+xml" />
     <description>Dimitris Sacharidis</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dsachar.net/media/icon_huc40b6c30c374ef46b178ecef36b7d1d2_36046_512x512_fill_lanczos_center_3.png</url>
       <title>Dimitris Sacharidis</title>
@@ -109,11 +109,238 @@
     </item>
     
     <item>
+      <title>HYPPO - Using Equivalences to Optimize Pipelines in Exploratory Machine Learning</title>
+      <link>https://dsachar.net/publication/2024-icde-kss/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2024-icde-kss/</guid>
+      <description>&lt;p&gt;We propose HYPPO, a novel system to optimize pipelines encountered in exploratory machine learning. HYPPO exploits alternative computational paths of artifacts from past executions to derive better execution plans while reusing materialized artifacts. Adding alternative computations introduces new challenges for exploratory machine learning regarding workload representation, system architecture, and optimal execution plan generation. To this end, we present a novel workload representation based on directed hypergraphs, and we formulate the problem of discovering the optimal execution plan as a search problem over directed hypergraphs and that of selecting artifacts to materialize as an optimization problem.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-overview-of-the-pipeline-optimization-process-in-hyppo&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2024-icde-kss/hyppo_hu6d2ce5b094fab9472b09886e159cb41a_1236370_772370b76502fb0a84a3544b21c5e42e.webp 400w,
+               /publication/2024-icde-kss/hyppo_hu6d2ce5b094fab9472b09886e159cb41a_1236370_4d4e3d63a93282e0e34672424f709eba.webp 760w,
+               /publication/2024-icde-kss/hyppo_hu6d2ce5b094fab9472b09886e159cb41a_1236370_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2024-icde-kss/hyppo_hu6d2ce5b094fab9472b09886e159cb41a_1236370_772370b76502fb0a84a3544b21c5e42e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;548&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;Overview of the pipeline optimization process in HYPPO.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mitigating Data Sparsity in Integrated Data through Text Conceptualization</title>
+      <link>https://dsachar.net/publication/2024-icde-rnr/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2024-icde-rnr/</guid>
+      <description>&lt;p&gt;We propose THOR a novel method to &lt;em&gt;extract information&lt;/em&gt; from text, that unlike related approaches, neither relies on complex rules nor models trained with large annotated corpus. Instead, THOR is lightweight and exploits integrated data and its schema without the need for human annotations. THOR significantly outperforms state-of-the-art &lt;em&gt;Large Language Models&lt;/em&gt; in text conceptualization, particularly in entity recognition tasks, for data integration settings.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-an-example-where-thor-conceptualizes-text-based-on-available-structured-data&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2024-icde-rnr/THOR_huedb97c29eb39abb664dd39d63c88efbc_1003081_c91494e3004340d818eef99f8e32b600.webp 400w,
+               /publication/2024-icde-rnr/THOR_huedb97c29eb39abb664dd39d63c88efbc_1003081_3d0ed3998fb824bae9553373752e32e5.webp 760w,
+               /publication/2024-icde-rnr/THOR_huedb97c29eb39abb664dd39d63c88efbc_1003081_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2024-icde-rnr/THOR_huedb97c29eb39abb664dd39d63c88efbc_1003081_c91494e3004340d818eef99f8e32b600.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;431&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;An example where THOR conceptualizes text based on available structured data.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AIDE - Antithetical, Intent-based, and Diverse Example-Based Explanations</title>
+      <link>https://dsachar.net/preprint/aide/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/preprint/aide/</guid>
+      <description>&lt;p&gt;For many use-cases, it is often important to explain the prediction of a black-box model by identifying the most &lt;em&gt;influential training data samples&lt;/em&gt;. We propose AIDE, Antithetical, Intent-based, and Diverse Example-Based Explanations, an approach for providing antithetical (i.e., contrastive), intent-based, diverse explanations for opaque and complex models. AIDE distinguishes three types of explainability intents: interpreting a correct, investigating a wrong, and clarifying an ambiguous prediction. For each intent, AIDE selects an appropriate set of influential training samples that support or oppose the prediction either directly or by contrast. To provide a succinct summary, AIDE uses diversity-aware sampling to avoid redundancy and increase coverage of the training data.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-to-explain-an-ambiguous-prediction-aide-provides-influential-training-samples-that-support-and-oppose-it&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /preprint/aide/AIDE_hu1f7b36b1f875de52a5e40e91871f9c18_4315410_4d98243a890c8742a62acef672303772.webp 400w,
+               /preprint/aide/AIDE_hu1f7b36b1f875de52a5e40e91871f9c18_4315410_fc1306b3c4ca0a8fa4f22b9be10d3ca8.webp 760w,
+               /preprint/aide/AIDE_hu1f7b36b1f875de52a5e40e91871f9c18_4315410_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dsachar.net/preprint/aide/AIDE_hu1f7b36b1f875de52a5e40e91871f9c18_4315410_4d98243a890c8742a62acef672303772.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;382&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;To explain an ambiguous prediction, AIDE provides influential training samples that support and oppose it.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GLANCE - Global Actions in a Nutshell for Counterfactual Explainability</title>
+      <link>https://dsachar.net/preprint/glance/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/preprint/glance/</guid>
+      <description>&lt;p&gt;We propose a method for global explainability of black box models using counterfactual explanations. A counterfactual explanation locally explains an outcome by providing the minimal changes necessary to reverse the outcome, e.g., &amp;ldquo;if you had five more years of experience, your job application would have been accepted&amp;rdquo;. We develop a method, termed GLANCE, that summarizes all counterfactual explanations for a given model.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-three-actions-that-summarize-all-counterfactual-explanations&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /preprint/glance/GLANCE_hu8d78d049663927b3425d11372465d419_38878_bd57097b6e277c58cf068fcadd472d73.webp 400w,
+               /preprint/glance/GLANCE_hu8d78d049663927b3425d11372465d419_38878_fbac5debe284ce471d19cfe71ebebea8.webp 760w,
+               /preprint/glance/GLANCE_hu8d78d049663927b3425d11372465d419_38878_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dsachar.net/preprint/glance/GLANCE_hu8d78d049663927b3425d11372465d419_38878_bd57097b6e277c58cf068fcadd472d73.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;119&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;Three actions that summarize all counterfactual explanations.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Auditing for Spatial Fairness</title>
+      <link>https://dsachar.net/publication/2023-edbt-sgp/</link>
+      <pubDate>Tue, 12 Dec 2023 17:14:17 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2023-edbt-sgp/</guid>
+      <description>&lt;p&gt;In many cases, it is important to ensure that a model does not discriminate against individuals on the basis of their &lt;em&gt;location&lt;/em&gt; (place of origin, home address, etc.). We consider location as the &lt;em&gt;protected attribute&lt;/em&gt; and we want the algorithm to exhibit &lt;em&gt;spatial fairness&lt;/em&gt;
+For example, consider a model that predicts whether mortgage loan applications are accepted. Its decisions should not discriminate based on the home address of the applicant. This could be to avoid redlining, i.e., indirectly discriminating based on ethnicity/race due to strong correlations between the home address and certain ethnic/racial groups, or to avoid gentrification, e.g., when applications in a poor urban area are systematically rejected to attract wealthier people. We have developed a method to audit a model for spatial fairness, i.e., find areas where spatial unfairness exists.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-discovered-areas-in-the-usa-where-spatial-unfairness-exists-for-mortgage-loan-applications&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2023-edbt-sgp/spatial_hu9194ad8e655eb83468d491e496996d6b_922177_d8d00d73a2961150c4c402a31b37ab33.webp 400w,
+               /publication/2023-edbt-sgp/spatial_hu9194ad8e655eb83468d491e496996d6b_922177_46f55725e3cb95bcda8160d7ac65de11.webp 760w,
+               /publication/2023-edbt-sgp/spatial_hu9194ad8e655eb83468d491e496996d6b_922177_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2023-edbt-sgp/spatial_hu9194ad8e655eb83468d491e496996d6b_922177_d8d00d73a2961150c4c402a31b37ab33.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;374&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;Discovered areas in the USA where spatial unfairness exists for mortgage loan applications.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Fairness Aware Counterfactuals for Subgroups</title>
       <link>https://dsachar.net/publication/2023-neurips-ktg/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/publication/2023-neurips-ktg/</guid>
-      <description>&lt;p&gt;Here&amp;rsquo;s a &lt;a href=&#34;https://recorder-v3.slideslive.com/?share=86403&amp;amp;s=20bcf4d5-9ce1-4e30-b6d8-829ff8359c64&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video presentation&lt;/a&gt; of this work by Loukas Kavouras.&lt;/p&gt;
+      <description>&lt;p&gt;We propose novel fairness definitions concerning algorithmic recourse. For an individual that receives an undesirable outcome (e.g., loan application rejected), &lt;em&gt;recourse&lt;/em&gt; is a way to reverse the outcome (e.g., increase down payment). Recourse incurs a &lt;em&gt;cost&lt;/em&gt; for the individual that can be measured quantitatively. Our definitions investigate whether subpopulations have comparable costs, i.e., bear the same burden, for recourse. We have developed a method, termed FACTS, to audit a model for fairness, i.e., find subgroups where unfairness exists.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-a-discovered-subgroup-where-unfairness-of-recourse-exists&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2023-neurips-ktg/FACTS_hub56d2d0fda32ab2f4128cdc06bdcce43_85632_814c664b54c6353564557bf89a239549.webp 400w,
+               /publication/2023-neurips-ktg/FACTS_hub56d2d0fda32ab2f4128cdc06bdcce43_85632_42eab8ec15bf4389cfdd24de19e4da56.webp 760w,
+               /publication/2023-neurips-ktg/FACTS_hub56d2d0fda32ab2f4128cdc06bdcce43_85632_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2023-neurips-ktg/FACTS_hub56d2d0fda32ab2f4128cdc06bdcce43_85632_814c664b54c6353564557bf89a239549.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;96&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;A discovered subgroup where unfairness of recourse exists.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Our approach is integrated within the &lt;a href=&#34;https://aif360.res.ibm.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IBM AIF 360 tool&lt;/a&gt;. See a demo notebook &lt;a href=&#34;https://github.com/Trusted-AI/AIF360/blob/main/examples/demo_FACTS.ipynb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -130,15 +357,38 @@
       <link>https://dsachar.net/publication/2023-is-kgs/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/publication/2023-is-kgs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Auditing for Spatial Fairness</title>
-      <link>https://dsachar.net/publication/2023-edbt-sgp/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.net/publication/2023-edbt-sgp/</guid>
-      <description></description>
+      <description>&lt;p&gt;When analyzing big data, it is often necessary to work with &lt;em&gt;data synopses&lt;/em&gt;, approximate summaries of the data that come with guarantees. We propose a novel synopsis-as-a-service paradigm and design a Synopses Data Engine as a Service (SDEaaS) system, built on top of Apache Flink, that combines the virtues of parallel processing and stream summarization towards delivering interactive analytics at extreme scale.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-architecture-of-the-synopses-data-engine-as-a-service&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2023-is-kgs/SDEaaS_hu2999d8c75489d888439a4e556d6a696d_2324279_1b26c01f0662d15ddf5d2f9f7dbfe857.webp 400w,
+               /publication/2023-is-kgs/SDEaaS_hu2999d8c75489d888439a4e556d6a696d_2324279_aa5cbcb89072234cc56e8a35caed777e.webp 760w,
+               /publication/2023-is-kgs/SDEaaS_hu2999d8c75489d888439a4e556d6a696d_2324279_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2023-is-kgs/SDEaaS_hu2999d8c75489d888439a4e556d6a696d_2324279_1b26c01f0662d15ddf5d2f9f7dbfe857.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;411&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;Architecture of the Synopses Data Engine as a Service.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -491,7 +741,38 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
       <link>https://dsachar.net/publication/2022-vldb-zss/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/publication/2022-vldb-zss/</guid>
-      <description></description>
+      <description>&lt;p&gt;We propose TokenJoin, a method for &lt;em&gt;linking complex records&lt;/em&gt;, i.e., identifying similar pairs among a collection of complex records. A complex record is a set of simpler text entities, such as a set of addresses. To increase robustness, our approach is based on a relaxed match criterion, the fuzzy set similarity join, which calculates the similarity of two complex records based on maximum weighted bipartite matching instead of overlap.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-tokenjoin-is-able-to-match-records-where-exact-matching-would-fail&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2022-vldb-zss/TokenJoin_hu0d088bf3fe053bb9b4e8381b82d9d879_108244_a424878a778d3ecec80330df762197fb.webp 400w,
+               /publication/2022-vldb-zss/TokenJoin_hu0d088bf3fe053bb9b4e8381b82d9d879_108244_701c252917e16a847fe9be81e9a057de.webp 760w,
+               /publication/2022-vldb-zss/TokenJoin_hu0d088bf3fe053bb9b4e8381b82d9d879_108244_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2022-vldb-zss/TokenJoin_hu0d088bf3fe053bb9b4e8381b82d9d879_108244_a424878a778d3ecec80330df762197fb.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;544&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;TokenJoin is able to match records where exact matching would fail.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -531,7 +812,38 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
       <link>https://dsachar.net/publication/2021-umap-ksg/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/publication/2021-umap-ksg/</guid>
-      <description></description>
+      <description>&lt;p&gt;We develop a &lt;em&gt;post-hoc&lt;/em&gt;, &lt;em&gt;model-agnostic&lt;/em&gt; explanation mechanism for recommender systems. It returns &lt;em&gt;counterfactual explanations&lt;/em&gt; defined as those minimal changes to the user’s interaction history that would result in the system not making the recommendation that is to be explained. Because counterfactuals achieve the desired output on the recommender itself, rather than a proxy, our explanation mechanism has the same fidelity as model-specific post-hoc explanations. Moreover, it is completely private, since no other information besides the user’s interaction history is required to extract counterfactuals. Finally, owing to their simplicity, counterfactuals are scrutable, as they present specific interactions from the user’s history, and potentially actionable.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-counterfactual-explanations-for-recommender-systems&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2021-umap-ksg/counter_rec_hu09805fc78ee89d1e31fca3bb9672eaec_811738_870faa9ecf7d73d4608ecd7d9a87e28d.webp 400w,
+               /publication/2021-umap-ksg/counter_rec_hu09805fc78ee89d1e31fca3bb9672eaec_811738_8879155edbd8dc00983041a20216a8ad.webp 760w,
+               /publication/2021-umap-ksg/counter_rec_hu09805fc78ee89d1e31fca3bb9672eaec_811738_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2021-umap-ksg/counter_rec_hu09805fc78ee89d1e31fca3bb9672eaec_811738_870faa9ecf7d73d4608ecd7d9a87e28d.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;364&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;Counterfactual explanations for recommender systems.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -651,7 +963,8 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
       <link>https://dsachar.net/publication/2019-recsys-lbr-smk/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/publication/2019-recsys-lbr-smk/</guid>
-      <description></description>
+      <description>&lt;p&gt;In recommender systems, fairness may concern either the &lt;em&gt;consumers&lt;/em&gt; (end users, buyers, etc.) that receive recommendations, or the &lt;em&gt;providers&lt;/em&gt; (producers, sellers, etc.) of the items being recommended. We have developed a common method that &lt;em&gt;post-processes&lt;/em&gt; recommendations so as to ensure either consumer or provider fairness.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -723,7 +1036,8 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
       <link>https://dsachar.net/publication/2019-sac-s/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/publication/2019-sac-s/</guid>
-      <description></description>
+      <description>&lt;p&gt;When recommendations concern a group of people, rather than an invidivual, the system must also consider fairness within the group. That means &lt;em&gt;each&lt;/em&gt; member of the group should receive roughly the same &lt;em&gt;utility&lt;/em&gt; from the recommendations.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -1237,7 +1551,25 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
       <guid>https://dsachar.net/research/</guid>
       <description>&lt;h2 id=&#34;algorithmic-fairness&#34;&gt;Algorithmic Fairness&lt;/h2&gt;
 &lt;h3 id=&#34;fairness-of-recourse&#34;&gt;Fairness of Recourse&lt;/h3&gt;
-&lt;p&gt;We have proposed novel fairness definitions concerning algorithmic recourse. For an individual that receives an undesirable outcome (e.g., loan application rejected), recourse is a way to reverse the outcome (e.g., increase down payment). Recourse incurs a cost for the individual, that can be measured quantitatively. Our definitions investigate whether subpopulations have comparable costs, i.e., bear the same burden, for recourse. We have developed a method, termed FACTS, to audit a model for fairness, i.e., find subgroups where unfairness exists.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  
+  &lt;div class=&#34;article-style&#34;&gt;
+    &lt;p&gt;We propose novel fairness definitions concerning algorithmic recourse. For an individual that receives an undesirable outcome (e.g., loan application rejected), &lt;em&gt;recourse&lt;/em&gt; is a way to reverse the outcome (e.g., increase down payment). Recourse incurs a &lt;em&gt;cost&lt;/em&gt; for the individual that can be measured quantitatively. Our definitions investigate whether subpopulations have comparable costs, i.e., bear the same burden, for recourse. We have developed a method, termed FACTS, to audit a model for fairness, i.e., find subgroups where unfairness exists.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -1254,19 +1586,28 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
 
 
 
-&lt;figure  &gt;
+&lt;figure  id=&#34;figure-a-discovered-subgroup-where-unfairness-of-recourse-exists&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /research/FACTS_hub56d2d0fda32ab2f4128cdc06bdcce43_85632_814c664b54c6353564557bf89a239549.webp 400w,
-               /research/FACTS_hub56d2d0fda32ab2f4128cdc06bdcce43_85632_42eab8ec15bf4389cfdd24de19e4da56.webp 760w,
-               /research/FACTS_hub56d2d0fda32ab2f4128cdc06bdcce43_85632_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/research/FACTS_hub56d2d0fda32ab2f4128cdc06bdcce43_85632_814c664b54c6353564557bf89a239549.webp&#34;
+               /publication/2023-neurips-ktg/FACTS_hub56d2d0fda32ab2f4128cdc06bdcce43_85632_814c664b54c6353564557bf89a239549.webp 400w,
+               /publication/2023-neurips-ktg/FACTS_hub56d2d0fda32ab2f4128cdc06bdcce43_85632_42eab8ec15bf4389cfdd24de19e4da56.webp 760w,
+               /publication/2023-neurips-ktg/FACTS_hub56d2d0fda32ab2f4128cdc06bdcce43_85632_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2023-neurips-ktg/FACTS_hub56d2d0fda32ab2f4128cdc06bdcce43_85632_814c664b54c6353564557bf89a239549.webp&#34;
                width=&#34;760&#34;
                height=&#34;96&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;A discovered subgroup where unfairness of recourse exists.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Our approach is integrated within the &lt;a href=&#34;https://aif360.res.ibm.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IBM AIF 360 tool&lt;/a&gt;. See a demo notebook &lt;a href=&#34;https://github.com/Trusted-AI/AIF360/blob/main/examples/demo_FACTS.ipynb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;em&gt;A discovered subgroup where unfairness of recourse exists.&lt;/em&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+
 &lt;p&gt;&lt;strong&gt;Publication&lt;/strong&gt;&lt;/p&gt;
 
 
@@ -1351,14 +1692,6 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
 
 
 
-  
-  
-    
-  
-&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://recorder-v3.slideslive.com/?share=86403&amp;amp;s=20bcf4d5-9ce1-4e30-b6d8-829ff8359c64&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-  Video
-&lt;/a&gt;
-
 
 
 
@@ -1394,9 +1727,25 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
   
     
   
-  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://hal.science/hal-04294292&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://papers.nips.cc/paper_files/paper/2023/hash/b60161e93f3e0e4207081a3b4ef5e8d8-Abstract-Conference.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
     
     URL
+  &lt;/a&gt;
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://portal.core.edu.au/conf-ranks/98/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+    
+    Rank A*
   &lt;/a&gt;
 
 &lt;/p&gt;
@@ -1407,13 +1756,26 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
 
 
 
-&lt;p&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Integration within &lt;a href=&#34;https://aif360.res.ibm.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IBM AIF 360 tool&lt;/a&gt;:&lt;br&gt;
-&lt;a href=&#34;https://github.com/Trusted-AI/AIF360/blob/main/examples/demo_FACTS.ipynb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/Trusted-AI/AIF360/blob/main/examples/demo_FACTS.ipynb&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h3 id=&#34;spatial-fairness&#34;&gt;Spatial Fairness&lt;/h3&gt;
-&lt;p&gt;In many cases, it is important to ensure that a model does not discriminate against individuals on the basis of their &lt;em&gt;location&lt;/em&gt; (place of origin, home address, etc.). We consider location as the &lt;em&gt;protected attribute&lt;/em&gt; and we want the algorithm to exhibit &lt;em&gt;spatial fairness&lt;/em&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  
+  &lt;div class=&#34;article-style&#34;&gt;
+    &lt;p&gt;In many cases, it is important to ensure that a model does not discriminate against individuals on the basis of their &lt;em&gt;location&lt;/em&gt; (place of origin, home address, etc.). We consider location as the &lt;em&gt;protected attribute&lt;/em&gt; and we want the algorithm to exhibit &lt;em&gt;spatial fairness&lt;/em&gt;
 For example, consider a model that predicts whether mortgage loan applications are accepted. Its decisions should not discriminate based on the home address of the applicant. This could be to avoid redlining, i.e., indirectly discriminating based on ethnicity/race due to strong correlations between the home address and certain ethnic/racial groups, or to avoid gentrification, e.g., when applications in a poor urban area are systematically rejected to attract wealthier people. We have developed a method to audit a model for spatial fairness, i.e., find areas where spatial unfairness exists.&lt;/p&gt;
 &lt;p&gt;
 
@@ -1431,19 +1793,27 @@ For example, consider a model that predicts whether mortgage loan applications a
 
 
 
-&lt;figure  &gt;
+&lt;figure  id=&#34;figure-discovered-areas-in-the-usa-where-spatial-unfairness-exists-for-mortgage-loan-applications&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /research/spatial_hu9194ad8e655eb83468d491e496996d6b_922177_d8d00d73a2961150c4c402a31b37ab33.webp 400w,
-               /research/spatial_hu9194ad8e655eb83468d491e496996d6b_922177_46f55725e3cb95bcda8160d7ac65de11.webp 760w,
-               /research/spatial_hu9194ad8e655eb83468d491e496996d6b_922177_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/research/spatial_hu9194ad8e655eb83468d491e496996d6b_922177_d8d00d73a2961150c4c402a31b37ab33.webp&#34;
+               /publication/2023-edbt-sgp/spatial_hu9194ad8e655eb83468d491e496996d6b_922177_d8d00d73a2961150c4c402a31b37ab33.webp 400w,
+               /publication/2023-edbt-sgp/spatial_hu9194ad8e655eb83468d491e496996d6b_922177_46f55725e3cb95bcda8160d7ac65de11.webp 760w,
+               /publication/2023-edbt-sgp/spatial_hu9194ad8e655eb83468d491e496996d6b_922177_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2023-edbt-sgp/spatial_hu9194ad8e655eb83468d491e496996d6b_922177_d8d00d73a2961150c4c402a31b37ab33.webp&#34;
                width=&#34;760&#34;
                height=&#34;374&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;Discovered areas in the USA where spatial unfairness exists for mortgage loan applications.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
 
-&lt;em&gt;Discovered areas in the USA where spatial unfairness exists for mortgage loan applications.&lt;/em&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+
 &lt;p&gt;&lt;strong&gt;Publication&lt;/strong&gt;&lt;/p&gt;
 
 
@@ -1571,6 +1941,22 @@ For example, consider a model that predicts whether mortgage loan applications a
     URL
   &lt;/a&gt;
 
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://portal.core.edu.au/conf-ranks/528/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+    
+    Rank A
+  &lt;/a&gt;
+
 &lt;/p&gt;
 
   
@@ -1580,8 +1966,58 @@ For example, consider a model that predicts whether mortgage loan applications a
 
 
 &lt;h3 id=&#34;fairness-in-recommender-systems&#34;&gt;Fairness in Recommender Systems&lt;/h3&gt;
-&lt;p&gt;In recommender systems, fairness may concern either the &lt;em&gt;consumers&lt;/em&gt; (end users, buyers, etc.) that receive recommendations, or the &lt;em&gt;providers&lt;/em&gt; (producers, sellers, etc.) of the items being recommended. We have developed a common method that &lt;em&gt;post-processes&lt;/em&gt; recommendations so as to ensure either consumer or provider fairness.&lt;/p&gt;
-&lt;p&gt;When recommendations concern a group of people, rather than an invidivual, the system must also consider fairness within the group. That means &lt;em&gt;each&lt;/em&gt; member of the group should receive roughly the same &lt;em&gt;utility&lt;/em&gt; from the recommendations.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  
+  &lt;div class=&#34;article-style&#34;&gt;
+    &lt;p&gt;In recommender systems, fairness may concern either the &lt;em&gt;consumers&lt;/em&gt; (end users, buyers, etc.) that receive recommendations, or the &lt;em&gt;providers&lt;/em&gt; (producers, sellers, etc.) of the items being recommended. We have developed a common method that &lt;em&gt;post-processes&lt;/em&gt; recommendations so as to ensure either consumer or provider fairness.&lt;/p&gt;
+
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  
+  &lt;div class=&#34;article-style&#34;&gt;
+    &lt;p&gt;When recommendations concern a group of people, rather than an invidivual, the system must also consider fairness within the group. That means &lt;em&gt;each&lt;/em&gt; member of the group should receive roughly the same &lt;em&gt;utility&lt;/em&gt; from the recommendations.&lt;/p&gt;
+
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+
 &lt;p&gt;&lt;strong&gt;Publications&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;
 
@@ -1655,6 +2091,22 @@ For example, consider a model that predicts whether mortgage loan applications a
 
 
 
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://portal.core.edu.au/conf-ranks/28/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+    
+    Rank A
+  &lt;/a&gt;
 
 &lt;/p&gt;
 
@@ -1773,7 +2225,25 @@ For example, consider a model that predicts whether mortgage loan applications a
 &lt;/p&gt;
 &lt;h2 id=&#34;model-explainability&#34;&gt;Model Explainability&lt;/h2&gt;
 &lt;h3 id=&#34;global-counterfactual-explainability&#34;&gt;Global Counterfactual Explainability&lt;/h3&gt;
-&lt;p&gt;We have proposed a method for global explainability of black box models using counterfactual explanations. A counterfactual explanation locally explains an outcome by providing the minimal changes necessary to reverse the outcome, e.g., &amp;ldquo;if you had five more years of experience, your job application would have been accepted&amp;rdquo;. We have developed a method, termed GLANCE, that summarizes all counterfactual explanations for a given model.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  
+  &lt;div class=&#34;article-style&#34;&gt;
+    &lt;p&gt;We propose a method for global explainability of black box models using counterfactual explanations. A counterfactual explanation locally explains an outcome by providing the minimal changes necessary to reverse the outcome, e.g., &amp;ldquo;if you had five more years of experience, your job application would have been accepted&amp;rdquo;. We develop a method, termed GLANCE, that summarizes all counterfactual explanations for a given model.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -1790,29 +2260,141 @@ For example, consider a model that predicts whether mortgage loan applications a
 
 
 
-&lt;figure  &gt;
+&lt;figure  id=&#34;figure-three-actions-that-summarize-all-counterfactual-explanations&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /research/GLANCE_hu8d78d049663927b3425d11372465d419_38878_bd57097b6e277c58cf068fcadd472d73.webp 400w,
-               /research/GLANCE_hu8d78d049663927b3425d11372465d419_38878_fbac5debe284ce471d19cfe71ebebea8.webp 760w,
-               /research/GLANCE_hu8d78d049663927b3425d11372465d419_38878_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/research/GLANCE_hu8d78d049663927b3425d11372465d419_38878_bd57097b6e277c58cf068fcadd472d73.webp&#34;
+               /preprint/glance/GLANCE_hu8d78d049663927b3425d11372465d419_38878_bd57097b6e277c58cf068fcadd472d73.webp 400w,
+               /preprint/glance/GLANCE_hu8d78d049663927b3425d11372465d419_38878_fbac5debe284ce471d19cfe71ebebea8.webp 760w,
+               /preprint/glance/GLANCE_hu8d78d049663927b3425d11372465d419_38878_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dsachar.net/preprint/glance/GLANCE_hu8d78d049663927b3425d11372465d419_38878_bd57097b6e277c58cf068fcadd472d73.webp&#34;
                width=&#34;760&#34;
                height=&#34;119&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;Three actions that summarize all counterfactual explanations.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
 
-&lt;em&gt;Three actions that summarize all counterfactual explanations.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Publication&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Kavouras et al. GLANCE - Global Actions in a Nutshell for Counterfactual Explainability. &lt;em&gt;under review&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/AutoFairAthenaRC/global-counterfactuals&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/AutoFairAthenaRC/global-counterfactuals&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Preprint&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  &lt;span &gt;
+      Ioannis Z. Emiris&lt;/span&gt;, &lt;span &gt;
+      Dimitris Fotakis&lt;/span&gt;, &lt;span &gt;
+      Giorgos Giannopoulos&lt;/span&gt;, &lt;span &gt;
+      Dimitrios Gunopulos&lt;/span&gt;, &lt;span &gt;
+      Loukas Kavouras&lt;/span&gt;, &lt;span &gt;
+      Kleopatra Markou&lt;/span&gt;, &lt;span &gt;
+      Eleni Psaroudaki&lt;/span&gt;, &lt;span &gt;
+      Dimitrios Rontogiannis&lt;/span&gt;, &lt;span &gt;
+      Dimitris Sacharidis&lt;/span&gt;, &lt;span &gt;
+      Nikolaos Theologitis&lt;/span&gt;, &lt;span &gt;
+      Dimitrios Tomaras&lt;/span&gt;, &lt;span &gt;
+      Konstantinos Tsopelas&lt;/span&gt;
+  &lt;/span&gt;
+  (2024).
+  &lt;a href=&#34;https://dsachar.net/preprint/glance/&#34;&gt;GLANCE - Global Actions in a Nutshell for Counterfactual Explainability&lt;/a&gt;.
+  &lt;em&gt;Under Review&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://dsachar.net/preprint/glance/glance.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  PDF
+&lt;/a&gt;
+  
+
+
+
+
+  
+  
+    
+  
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://github.com/AutoFairAthenaRC/global-counterfactuals&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  Code
+&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+
+
 &lt;h3 id=&#34;example-based-explanations&#34;&gt;Example-Based Explanations&lt;/h3&gt;
-&lt;p&gt;For many use-cases, it is often important to explain the prediction of a black-box model by identifying the most &lt;em&gt;influential training data samples&lt;/em&gt;. We have proposed AIDE, Antithetical, Intent-based, and Diverse Example-Based Explanations, an approach for providing antithetical (i.e., contrastive), intent-based, diverse explanations for opaque and complex models. AIDE distinguishes three types of explainability intents: interpreting a correct, investigating a wrong, and clarifying an ambiguous prediction. For each intent, AIDE selects an appropriate set of influential training samples that support or oppose the prediction either directly or by contrast. To provide a succinct summary, AIDE uses diversity-aware sampling to avoid redundancy and increase coverage of the training data.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  
+  &lt;div class=&#34;article-style&#34;&gt;
+    &lt;p&gt;For many use-cases, it is often important to explain the prediction of a black-box model by identifying the most &lt;em&gt;influential training data samples&lt;/em&gt;. We propose AIDE, Antithetical, Intent-based, and Diverse Example-Based Explanations, an approach for providing antithetical (i.e., contrastive), intent-based, diverse explanations for opaque and complex models. AIDE distinguishes three types of explainability intents: interpreting a correct, investigating a wrong, and clarifying an ambiguous prediction. For each intent, AIDE selects an appropriate set of influential training samples that support or oppose the prediction either directly or by contrast. To provide a succinct summary, AIDE uses diversity-aware sampling to avoid redundancy and increase coverage of the training data.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -1829,25 +2411,125 @@ For example, consider a model that predicts whether mortgage loan applications a
 
 
 
-&lt;figure  &gt;
+&lt;figure  id=&#34;figure-to-explain-an-ambiguous-prediction-aide-provides-influential-training-samples-that-support-and-oppose-it&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /research/AIDE_hu1f7b36b1f875de52a5e40e91871f9c18_4315410_4d98243a890c8742a62acef672303772.webp 400w,
-               /research/AIDE_hu1f7b36b1f875de52a5e40e91871f9c18_4315410_fc1306b3c4ca0a8fa4f22b9be10d3ca8.webp 760w,
-               /research/AIDE_hu1f7b36b1f875de52a5e40e91871f9c18_4315410_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/research/AIDE_hu1f7b36b1f875de52a5e40e91871f9c18_4315410_4d98243a890c8742a62acef672303772.webp&#34;
+               /preprint/aide/AIDE_hu1f7b36b1f875de52a5e40e91871f9c18_4315410_4d98243a890c8742a62acef672303772.webp 400w,
+               /preprint/aide/AIDE_hu1f7b36b1f875de52a5e40e91871f9c18_4315410_fc1306b3c4ca0a8fa4f22b9be10d3ca8.webp 760w,
+               /preprint/aide/AIDE_hu1f7b36b1f875de52a5e40e91871f9c18_4315410_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dsachar.net/preprint/aide/AIDE_hu1f7b36b1f875de52a5e40e91871f9c18_4315410_4d98243a890c8742a62acef672303772.webp&#34;
                width=&#34;760&#34;
                height=&#34;382&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;To explain an ambiguous prediction, AIDE provides influential training samples that support and oppose it.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
 
-&lt;em&gt;To explain an ambiguous prediction, AIDE provides influential training samples that support and oppose it.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Publication&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Nematov et al. AIDE - Antithetical, Intent-based, and Diverse Example-Based Explanations. &lt;em&gt;under review&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Preprint&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  &lt;span &gt;
+      Ikhtiyor Nematov&lt;/span&gt;, &lt;span &gt;
+      Dimitris Sacharidis&lt;/span&gt;, &lt;span &gt;
+      Katja Hose&lt;/span&gt;, &lt;span &gt;
+      Tomer Sagi&lt;/span&gt;
+  &lt;/span&gt;
+  (2024).
+  &lt;a href=&#34;https://dsachar.net/preprint/aide/&#34;&gt;AIDE - Antithetical, Intent-based, and Diverse Example-Based Explanations&lt;/a&gt;.
+  &lt;em&gt;Under Review&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://dsachar.net/preprint/aide/aide.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  PDF
+&lt;/a&gt;
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+
+
 &lt;h3 id=&#34;counterfactual-explanations-for-recommendations&#34;&gt;Counterfactual Explanations for Recommendations&lt;/h3&gt;
-&lt;p&gt;We have developed a post-hoc, model-agnostic explanation mechanism for recommender systems. It returns counterfactual explanations defined as those minimal changes to the user’s interaction history that would result in the system not making the recommendation that is to be explained. Because counterfactuals achieve the desired output on the recommender itself, rather than a proxy, our explanation mechanism has the same fidelity as model-specific post-hoc explanations. Moreover, it is completely private, since no other information besides the user’s interaction history is required to extract counterfactuals. Finally, owing to their simplicity, counterfactuals are scrutable, as they present specific interactions from the user’s history, and potentially actionable.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  
+  &lt;div class=&#34;article-style&#34;&gt;
+    &lt;p&gt;We develop a &lt;em&gt;post-hoc&lt;/em&gt;, &lt;em&gt;model-agnostic&lt;/em&gt; explanation mechanism for recommender systems. It returns &lt;em&gt;counterfactual explanations&lt;/em&gt; defined as those minimal changes to the user’s interaction history that would result in the system not making the recommendation that is to be explained. Because counterfactuals achieve the desired output on the recommender itself, rather than a proxy, our explanation mechanism has the same fidelity as model-specific post-hoc explanations. Moreover, it is completely private, since no other information besides the user’s interaction history is required to extract counterfactuals. Finally, owing to their simplicity, counterfactuals are scrutable, as they present specific interactions from the user’s history, and potentially actionable.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -1864,19 +2546,27 @@ For example, consider a model that predicts whether mortgage loan applications a
 
 
 
-&lt;figure  &gt;
+&lt;figure  id=&#34;figure-counterfactual-explanations-for-recommender-systems&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /research/counter_rec_hu09805fc78ee89d1e31fca3bb9672eaec_811738_870faa9ecf7d73d4608ecd7d9a87e28d.webp 400w,
-               /research/counter_rec_hu09805fc78ee89d1e31fca3bb9672eaec_811738_8879155edbd8dc00983041a20216a8ad.webp 760w,
-               /research/counter_rec_hu09805fc78ee89d1e31fca3bb9672eaec_811738_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/research/counter_rec_hu09805fc78ee89d1e31fca3bb9672eaec_811738_870faa9ecf7d73d4608ecd7d9a87e28d.webp&#34;
+               /publication/2021-umap-ksg/counter_rec_hu09805fc78ee89d1e31fca3bb9672eaec_811738_870faa9ecf7d73d4608ecd7d9a87e28d.webp 400w,
+               /publication/2021-umap-ksg/counter_rec_hu09805fc78ee89d1e31fca3bb9672eaec_811738_8879155edbd8dc00983041a20216a8ad.webp 760w,
+               /publication/2021-umap-ksg/counter_rec_hu09805fc78ee89d1e31fca3bb9672eaec_811738_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2021-umap-ksg/counter_rec_hu09805fc78ee89d1e31fca3bb9672eaec_811738_870faa9ecf7d73d4608ecd7d9a87e28d.webp&#34;
                width=&#34;760&#34;
                height=&#34;364&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;Counterfactual explanations for recommender systems.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
 
-&lt;em&gt;Counterfactual explanations for recommender systems.&lt;/em&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+
 &lt;p&gt;&lt;strong&gt;Publication&lt;/strong&gt;&lt;/p&gt;
 
 
@@ -1991,6 +2681,666 @@ For example, consider a model that predicts whether mortgage loan applications a
     
   
   &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://doi.org/10.1145/3450613.3456846&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+    
+    URL
+  &lt;/a&gt;
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+
+
+&lt;h2 id=&#34;text-mining&#34;&gt;Text Mining&lt;/h2&gt;
+&lt;h3 id=&#34;entity-extraction-using-structured-data&#34;&gt;Entity Extraction using Structured Data&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  
+  &lt;div class=&#34;article-style&#34;&gt;
+    &lt;p&gt;We propose THOR a novel method to &lt;em&gt;extract information&lt;/em&gt; from text, that unlike related approaches, neither relies on complex rules nor models trained with large annotated corpus. Instead, THOR is lightweight and exploits integrated data and its schema without the need for human annotations. THOR significantly outperforms state-of-the-art &lt;em&gt;Large Language Models&lt;/em&gt; in text conceptualization, particularly in entity recognition tasks, for data integration settings.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-an-example-where-thor-conceptualizes-text-based-on-available-structured-data&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2024-icde-rnr/THOR_huedb97c29eb39abb664dd39d63c88efbc_1003081_c91494e3004340d818eef99f8e32b600.webp 400w,
+               /publication/2024-icde-rnr/THOR_huedb97c29eb39abb664dd39d63c88efbc_1003081_3d0ed3998fb824bae9553373752e32e5.webp 760w,
+               /publication/2024-icde-rnr/THOR_huedb97c29eb39abb664dd39d63c88efbc_1003081_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2024-icde-rnr/THOR_huedb97c29eb39abb664dd39d63c88efbc_1003081_c91494e3004340d818eef99f8e32b600.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;431&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;An example where THOR conceptualizes text based on available structured data.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Publication&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  &lt;span &gt;
+      Md Ataur Rahman&lt;/span&gt;, &lt;span &gt;
+      Sergi Nadal&lt;/span&gt;, &lt;span &gt;
+      Oscar Romero&lt;/span&gt;, &lt;span &gt;
+      Dimitris Sacharidis&lt;/span&gt;
+  &lt;/span&gt;
+  (2024).
+  &lt;a href=&#34;https://dsachar.net/publication/2024-icde-rnr/&#34;&gt;Mitigating Data Sparsity in Integrated Data through Text Conceptualization&lt;/a&gt;.
+  &lt;em&gt;ICDE 2024 - 40th International Conference on Extending Database Technology&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://dsachar.net/publication/2024-icde-rnr/2024-icde-rnr.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  PDF
+&lt;/a&gt;
+  
+
+
+
+&lt;a href=&#34;#&#34; class=&#34;btn btn-outline-primary btn-page-header btn-sm js-cite-modal&#34;
+        data-filename=&#34;/publication/2024-icde-rnr/cite.bib&#34;&gt;
+  Cite
+&lt;/a&gt;
+
+
+  
+  
+    
+  
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://github.com/dtim-upc/THOR/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  Code
+&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://portal.core.edu.au/conf-ranks/986/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+    
+    Rank A*
+  &lt;/a&gt;
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+
+
+&lt;h3 id=&#34;record-linkage-for-complex-records&#34;&gt;Record Linkage for Complex Records&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  
+  &lt;div class=&#34;article-style&#34;&gt;
+    &lt;p&gt;We propose TokenJoin, a method for &lt;em&gt;linking complex records&lt;/em&gt;, i.e., identifying similar pairs among a collection of complex records. A complex record is a set of simpler text entities, such as a set of addresses. To increase robustness, our approach is based on a relaxed match criterion, the fuzzy set similarity join, which calculates the similarity of two complex records based on maximum weighted bipartite matching instead of overlap.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-tokenjoin-is-able-to-match-records-where-exact-matching-would-fail&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2022-vldb-zss/TokenJoin_hu0d088bf3fe053bb9b4e8381b82d9d879_108244_a424878a778d3ecec80330df762197fb.webp 400w,
+               /publication/2022-vldb-zss/TokenJoin_hu0d088bf3fe053bb9b4e8381b82d9d879_108244_701c252917e16a847fe9be81e9a057de.webp 760w,
+               /publication/2022-vldb-zss/TokenJoin_hu0d088bf3fe053bb9b4e8381b82d9d879_108244_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2022-vldb-zss/TokenJoin_hu0d088bf3fe053bb9b4e8381b82d9d879_108244_a424878a778d3ecec80330df762197fb.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;544&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;TokenJoin is able to match records where exact matching would fail.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Publication&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  &lt;span &gt;
+      Alexandros Zeakis&lt;/span&gt;, &lt;span &gt;
+      Dimitrios Skoutas&lt;/span&gt;, &lt;span &gt;
+      Dimitris Sacharidis&lt;/span&gt;, &lt;span &gt;
+      Odysseas Papapetrou&lt;/span&gt;, &lt;span &gt;
+      Manolis Koubarakis&lt;/span&gt;
+  &lt;/span&gt;
+  (2022).
+  &lt;a href=&#34;https://dsachar.net/publication/2022-vldb-zss/&#34;&gt;TokenJoin: Efficient Filtering for Set Similarity Join with Maximum Weighted Bipartite Matching&lt;/a&gt;.
+  &lt;em&gt;Proc. VLDB Endow.&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://dsachar.net/publication/2022-vldb-zss/2022-vldb-zss.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  PDF
+&lt;/a&gt;
+  
+
+
+
+&lt;a href=&#34;#&#34; class=&#34;btn btn-outline-primary btn-page-header btn-sm js-cite-modal&#34;
+        data-filename=&#34;/publication/2022-vldb-zss/cite.bib&#34;&gt;
+  Cite
+&lt;/a&gt;
+
+
+  
+  
+    
+  
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://github.com/alexZeakis/TokenJoin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  Code
+&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://doi.org/10.14778/3574245.3574263&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  DOI
+&lt;/a&gt;
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://portal.core.edu.au/conf-ranks/1261/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+    
+    Rank A*
+  &lt;/a&gt;
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+
+
+&lt;h2 id=&#34;data-intensive-pipelines&#34;&gt;Data Intensive Pipelines&lt;/h2&gt;
+&lt;h3 id=&#34;optimizing-machine-learning-pipelines&#34;&gt;Optimizing Machine Learning Pipelines&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  
+  &lt;div class=&#34;article-style&#34;&gt;
+    &lt;p&gt;We propose HYPPO, a novel system to optimize pipelines encountered in exploratory machine learning. HYPPO exploits alternative computational paths of artifacts from past executions to derive better execution plans while reusing materialized artifacts. Adding alternative computations introduces new challenges for exploratory machine learning regarding workload representation, system architecture, and optimal execution plan generation. To this end, we present a novel workload representation based on directed hypergraphs, and we formulate the problem of discovering the optimal execution plan as a search problem over directed hypergraphs and that of selecting artifacts to materialize as an optimization problem.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-overview-of-the-pipeline-optimization-process-in-hyppo&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2024-icde-kss/hyppo_hu6d2ce5b094fab9472b09886e159cb41a_1236370_772370b76502fb0a84a3544b21c5e42e.webp 400w,
+               /publication/2024-icde-kss/hyppo_hu6d2ce5b094fab9472b09886e159cb41a_1236370_4d4e3d63a93282e0e34672424f709eba.webp 760w,
+               /publication/2024-icde-kss/hyppo_hu6d2ce5b094fab9472b09886e159cb41a_1236370_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2024-icde-kss/hyppo_hu6d2ce5b094fab9472b09886e159cb41a_1236370_772370b76502fb0a84a3544b21c5e42e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;548&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;Overview of the pipeline optimization process in HYPPO.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Publication&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  &lt;span &gt;
+      Antonios Kontaxakis&lt;/span&gt;, &lt;span &gt;
+      Dimitris Sacharidis&lt;/span&gt;, &lt;span &gt;
+      Alkis Simitsis&lt;/span&gt;, &lt;span &gt;
+      Alberto Abelló&lt;/span&gt;, &lt;span &gt;
+      Sergi Nadal&lt;/span&gt;
+  &lt;/span&gt;
+  (2024).
+  &lt;a href=&#34;https://dsachar.net/publication/2024-icde-kss/&#34;&gt;HYPPO - Using Equivalences to Optimize Pipelines in Exploratory Machine Learning&lt;/a&gt;.
+  &lt;em&gt;ICDE 2024 - 40th International Conference on Extending Database Technology&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://dsachar.net/publication/2024-icde-kss/2024-icde-kss.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  PDF
+&lt;/a&gt;
+  
+
+
+
+&lt;a href=&#34;#&#34; class=&#34;btn btn-outline-primary btn-page-header btn-sm js-cite-modal&#34;
+        data-filename=&#34;/publication/2024-icde-kss/cite.bib&#34;&gt;
+  Cite
+&lt;/a&gt;
+
+
+  
+  
+    
+  
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://github.com/akontaxakis/HYPPO&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  Code
+&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://portal.core.edu.au/conf-ranks/986/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+    
+    Rank A*
+  &lt;/a&gt;
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+
+
+&lt;h3 id=&#34;summarizing-streaming-big-data&#34;&gt;Summarizing Streaming Big Data&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  
+  &lt;div class=&#34;article-style&#34;&gt;
+    &lt;p&gt;When analyzing big data, it is often necessary to work with &lt;em&gt;data synopses&lt;/em&gt;, approximate summaries of the data that come with guarantees. We propose a novel synopsis-as-a-service paradigm and design a Synopses Data Engine as a Service (SDEaaS) system, built on top of Apache Flink, that combines the virtues of parallel processing and stream summarization towards delivering interactive analytics at extreme scale.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-architecture-of-the-synopses-data-engine-as-a-service&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2023-is-kgs/SDEaaS_hu2999d8c75489d888439a4e556d6a696d_2324279_1b26c01f0662d15ddf5d2f9f7dbfe857.webp 400w,
+               /publication/2023-is-kgs/SDEaaS_hu2999d8c75489d888439a4e556d6a696d_2324279_aa5cbcb89072234cc56e8a35caed777e.webp 760w,
+               /publication/2023-is-kgs/SDEaaS_hu2999d8c75489d888439a4e556d6a696d_2324279_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2023-is-kgs/SDEaaS_hu2999d8c75489d888439a4e556d6a696d_2324279_1b26c01f0662d15ddf5d2f9f7dbfe857.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;411&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;Architecture of the Synopses Data Engine as a Service.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Publication&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  &lt;span &gt;
+      Antonios Kontaxakis&lt;/span&gt;, &lt;span &gt;
+      Nikos Giatrakos&lt;/span&gt;, &lt;span &gt;
+      Dimitris Sacharidis&lt;/span&gt;, &lt;span &gt;
+      Antonios Deligiannakis&lt;/span&gt;
+  &lt;/span&gt;
+  (2023).
+  &lt;a href=&#34;https://dsachar.net/publication/2023-is-kgs/&#34;&gt;And synopses for all: A synopses data engine for extreme scale analytics-as-a-service&lt;/a&gt;.
+  &lt;em&gt;Inf. Syst.&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://dsachar.net/publication/2023-is-kgs/2023-is-kgs.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  PDF
+&lt;/a&gt;
+  
+
+
+
+&lt;a href=&#34;#&#34; class=&#34;btn btn-outline-primary btn-page-header btn-sm js-cite-modal&#34;
+        data-filename=&#34;/publication/2023-is-kgs/cite.bib&#34;&gt;
+  Cite
+&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://doi.org/10.1016/J.IS.2023.102221&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  DOI
+&lt;/a&gt;
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://doi.org/10.1016/j.is.2023.102221&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
     
     URL
   &lt;/a&gt;

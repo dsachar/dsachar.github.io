@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Text | Dimitris Sacharidis</title>
+    <link>https://dsachar.net/tag/text/</link>
+      <atom:link href="https://dsachar.net/tag/text/index.xml" rel="self" type="application/rss+xml" />
+    <description>Text</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dsachar.net/media/icon_huc40b6c30c374ef46b178ecef36b7d1d2_36046_512x512_fill_lanczos_center_3.png</url>
+      <title>Text</title>
+      <link>https://dsachar.net/tag/text/</link>
+    </image>
+    
+    <item>
+      <title>Mitigating Data Sparsity in Integrated Data through Text Conceptualization</title>
+      <link>https://dsachar.net/publication/2024-icde-rnr/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2024-icde-rnr/</guid>
+      <description>&lt;p&gt;We propose THOR a novel method to &lt;em&gt;extract information&lt;/em&gt; from text, that unlike related approaches, neither relies on complex rules nor models trained with large annotated corpus. Instead, THOR is lightweight and exploits integrated data and its schema without the need for human annotations. THOR significantly outperforms state-of-the-art &lt;em&gt;Large Language Models&lt;/em&gt; in text conceptualization, particularly in entity recognition tasks, for data integration settings.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-an-example-where-thor-conceptualizes-text-based-on-available-structured-data&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2024-icde-rnr/THOR_huedb97c29eb39abb664dd39d63c88efbc_1003081_c91494e3004340d818eef99f8e32b600.webp 400w,
+               /publication/2024-icde-rnr/THOR_huedb97c29eb39abb664dd39d63c88efbc_1003081_3d0ed3998fb824bae9553373752e32e5.webp 760w,
+               /publication/2024-icde-rnr/THOR_huedb97c29eb39abb664dd39d63c88efbc_1003081_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2024-icde-rnr/THOR_huedb97c29eb39abb664dd39d63c88efbc_1003081_c91494e3004340d818eef99f8e32b600.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;431&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;An example where THOR conceptualizes text based on available structured data.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TokenJoin: Efficient Filtering for Set Similarity Join with Maximum Weighted Bipartite Matching</title>
+      <link>https://dsachar.net/publication/2022-vldb-zss/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2022-vldb-zss/</guid>
+      <description>&lt;p&gt;We propose TokenJoin, a method for &lt;em&gt;linking complex records&lt;/em&gt;, i.e., identifying similar pairs among a collection of complex records. A complex record is a set of simpler text entities, such as a set of addresses. To increase robustness, our approach is based on a relaxed match criterion, the fuzzy set similarity join, which calculates the similarity of two complex records based on maximum weighted bipartite matching instead of overlap.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-tokenjoin-is-able-to-match-records-where-exact-matching-would-fail&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2022-vldb-zss/TokenJoin_hu0d088bf3fe053bb9b4e8381b82d9d879_108244_a424878a778d3ecec80330df762197fb.webp 400w,
+               /publication/2022-vldb-zss/TokenJoin_hu0d088bf3fe053bb9b4e8381b82d9d879_108244_701c252917e16a847fe9be81e9a057de.webp 760w,
+               /publication/2022-vldb-zss/TokenJoin_hu0d088bf3fe053bb9b4e8381b82d9d879_108244_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2022-vldb-zss/TokenJoin_hu0d088bf3fe053bb9b4e8381b82d9d879_108244_a424878a778d3ecec80330df762197fb.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;544&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;TokenJoin is able to match records where exact matching would fail.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
