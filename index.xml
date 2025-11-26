@@ -5,9 +5,9 @@
     <link>https://dsachar.net/</link>
       <atom:link href="https://dsachar.net/index.xml" rel="self" type="application/rss+xml" />
     <description>Dimitris Sacharidis</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://dsachar.net/media/icon_huc40b6c30c374ef46b178ecef36b7d1d2_36046_512x512_fill_lanczos_center_3.png</url>
+      <url>https://dsachar.net/media/icon_hu7925680949909669101.png</url>
       <title>Dimitris Sacharidis</title>
       <link>https://dsachar.net/</link>
     </image>
@@ -26,8 +26,9 @@
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/course/recsys/2-uu-cf/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/EOGVLVvOy94&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</description>
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/EOGVLVvOy94?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
     </item>
     
     <item>
@@ -36,8 +37,9 @@
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/course/recsys/3-ii-cf/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/7j62X4TIT08&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</description>
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/7j62X4TIT08?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
     </item>
     
     <item>
@@ -46,8 +48,9 @@
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/course/recsys/4-implicit/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/FYaoQlF3RTQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</description>
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/FYaoQlF3RTQ?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
     </item>
     
     <item>
@@ -56,8 +59,9 @@
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/course/recsys/5-mf/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/LSZ6v9hFPms&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</description>
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/LSZ6v9hFPms?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
     </item>
     
     <item>
@@ -66,8 +70,9 @@
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/course/recsys/6-model/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/hkWLaPTfjSg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</description>
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/hkWLaPTfjSg?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
     </item>
     
     <item>
@@ -76,8 +81,9 @@
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/course/recsys/7-content/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/TkRuZ2Lfejw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</description>
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/TkRuZ2Lfejw?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
     </item>
     
     <item>
@@ -86,8 +92,9 @@
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/course/recsys/8-accuracy/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/OsmpY4je7FU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</description>
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/OsmpY4je7FU?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
     </item>
     
     <item>
@@ -96,8 +103,9 @@
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/course/recsys/9-evaluation/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/YgWHxeBOU2E&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</description>
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/YgWHxeBOU2E?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
     </item>
     
     <item>
@@ -106,6 +114,89 @@
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/course/recsys/10-sequence/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>🎉 Easily create your own simple yet highly customizable blog</title>
+      <link>https://dsachar.net/news/get-started/</link>
+      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/news/get-started/</guid>
+      <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
+
+
+&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#get-started&#34;&gt;Get Started&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#-click-here-to-become-a-sponsor-and-help-support-hugo-bloxs-future-httpshugobloxcomsponsor&#34;&gt;&lt;a href=&#34;https://hugoblox.com/sponsor/&#34;&gt;❤️ Click here to become a sponsor and help support Hugo Blox&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#ecosystem&#34;&gt;Ecosystem&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#inspiration&#34;&gt;Inspiration&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#features&#34;&gt;Features&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#themes&#34;&gt;Themes&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The Hugo Blox website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
+&lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;get-started&#34;&gt;Get Started&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;👉 &lt;a href=&#34;https://hugoblox.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚 &lt;a href=&#34;https://docs.hugoblox.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Hugo Blox community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/GetResearchDev&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GetResearchDev&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; #MadeWithHugoBlox&lt;/li&gt;
+&lt;li&gt;💡 &lt;a href=&#34;https://github.com/HugoBlox/hugo-blox-builder/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Hugo Blox&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating Hugo Blox?&lt;/strong&gt; View the &lt;a href=&#34;https://docs.hugoblox.com/reference/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://github.com/HugoBlox/hugo-blox-builder/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
+&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
+&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-hugo-bloxs-future-httpshugobloxcomsponsor&#34;&gt;&lt;a href=&#34;https://hugoblox.com/sponsor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Hugo Blox&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href=&#34;https://hugoblox.com/sponsor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/GetRD/academic-file-converter&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bibtex To Markdown&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://hugoblox.com/creators/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn what other &lt;strong&gt;creators&lt;/strong&gt;&lt;/a&gt; are building with this template.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with no-code &lt;a href=&#34;https://hugoblox.com/blocks/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;blocks&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://docs.hugoblox.com/reference/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://docs.hugoblox.com/reference/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://docs.hugoblox.com/getting-started/cms/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://docs.hugoblox.com/getting-started/cms/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://docs.hugoblox.com/getting-started/customize/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code syntax highlighting and LaTeX math supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one-page design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 35+ language packs including English, 中文, and Português&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;p&gt;Hugo Blox and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Visitors can choose their preferred mode by clicking the sun/moon icon in the header.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.hugoblox.com/getting-started/customize/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -133,10 +224,10 @@
 &lt;figure  id=&#34;figure-overview-of-the-pipeline-optimization-process-in-hyppo&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /publication/2024-icde-kss/hyppo_hu6d2ce5b094fab9472b09886e159cb41a_1236370_772370b76502fb0a84a3544b21c5e42e.webp 400w,
-               /publication/2024-icde-kss/hyppo_hu6d2ce5b094fab9472b09886e159cb41a_1236370_4d4e3d63a93282e0e34672424f709eba.webp 760w,
-               /publication/2024-icde-kss/hyppo_hu6d2ce5b094fab9472b09886e159cb41a_1236370_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/publication/2024-icde-kss/hyppo_hu6d2ce5b094fab9472b09886e159cb41a_1236370_772370b76502fb0a84a3544b21c5e42e.webp&#34;
+               /publication/2024-icde-kss/hyppo_hu404116620875622785.webp 400w,
+               /publication/2024-icde-kss/hyppo_hu15888269972784408355.webp 760w,
+               /publication/2024-icde-kss/hyppo_hu16943492095135828721.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2024-icde-kss/hyppo_hu404116620875622785.webp&#34;
                width=&#34;760&#34;
                height=&#34;548&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -172,10 +263,10 @@
 &lt;figure  id=&#34;figure-an-example-where-thor-conceptualizes-text-based-on-available-structured-data&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /publication/2024-icde-rnr/THOR_huedb97c29eb39abb664dd39d63c88efbc_1003081_c91494e3004340d818eef99f8e32b600.webp 400w,
-               /publication/2024-icde-rnr/THOR_huedb97c29eb39abb664dd39d63c88efbc_1003081_3d0ed3998fb824bae9553373752e32e5.webp 760w,
-               /publication/2024-icde-rnr/THOR_huedb97c29eb39abb664dd39d63c88efbc_1003081_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/publication/2024-icde-rnr/THOR_huedb97c29eb39abb664dd39d63c88efbc_1003081_c91494e3004340d818eef99f8e32b600.webp&#34;
+               /publication/2024-icde-rnr/THOR_hu917871096807994549.webp 400w,
+               /publication/2024-icde-rnr/THOR_hu11076515629355772108.webp 760w,
+               /publication/2024-icde-rnr/THOR_hu4788044247765796722.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2024-icde-rnr/THOR_hu917871096807994549.webp&#34;
                width=&#34;760&#34;
                height=&#34;431&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -211,10 +302,10 @@
 &lt;figure  id=&#34;figure-to-explain-an-ambiguous-prediction-aide-provides-influential-training-samples-that-support-and-oppose-it&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /preprint/aide/AIDE_hu1f7b36b1f875de52a5e40e91871f9c18_4315410_4d98243a890c8742a62acef672303772.webp 400w,
-               /preprint/aide/AIDE_hu1f7b36b1f875de52a5e40e91871f9c18_4315410_fc1306b3c4ca0a8fa4f22b9be10d3ca8.webp 760w,
-               /preprint/aide/AIDE_hu1f7b36b1f875de52a5e40e91871f9c18_4315410_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/preprint/aide/AIDE_hu1f7b36b1f875de52a5e40e91871f9c18_4315410_4d98243a890c8742a62acef672303772.webp&#34;
+               /preprint/aide/AIDE_hu9911068347374307218.webp 400w,
+               /preprint/aide/AIDE_hu12063181795439809382.webp 760w,
+               /preprint/aide/AIDE_hu3717002462222689418.webp 1200w&#34;
+               src=&#34;https://dsachar.net/preprint/aide/AIDE_hu9911068347374307218.webp&#34;
                width=&#34;760&#34;
                height=&#34;382&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -250,10 +341,10 @@
 &lt;figure  id=&#34;figure-three-actions-that-summarize-all-counterfactual-explanations&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /preprint/glance/GLANCE_hu8d78d049663927b3425d11372465d419_38878_bd57097b6e277c58cf068fcadd472d73.webp 400w,
-               /preprint/glance/GLANCE_hu8d78d049663927b3425d11372465d419_38878_fbac5debe284ce471d19cfe71ebebea8.webp 760w,
-               /preprint/glance/GLANCE_hu8d78d049663927b3425d11372465d419_38878_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/preprint/glance/GLANCE_hu8d78d049663927b3425d11372465d419_38878_bd57097b6e277c58cf068fcadd472d73.webp&#34;
+               /preprint/glance/GLANCE_hu10903146438223607317.webp 400w,
+               /preprint/glance/GLANCE_hu17815352061748901114.webp 760w,
+               /preprint/glance/GLANCE_hu3463568111219529215.webp 1200w&#34;
+               src=&#34;https://dsachar.net/preprint/glance/GLANCE_hu10903146438223607317.webp&#34;
                width=&#34;760&#34;
                height=&#34;119&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -290,10 +381,10 @@ For example, consider a model that predicts whether mortgage loan applications a
 &lt;figure  id=&#34;figure-discovered-areas-in-the-usa-where-spatial-unfairness-exists-for-mortgage-loan-applications&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /publication/2023-edbt-sgp/spatial_hu9194ad8e655eb83468d491e496996d6b_922177_d8d00d73a2961150c4c402a31b37ab33.webp 400w,
-               /publication/2023-edbt-sgp/spatial_hu9194ad8e655eb83468d491e496996d6b_922177_46f55725e3cb95bcda8160d7ac65de11.webp 760w,
-               /publication/2023-edbt-sgp/spatial_hu9194ad8e655eb83468d491e496996d6b_922177_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/publication/2023-edbt-sgp/spatial_hu9194ad8e655eb83468d491e496996d6b_922177_d8d00d73a2961150c4c402a31b37ab33.webp&#34;
+               /publication/2023-edbt-sgp/spatial_hu8240665862697724322.webp 400w,
+               /publication/2023-edbt-sgp/spatial_hu4086708590153223242.webp 760w,
+               /publication/2023-edbt-sgp/spatial_hu8185717874908182342.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2023-edbt-sgp/spatial_hu8240665862697724322.webp&#34;
                width=&#34;760&#34;
                height=&#34;374&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -329,10 +420,10 @@ For example, consider a model that predicts whether mortgage loan applications a
 &lt;figure  id=&#34;figure-a-discovered-subgroup-where-unfairness-of-recourse-exists&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /publication/2023-neurips-ktg/FACTS_hub56d2d0fda32ab2f4128cdc06bdcce43_85632_814c664b54c6353564557bf89a239549.webp 400w,
-               /publication/2023-neurips-ktg/FACTS_hub56d2d0fda32ab2f4128cdc06bdcce43_85632_42eab8ec15bf4389cfdd24de19e4da56.webp 760w,
-               /publication/2023-neurips-ktg/FACTS_hub56d2d0fda32ab2f4128cdc06bdcce43_85632_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/publication/2023-neurips-ktg/FACTS_hub56d2d0fda32ab2f4128cdc06bdcce43_85632_814c664b54c6353564557bf89a239549.webp&#34;
+               /publication/2023-neurips-ktg/FACTS_hu7278310582064336205.webp 400w,
+               /publication/2023-neurips-ktg/FACTS_hu7895962010971677607.webp 760w,
+               /publication/2023-neurips-ktg/FACTS_hu4456584742550289339.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2023-neurips-ktg/FACTS_hu7278310582064336205.webp&#34;
                width=&#34;760&#34;
                height=&#34;96&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -377,10 +468,10 @@ For example, consider a model that predicts whether mortgage loan applications a
 &lt;figure  id=&#34;figure-architecture-of-the-synopses-data-engine-as-a-service&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /publication/2023-is-kgs/SDEaaS_hu2999d8c75489d888439a4e556d6a696d_2324279_6e5bc97f8d442711873571fa50aa218b.webp 400w,
-               /publication/2023-is-kgs/SDEaaS_hu2999d8c75489d888439a4e556d6a696d_2324279_aa5cbcb89072234cc56e8a35caed777e.webp 760w,
-               /publication/2023-is-kgs/SDEaaS_hu2999d8c75489d888439a4e556d6a696d_2324279_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/publication/2023-is-kgs/SDEaaS_hu2999d8c75489d888439a4e556d6a696d_2324279_6e5bc97f8d442711873571fa50aa218b.webp&#34;
+               /publication/2023-is-kgs/SDEaaS_hu11550592282643354942.webp 400w,
+               /publication/2023-is-kgs/SDEaaS_hu16681108013520233942.webp 760w,
+               /publication/2023-is-kgs/SDEaaS_hu8742972461184573053.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2023-is-kgs/SDEaaS_hu11550592282643354942.webp&#34;
                width=&#34;760&#34;
                height=&#34;411&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -761,10 +852,10 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
 &lt;figure  id=&#34;figure-tokenjoin-is-able-to-match-records-where-exact-matching-would-fail&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /publication/2022-vldb-zss/TokenJoin_hu0d088bf3fe053bb9b4e8381b82d9d879_108244_a424878a778d3ecec80330df762197fb.webp 400w,
-               /publication/2022-vldb-zss/TokenJoin_hu0d088bf3fe053bb9b4e8381b82d9d879_108244_701c252917e16a847fe9be81e9a057de.webp 760w,
-               /publication/2022-vldb-zss/TokenJoin_hu0d088bf3fe053bb9b4e8381b82d9d879_108244_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/publication/2022-vldb-zss/TokenJoin_hu0d088bf3fe053bb9b4e8381b82d9d879_108244_a424878a778d3ecec80330df762197fb.webp&#34;
+               /publication/2022-vldb-zss/TokenJoin_hu781092621687426739.webp 400w,
+               /publication/2022-vldb-zss/TokenJoin_hu17958240462167564706.webp 760w,
+               /publication/2022-vldb-zss/TokenJoin_hu18089511566391692802.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2022-vldb-zss/TokenJoin_hu781092621687426739.webp&#34;
                width=&#34;760&#34;
                height=&#34;544&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -832,10 +923,10 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
 &lt;figure  id=&#34;figure-counterfactual-explanations-for-recommender-systems&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /publication/2021-umap-ksg/counter_rec_hu09805fc78ee89d1e31fca3bb9672eaec_811738_870faa9ecf7d73d4608ecd7d9a87e28d.webp 400w,
-               /publication/2021-umap-ksg/counter_rec_hu09805fc78ee89d1e31fca3bb9672eaec_811738_8879155edbd8dc00983041a20216a8ad.webp 760w,
-               /publication/2021-umap-ksg/counter_rec_hu09805fc78ee89d1e31fca3bb9672eaec_811738_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/publication/2021-umap-ksg/counter_rec_hu09805fc78ee89d1e31fca3bb9672eaec_811738_870faa9ecf7d73d4608ecd7d9a87e28d.webp&#34;
+               /publication/2021-umap-ksg/counter_rec_hu9245367509959610310.webp 400w,
+               /publication/2021-umap-ksg/counter_rec_hu7505001407713647265.webp 760w,
+               /publication/2021-umap-ksg/counter_rec_hu13482861891465330130.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2021-umap-ksg/counter_rec_hu9245367509959610310.webp&#34;
                width=&#34;760&#34;
                height=&#34;364&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1591,10 +1682,10 @@ A complete list of publications is &lt;a href=&#34;publication&#34;&gt;here&lt;/
 &lt;figure  id=&#34;figure-a-discovered-subgroup-where-unfairness-of-recourse-exists&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /publication/2023-neurips-ktg/FACTS_hub56d2d0fda32ab2f4128cdc06bdcce43_85632_814c664b54c6353564557bf89a239549.webp 400w,
-               /publication/2023-neurips-ktg/FACTS_hub56d2d0fda32ab2f4128cdc06bdcce43_85632_42eab8ec15bf4389cfdd24de19e4da56.webp 760w,
-               /publication/2023-neurips-ktg/FACTS_hub56d2d0fda32ab2f4128cdc06bdcce43_85632_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/publication/2023-neurips-ktg/FACTS_hub56d2d0fda32ab2f4128cdc06bdcce43_85632_814c664b54c6353564557bf89a239549.webp&#34;
+               /publication/2023-neurips-ktg/FACTS_hu7278310582064336205.webp 400w,
+               /publication/2023-neurips-ktg/FACTS_hu7895962010971677607.webp 760w,
+               /publication/2023-neurips-ktg/FACTS_hu4456584742550289339.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2023-neurips-ktg/FACTS_hu7278310582064336205.webp&#34;
                width=&#34;760&#34;
                height=&#34;96&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1798,10 +1889,10 @@ For example, consider a model that predicts whether mortgage loan applications a
 &lt;figure  id=&#34;figure-discovered-areas-in-the-usa-where-spatial-unfairness-exists-for-mortgage-loan-applications&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /publication/2023-edbt-sgp/spatial_hu9194ad8e655eb83468d491e496996d6b_922177_d8d00d73a2961150c4c402a31b37ab33.webp 400w,
-               /publication/2023-edbt-sgp/spatial_hu9194ad8e655eb83468d491e496996d6b_922177_46f55725e3cb95bcda8160d7ac65de11.webp 760w,
-               /publication/2023-edbt-sgp/spatial_hu9194ad8e655eb83468d491e496996d6b_922177_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/publication/2023-edbt-sgp/spatial_hu9194ad8e655eb83468d491e496996d6b_922177_d8d00d73a2961150c4c402a31b37ab33.webp&#34;
+               /publication/2023-edbt-sgp/spatial_hu8240665862697724322.webp 400w,
+               /publication/2023-edbt-sgp/spatial_hu4086708590153223242.webp 760w,
+               /publication/2023-edbt-sgp/spatial_hu8185717874908182342.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2023-edbt-sgp/spatial_hu8240665862697724322.webp&#34;
                width=&#34;760&#34;
                height=&#34;374&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2265,10 +2356,10 @@ For example, consider a model that predicts whether mortgage loan applications a
 &lt;figure  id=&#34;figure-three-actions-that-summarize-all-counterfactual-explanations&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /preprint/glance/GLANCE_hu8d78d049663927b3425d11372465d419_38878_bd57097b6e277c58cf068fcadd472d73.webp 400w,
-               /preprint/glance/GLANCE_hu8d78d049663927b3425d11372465d419_38878_fbac5debe284ce471d19cfe71ebebea8.webp 760w,
-               /preprint/glance/GLANCE_hu8d78d049663927b3425d11372465d419_38878_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/preprint/glance/GLANCE_hu8d78d049663927b3425d11372465d419_38878_bd57097b6e277c58cf068fcadd472d73.webp&#34;
+               /preprint/glance/GLANCE_hu10903146438223607317.webp 400w,
+               /preprint/glance/GLANCE_hu17815352061748901114.webp 760w,
+               /preprint/glance/GLANCE_hu3463568111219529215.webp 1200w&#34;
+               src=&#34;https://dsachar.net/preprint/glance/GLANCE_hu10903146438223607317.webp&#34;
                width=&#34;760&#34;
                height=&#34;119&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2415,10 +2506,10 @@ For example, consider a model that predicts whether mortgage loan applications a
 &lt;figure  id=&#34;figure-to-explain-an-ambiguous-prediction-aide-provides-influential-training-samples-that-support-and-oppose-it&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /preprint/aide/AIDE_hu1f7b36b1f875de52a5e40e91871f9c18_4315410_4d98243a890c8742a62acef672303772.webp 400w,
-               /preprint/aide/AIDE_hu1f7b36b1f875de52a5e40e91871f9c18_4315410_fc1306b3c4ca0a8fa4f22b9be10d3ca8.webp 760w,
-               /preprint/aide/AIDE_hu1f7b36b1f875de52a5e40e91871f9c18_4315410_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/preprint/aide/AIDE_hu1f7b36b1f875de52a5e40e91871f9c18_4315410_4d98243a890c8742a62acef672303772.webp&#34;
+               /preprint/aide/AIDE_hu9911068347374307218.webp 400w,
+               /preprint/aide/AIDE_hu12063181795439809382.webp 760w,
+               /preprint/aide/AIDE_hu3717002462222689418.webp 1200w&#34;
+               src=&#34;https://dsachar.net/preprint/aide/AIDE_hu9911068347374307218.webp&#34;
                width=&#34;760&#34;
                height=&#34;382&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2550,10 +2641,10 @@ For example, consider a model that predicts whether mortgage loan applications a
 &lt;figure  id=&#34;figure-counterfactual-explanations-for-recommender-systems&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /publication/2021-umap-ksg/counter_rec_hu09805fc78ee89d1e31fca3bb9672eaec_811738_870faa9ecf7d73d4608ecd7d9a87e28d.webp 400w,
-               /publication/2021-umap-ksg/counter_rec_hu09805fc78ee89d1e31fca3bb9672eaec_811738_8879155edbd8dc00983041a20216a8ad.webp 760w,
-               /publication/2021-umap-ksg/counter_rec_hu09805fc78ee89d1e31fca3bb9672eaec_811738_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/publication/2021-umap-ksg/counter_rec_hu09805fc78ee89d1e31fca3bb9672eaec_811738_870faa9ecf7d73d4608ecd7d9a87e28d.webp&#34;
+               /publication/2021-umap-ksg/counter_rec_hu9245367509959610310.webp 400w,
+               /publication/2021-umap-ksg/counter_rec_hu7505001407713647265.webp 760w,
+               /publication/2021-umap-ksg/counter_rec_hu13482861891465330130.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2021-umap-ksg/counter_rec_hu9245367509959610310.webp&#34;
                width=&#34;760&#34;
                height=&#34;364&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2734,10 +2825,10 @@ For example, consider a model that predicts whether mortgage loan applications a
 &lt;figure  id=&#34;figure-an-example-where-thor-conceptualizes-text-based-on-available-structured-data&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /publication/2024-icde-rnr/THOR_huedb97c29eb39abb664dd39d63c88efbc_1003081_c91494e3004340d818eef99f8e32b600.webp 400w,
-               /publication/2024-icde-rnr/THOR_huedb97c29eb39abb664dd39d63c88efbc_1003081_3d0ed3998fb824bae9553373752e32e5.webp 760w,
-               /publication/2024-icde-rnr/THOR_huedb97c29eb39abb664dd39d63c88efbc_1003081_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/publication/2024-icde-rnr/THOR_huedb97c29eb39abb664dd39d63c88efbc_1003081_c91494e3004340d818eef99f8e32b600.webp&#34;
+               /publication/2024-icde-rnr/THOR_hu917871096807994549.webp 400w,
+               /publication/2024-icde-rnr/THOR_hu11076515629355772108.webp 760w,
+               /publication/2024-icde-rnr/THOR_hu4788044247765796722.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2024-icde-rnr/THOR_hu917871096807994549.webp&#34;
                width=&#34;760&#34;
                height=&#34;431&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2898,10 +2989,10 @@ For example, consider a model that predicts whether mortgage loan applications a
 &lt;figure  id=&#34;figure-tokenjoin-is-able-to-match-records-where-exact-matching-would-fail&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /publication/2022-vldb-zss/TokenJoin_hu0d088bf3fe053bb9b4e8381b82d9d879_108244_a424878a778d3ecec80330df762197fb.webp 400w,
-               /publication/2022-vldb-zss/TokenJoin_hu0d088bf3fe053bb9b4e8381b82d9d879_108244_701c252917e16a847fe9be81e9a057de.webp 760w,
-               /publication/2022-vldb-zss/TokenJoin_hu0d088bf3fe053bb9b4e8381b82d9d879_108244_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/publication/2022-vldb-zss/TokenJoin_hu0d088bf3fe053bb9b4e8381b82d9d879_108244_a424878a778d3ecec80330df762197fb.webp&#34;
+               /publication/2022-vldb-zss/TokenJoin_hu781092621687426739.webp 400w,
+               /publication/2022-vldb-zss/TokenJoin_hu17958240462167564706.webp 760w,
+               /publication/2022-vldb-zss/TokenJoin_hu18089511566391692802.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2022-vldb-zss/TokenJoin_hu781092621687426739.webp&#34;
                width=&#34;760&#34;
                height=&#34;544&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -3068,10 +3159,10 @@ For example, consider a model that predicts whether mortgage loan applications a
 &lt;figure  id=&#34;figure-overview-of-the-pipeline-optimization-process-in-hyppo&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /publication/2024-icde-kss/hyppo_hu6d2ce5b094fab9472b09886e159cb41a_1236370_772370b76502fb0a84a3544b21c5e42e.webp 400w,
-               /publication/2024-icde-kss/hyppo_hu6d2ce5b094fab9472b09886e159cb41a_1236370_4d4e3d63a93282e0e34672424f709eba.webp 760w,
-               /publication/2024-icde-kss/hyppo_hu6d2ce5b094fab9472b09886e159cb41a_1236370_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/publication/2024-icde-kss/hyppo_hu6d2ce5b094fab9472b09886e159cb41a_1236370_772370b76502fb0a84a3544b21c5e42e.webp&#34;
+               /publication/2024-icde-kss/hyppo_hu404116620875622785.webp 400w,
+               /publication/2024-icde-kss/hyppo_hu15888269972784408355.webp 760w,
+               /publication/2024-icde-kss/hyppo_hu16943492095135828721.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2024-icde-kss/hyppo_hu404116620875622785.webp&#34;
                width=&#34;760&#34;
                height=&#34;548&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -3233,10 +3324,10 @@ For example, consider a model that predicts whether mortgage loan applications a
 &lt;figure  id=&#34;figure-architecture-of-the-synopses-data-engine-as-a-service&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /publication/2023-is-kgs/SDEaaS_hu2999d8c75489d888439a4e556d6a696d_2324279_6e5bc97f8d442711873571fa50aa218b.webp 400w,
-               /publication/2023-is-kgs/SDEaaS_hu2999d8c75489d888439a4e556d6a696d_2324279_aa5cbcb89072234cc56e8a35caed777e.webp 760w,
-               /publication/2023-is-kgs/SDEaaS_hu2999d8c75489d888439a4e556d6a696d_2324279_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/publication/2023-is-kgs/SDEaaS_hu2999d8c75489d888439a4e556d6a696d_2324279_6e5bc97f8d442711873571fa50aa218b.webp&#34;
+               /publication/2023-is-kgs/SDEaaS_hu11550592282643354942.webp 400w,
+               /publication/2023-is-kgs/SDEaaS_hu16681108013520233942.webp 760w,
+               /publication/2023-is-kgs/SDEaaS_hu8742972461184573053.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2023-is-kgs/SDEaaS_hu11550592282643354942.webp&#34;
                width=&#34;760&#34;
                height=&#34;411&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

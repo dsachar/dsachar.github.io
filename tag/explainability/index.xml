@@ -7,7 +7,7 @@
     <description>Explainability</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://dsachar.net/media/icon_huc40b6c30c374ef46b178ecef36b7d1d2_36046_512x512_fill_lanczos_center_3.png</url>
+      <url>https://dsachar.net/media/icon_hu7925680949909669101.png</url>
       <title>Explainability</title>
       <link>https://dsachar.net/tag/explainability/</link>
     </image>
@@ -37,10 +37,10 @@
 &lt;figure  id=&#34;figure-to-explain-an-ambiguous-prediction-aide-provides-influential-training-samples-that-support-and-oppose-it&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /preprint/aide/AIDE_hu1f7b36b1f875de52a5e40e91871f9c18_4315410_4d98243a890c8742a62acef672303772.webp 400w,
-               /preprint/aide/AIDE_hu1f7b36b1f875de52a5e40e91871f9c18_4315410_fc1306b3c4ca0a8fa4f22b9be10d3ca8.webp 760w,
-               /preprint/aide/AIDE_hu1f7b36b1f875de52a5e40e91871f9c18_4315410_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/preprint/aide/AIDE_hu1f7b36b1f875de52a5e40e91871f9c18_4315410_4d98243a890c8742a62acef672303772.webp&#34;
+               /preprint/aide/AIDE_hu9911068347374307218.webp 400w,
+               /preprint/aide/AIDE_hu12063181795439809382.webp 760w,
+               /preprint/aide/AIDE_hu3717002462222689418.webp 1200w&#34;
+               src=&#34;https://dsachar.net/preprint/aide/AIDE_hu9911068347374307218.webp&#34;
                width=&#34;760&#34;
                height=&#34;382&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -76,10 +76,10 @@
 &lt;figure  id=&#34;figure-three-actions-that-summarize-all-counterfactual-explanations&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /preprint/glance/GLANCE_hu8d78d049663927b3425d11372465d419_38878_bd57097b6e277c58cf068fcadd472d73.webp 400w,
-               /preprint/glance/GLANCE_hu8d78d049663927b3425d11372465d419_38878_fbac5debe284ce471d19cfe71ebebea8.webp 760w,
-               /preprint/glance/GLANCE_hu8d78d049663927b3425d11372465d419_38878_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/preprint/glance/GLANCE_hu8d78d049663927b3425d11372465d419_38878_bd57097b6e277c58cf068fcadd472d73.webp&#34;
+               /preprint/glance/GLANCE_hu10903146438223607317.webp 400w,
+               /preprint/glance/GLANCE_hu17815352061748901114.webp 760w,
+               /preprint/glance/GLANCE_hu3463568111219529215.webp 1200w&#34;
+               src=&#34;https://dsachar.net/preprint/glance/GLANCE_hu10903146438223607317.webp&#34;
                width=&#34;760&#34;
                height=&#34;119&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -115,10 +115,10 @@
 &lt;figure  id=&#34;figure-a-discovered-subgroup-where-unfairness-of-recourse-exists&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /publication/2023-neurips-ktg/FACTS_hub56d2d0fda32ab2f4128cdc06bdcce43_85632_814c664b54c6353564557bf89a239549.webp 400w,
-               /publication/2023-neurips-ktg/FACTS_hub56d2d0fda32ab2f4128cdc06bdcce43_85632_42eab8ec15bf4389cfdd24de19e4da56.webp 760w,
-               /publication/2023-neurips-ktg/FACTS_hub56d2d0fda32ab2f4128cdc06bdcce43_85632_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://dsachar.net/publication/2023-neurips-ktg/FACTS_hub56d2d0fda32ab2f4128cdc06bdcce43_85632_814c664b54c6353564557bf89a239549.webp&#34;
+               /publication/2023-neurips-ktg/FACTS_hu7278310582064336205.webp 400w,
+               /publication/2023-neurips-ktg/FACTS_hu7895962010971677607.webp 760w,
+               /publication/2023-neurips-ktg/FACTS_hu4456584742550289339.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2023-neurips-ktg/FACTS_hu7278310582064336205.webp&#34;
                width=&#34;760&#34;
                height=&#34;96&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
