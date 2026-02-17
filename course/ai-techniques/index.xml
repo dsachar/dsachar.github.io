@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Techniques of Artificial Intelligence (INFO-H410) | Dimitris Sacharidis</title>
+    <link>http://localhost:1313/course/ai-techniques/</link>
+      <atom:link href="http://localhost:1313/course/ai-techniques/index.xml" rel="self" type="application/rss+xml" />
+    <description>Techniques of Artificial Intelligence (INFO-H410)</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu7925680949909669101.png</url>
+      <title>Techniques of Artificial Intelligence (INFO-H410)</title>
+      <link>http://localhost:1313/course/ai-techniques/</link>
+    </image>
+    
+  </channel>
+</rss>

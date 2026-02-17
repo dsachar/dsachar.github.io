@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Computing Foundations of Data Science (INFO-H-600) | Dimitris Sacharidis</title>
-    <link>https://dsachar.net/course/data-science/</link>
-      <atom:link href="https://dsachar.net/course/data-science/index.xml" rel="self" type="application/rss+xml" />
-    <description>Computing Foundations of Data Science (INFO-H-600)</description>
+    <title>Computing Foundations of Data Science (INFO-H600) | Dimitris Sacharidis</title>
+    <link>http://localhost:1313/course/data-science/</link>
+      <atom:link href="http://localhost:1313/course/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <description>Computing Foundations of Data Science (INFO-H600)</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://dsachar.net/media/icon_hu7925680949909669101.png</url>
-      <title>Computing Foundations of Data Science (INFO-H-600)</title>
-      <link>https://dsachar.net/course/data-science/</link>
+      <url>http://localhost:1313/media/icon_hu7925680949909669101.png</url>
+      <title>Computing Foundations of Data Science (INFO-H600)</title>
+      <link>http://localhost:1313/course/data-science/</link>
     </image>
     
   </channel>

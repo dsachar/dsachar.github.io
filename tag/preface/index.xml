@@ -5,7 +5,7 @@
     <link>https://dsachar.net/tag/preface/</link>
       <atom:link href="https://dsachar.net/tag/preface/index.xml" rel="self" type="application/rss+xml" />
     <description>Preface</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dsachar.net/media/icon_hu7925680949909669101.png</url>
       <title>Preface</title>
@@ -14,9 +14,9 @@
     
     <item>
       <title>Courses</title>
-      <link>https://dsachar.net/course/</link>
-      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.net/course/</guid>
+      <link>https://dsachar.net/teach/course/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/teach/course/</guid>
       <description></description>
     </item>
     

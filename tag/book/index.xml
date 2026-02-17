@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Book | Dimitris Sacharidis</title>
-    <link>https://dsachar.net/tag/book/</link>
-      <atom:link href="https://dsachar.net/tag/book/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tag/book/</link>
+      <atom:link href="http://localhost:1313/tag/book/index.xml" rel="self" type="application/rss+xml" />
     <description>Book</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://dsachar.net/media/icon_hu7925680949909669101.png</url>
+      <url>http://localhost:1313/media/icon_hu7925680949909669101.png</url>
       <title>Book</title>
-      <link>https://dsachar.net/tag/book/</link>
+      <link>http://localhost:1313/tag/book/</link>
     </image>
     
     <item>
       <title>🎉 Easily create your own simple yet highly customizable blog</title>
-      <link>https://dsachar.net/news/get-started/</link>
+      <link>http://localhost:1313/news/get-started/</link>
       <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.net/news/get-started/</guid>
+      <guid>http://localhost:1313/news/get-started/</guid>
       <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 
 

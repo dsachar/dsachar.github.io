@@ -2,83 +2,115 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dsachar.net/course/recsys/1-intro/</loc>
+    <loc>https://dsachar.net/teach/course/ai-techniques/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dsachar.net/teach/supervision/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dsachar.net/teach/course/recsys/1-intro/</loc>
     <lastmod>2022-05-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://dsachar.net/course/recsys/</loc>
-    <lastmod>2022-05-18T00:00:00+00:00</lastmod>
+    <loc>https://dsachar.net/teach/course/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://dsachar.net/course/data-science/</loc>
+    <loc>https://dsachar.net/teach/course/workflows/</loc>
     <lastmod>2022-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://dsachar.net/course/recsys/2-uu-cf/</loc>
+    <loc>https://dsachar.net/teach/course/recsys/2-uu-cf/</loc>
     <lastmod>2022-05-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://dsachar.net/course/big-data/</loc>
+    <loc>https://dsachar.net/teach/course/data-science/</loc>
     <lastmod>2022-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://dsachar.net/course/recsys/3-ii-cf/</loc>
+    <loc>https://dsachar.net/teach/course/recsys/3-ii-cf/</loc>
     <lastmod>2022-05-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://dsachar.net/course/cloud-computing/</loc>
+    <loc>https://dsachar.net/teach/course/ai-trends/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dsachar.net/teach/course/recsys/4-implicit/</loc>
+    <lastmod>2022-05-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dsachar.net/teach/course/big-data/</loc>
     <lastmod>2022-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://dsachar.net/course/workflows/</loc>
+    <loc>https://dsachar.net/teach/course/recsys/5-mf/</loc>
+    <lastmod>2022-05-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dsachar.net/teach/course/cloud-computing/</loc>
     <lastmod>2022-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://dsachar.net/course/recsys/4-implicit/</loc>
+    <loc>https://dsachar.net/teach/course/recsys/6-model/</loc>
     <lastmod>2022-05-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://dsachar.net/course/recsys/5-mf/</loc>
+    <loc>https://dsachar.net/teach/course/recsys/7-content/</loc>
     <lastmod>2022-05-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://dsachar.net/course/recsys/6-model/</loc>
+    <loc>https://dsachar.net/teach/course/recsys/8-accuracy/</loc>
     <lastmod>2022-05-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://dsachar.net/course/recsys/7-content/</loc>
+    <loc>https://dsachar.net/teach/course/recsys/9-evaluation/</loc>
     <lastmod>2022-05-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://dsachar.net/course/recsys/8-accuracy/</loc>
+    <loc>https://dsachar.net/teach/course/recsys/10-sequence/</loc>
     <lastmod>2022-05-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://dsachar.net/course/recsys/9-evaluation/</loc>
+    <loc>https://dsachar.net/teach/course/recsys/</loc>
     <lastmod>2022-05-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://dsachar.net/course/recsys/10-sequence/</loc>
-    <lastmod>2022-05-18T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://dsachar.net/news/get-started/</loc>
-    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://dsachar.net/tag/book/</loc>
-    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
+    <loc>https://dsachar.net/tag/call/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://dsachar.net/</loc>
-    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://dsachar.net/news/</loc>
-    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dsachar.net/news/greenfielddata_positions/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dsachar.net/tag/preface/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://dsachar.net/tags/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dsachar.net/teach/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dsachar.net/news/brain2025/</loc>
+    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://dsachar.net/tag/event/</loc>
     <lastmod>2025-04-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -168,14 +200,6 @@
   </url><url>
     <loc>https://dsachar.net/publication/2023-arxiv-msx/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://dsachar.net/course/</loc>
-    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://dsachar.net/tag/preface/</loc>
-    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://dsachar.net/post/causal-statistical-parity/</loc>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Call | Dimitris Sacharidis</title>
+    <link>https://dsachar.net/tag/call/</link>
+      <atom:link href="https://dsachar.net/tag/call/index.xml" rel="self" type="application/rss+xml" />
+    <description>Call</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dsachar.net/media/icon_hu7925680949909669101.png</url>
+      <title>Call</title>
+      <link>https://dsachar.net/tag/call/</link>
+    </image>
+    
+    <item>
+      <title>PhD Positions in GreenFieldData</title>
+      <link>https://dsachar.net/news/greenfielddata_positions/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/news/greenfielddata_positions/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;GreenFieldData will train a new generation of researchers able to tackle digital and green transition challenges using a human-centric approach to ensure the robustness and relevance of the solutions responding to the specific needs of the EU market in a context of climate change and increasing socio-economic constraints. At a policy level GreenFieldData outcomes will feed in directly to the aims of the HE Strategic Plan 2025-2027, EU Partnership Agriculture of Data and Digital EU Program. GreenFieldData proposes a high-level interdisciplinary, inter-sectoral and international (triple ‘i’) research project and training network on new IoRT (Internet of Robotic Things) based solutions for sustainable agriculture.&lt;/p&gt;
+&lt;h2 id=&#34;phd-positions&#34;&gt;PhD Positions&lt;/h2&gt;
+&lt;p&gt;Two fully funded PhD positions are available on &lt;strong&gt;Responsible AI for Sustainable Agriculture&lt;/strong&gt; in the context of GreenFieldData.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PhD C: Powering data-driven sustainability assessment tasks in Agrifood systems with IoT-data Datalakes and Large Language Models. In collaboration with &lt;a href=&#34;https://international.au.dk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Aarhus University&lt;/a&gt;, Denmark.&lt;/li&gt;
+&lt;li&gt;PhD D: Human-centric Digital twins for monitoring robotized biostimulants application practices. In collaboration with &lt;a href=&#34;https://www.unimi.it/en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University of Milan&lt;/a&gt;, Italy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Deadline for applications is &lt;strong&gt;April 15, 2026&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.eu4greenfielddata.eu/phd-positions-application/how-to-apply&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Apply now!&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

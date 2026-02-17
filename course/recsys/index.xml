@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recommender Systems | Dimitris Sacharidis</title>
-    <link>https://dsachar.net/course/recsys/</link>
-      <atom:link href="https://dsachar.net/course/recsys/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/course/recsys/</link>
+      <atom:link href="http://localhost:1313/course/recsys/index.xml" rel="self" type="application/rss+xml" />
     <description>Recommender Systems</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 18 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://dsachar.net/media/icon_hu7925680949909669101.png</url>
+      <url>http://localhost:1313/media/icon_hu7925680949909669101.png</url>
       <title>Recommender Systems</title>
-      <link>https://dsachar.net/course/recsys/</link>
+      <link>http://localhost:1313/course/recsys/</link>
     </image>
     
     <item>
       <title>1. Introduction</title>
-      <link>https://dsachar.net/course/recsys/1-intro/</link>
+      <link>http://localhost:1313/course/recsys/1-intro/</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.net/course/recsys/1-intro/</guid>
+      <guid>http://localhost:1313/course/recsys/1-intro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>2. User-User Collaborative Filtering</title>
-      <link>https://dsachar.net/course/recsys/2-uu-cf/</link>
+      <link>http://localhost:1313/course/recsys/2-uu-cf/</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.net/course/recsys/2-uu-cf/</guid>
+      <guid>http://localhost:1313/course/recsys/2-uu-cf/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/EOGVLVvOy94?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
       &gt;&lt;/iframe&gt;
@@ -33,9 +33,9 @@
     
     <item>
       <title>3. Item-Item Collaborative Filtering</title>
-      <link>https://dsachar.net/course/recsys/3-ii-cf/</link>
+      <link>http://localhost:1313/course/recsys/3-ii-cf/</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.net/course/recsys/3-ii-cf/</guid>
+      <guid>http://localhost:1313/course/recsys/3-ii-cf/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/7j62X4TIT08?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
       &gt;&lt;/iframe&gt;
@@ -44,9 +44,9 @@
     
     <item>
       <title>4. Implicit Feedback and Cold Start</title>
-      <link>https://dsachar.net/course/recsys/4-implicit/</link>
+      <link>http://localhost:1313/course/recsys/4-implicit/</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.net/course/recsys/4-implicit/</guid>
+      <guid>http://localhost:1313/course/recsys/4-implicit/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/FYaoQlF3RTQ?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
       &gt;&lt;/iframe&gt;
@@ -55,9 +55,9 @@
     
     <item>
       <title>5. Matrix Factorization</title>
-      <link>https://dsachar.net/course/recsys/5-mf/</link>
+      <link>http://localhost:1313/course/recsys/5-mf/</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.net/course/recsys/5-mf/</guid>
+      <guid>http://localhost:1313/course/recsys/5-mf/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/LSZ6v9hFPms?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
       &gt;&lt;/iframe&gt;
@@ -66,9 +66,9 @@
     
     <item>
       <title>6. Other Model-Based Collaborative Filtering</title>
-      <link>https://dsachar.net/course/recsys/6-model/</link>
+      <link>http://localhost:1313/course/recsys/6-model/</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.net/course/recsys/6-model/</guid>
+      <guid>http://localhost:1313/course/recsys/6-model/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/hkWLaPTfjSg?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
       &gt;&lt;/iframe&gt;
@@ -77,9 +77,9 @@
     
     <item>
       <title>7. Content-Based Recommenders</title>
-      <link>https://dsachar.net/course/recsys/7-content/</link>
+      <link>http://localhost:1313/course/recsys/7-content/</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.net/course/recsys/7-content/</guid>
+      <guid>http://localhost:1313/course/recsys/7-content/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/TkRuZ2Lfejw?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
       &gt;&lt;/iframe&gt;
@@ -88,9 +88,9 @@
     
     <item>
       <title>8. System Accuracy</title>
-      <link>https://dsachar.net/course/recsys/8-accuracy/</link>
+      <link>http://localhost:1313/course/recsys/8-accuracy/</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.net/course/recsys/8-accuracy/</guid>
+      <guid>http://localhost:1313/course/recsys/8-accuracy/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/OsmpY4je7FU?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
       &gt;&lt;/iframe&gt;
@@ -99,9 +99,9 @@
     
     <item>
       <title>9. Evaluation</title>
-      <link>https://dsachar.net/course/recsys/9-evaluation/</link>
+      <link>http://localhost:1313/course/recsys/9-evaluation/</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.net/course/recsys/9-evaluation/</guid>
+      <guid>http://localhost:1313/course/recsys/9-evaluation/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/YgWHxeBOU2E?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
       &gt;&lt;/iframe&gt;
@@ -110,9 +110,9 @@
     
     <item>
       <title>10. Sequence-Aware Recommenders</title>
-      <link>https://dsachar.net/course/recsys/10-sequence/</link>
+      <link>http://localhost:1313/course/recsys/10-sequence/</link>
       <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.net/course/recsys/10-sequence/</guid>
+      <guid>http://localhost:1313/course/recsys/10-sequence/</guid>
       <description></description>
     </item>
     

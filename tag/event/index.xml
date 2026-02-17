@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Event | Dimitris Sacharidis</title>
+    <link>https://dsachar.net/tag/event/</link>
+      <atom:link href="https://dsachar.net/tag/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>Event</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dsachar.net/media/icon_hu7925680949909669101.png</url>
+      <title>Event</title>
+      <link>https://dsachar.net/tag/event/</link>
+    </image>
+    
+    <item>
+      <title>BRAIN Forum 2025</title>
+      <link>https://dsachar.net/news/brain2025/</link>
+      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/news/brain2025/</guid>
+      <description>&lt;img src=&#34;featured.png&#34; alt=&#34;BRAIN logo&#34; width=&#34;100&#34;&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The Brussels Responsible AI Network (BRAIN) Forum is a one-day event that invites researchers, practitioners, and policymakers from Belgium and beyond to discuss the latest advances in AI and its societal implications. The forum is hosted at the Brussels Institute for Advanced Studies (BrIAS) and is part of the BrIAS series of public forums.&lt;/p&gt;
+&lt;p&gt;BRAIN brings together the three Belgian AI research programmes: the &lt;a href=&#34;https://fari.brussels/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AI for the Common Good Institute (FARI)&lt;/a&gt; in Brussels; the &lt;a href=&#34;https://trail.ac/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trusted AI Labs (TRAIL)&lt;/a&gt; of the Walloon and Brussels regions; and the &lt;a href=&#34;https://www.flandersairesearch.be/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Flanders AI Research programme (FAIR)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The BRAIN Forum is co-organised by the &lt;a href=&#34;https://brias.be/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Brussels Institute for Advanced Studies (BrIAS)&lt;/a&gt;, &lt;a href=&#34;https://www.ulb.be/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Université Libre de Bruxelles (ULB)&lt;/a&gt;, &lt;a href=&#34;https://www.vub.be/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vrije Universiteit Brussel (VUB)&lt;/a&gt;, &lt;a href=&#34;https://fari.brussels/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AI for the Common Good Institute (FARI)&lt;/a&gt;, and &lt;a href=&#34;https://www.unamur.be/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Université de Namur (UNamur)&lt;/a&gt;, with funding from the &lt;a href=&#34;https://brias.be/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Brussels Institute of Advanced Studies (BrIAS)&lt;/a&gt;, the &lt;a href=&#34;https://www.frs-fnrs.be/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fund for Scientific Research (F.R.S.–FNRS)&lt;/a&gt;, and the &lt;a href=&#34;https://european-union.europa.eu/index_en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;European Union&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For more information see the &lt;a href=&#34;https://brainforum.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official webpage&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;update&#34;&gt;Update&lt;/h3&gt;
+&lt;p&gt;Here&amp;rsquo;s a &lt;a href=&#34;https://www.youtube.com/watch?v=G8j7cjt3AhM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;recording of the event&lt;/a&gt;.&lt;/p&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/G8j7cjt3AhM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>
