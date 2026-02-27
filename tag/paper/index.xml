@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paper | Dimitris Sacharidis</title>
+    <link>https://dsachar.net/tag/paper/</link>
+      <atom:link href="https://dsachar.net/tag/paper/index.xml" rel="self" type="application/rss+xml" />
+    <description>Paper</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dsachar.net/media/icon_hu7925680949909669101.png</url>
+      <title>Paper</title>
+      <link>https://dsachar.net/tag/paper/</link>
+    </image>
+    
+    <item>
+      <title>VLDB 2026 paper</title>
+      <link>https://dsachar.net/post/vldb-2026/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/post/vldb-2026/</guid>
+      <description>&lt;p&gt;Our work on cost-aware AutoML has been accepted at VLDB 2026.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  
+  &lt;div class=&#34;article-style&#34;&gt;
+    &lt;p&gt;Selecting an effective machine learning pipeline requires searching through many alternatives that differ in algorithms, hyperparameters, and data preparation steps. This complexity has led to the development of Automated Machine Learning (AutoML), which systematically explores pipeline configurations with minimal human input. However, AutoML is computationally expensive, often evaluating hundreds or thousands of pipelines per dataset, even though only a small fraction are ultimately selected for deployment.&lt;/p&gt;
+&lt;p&gt;In an experiment using a popular AutoML with a five-hour budget per task, approximately 3,000 pipelines were evaluated based on classification accuracy and execution time. The results categorized pipelines into four groups: Baseline (low cost, low performance), Efficient (low cost, high performance), Premium (high cost, high performance), and Waste (high cost, low performance). Notably, about 14% of pipelines fell into the Waste category but consumed 60% of the total computational budget, highlighting substantial inefficiencies in the AutoML search process.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-traditional-automl-is-wasteful-about-14-of-pipelines-are-wasteful-and-consume-60-of-the-total-computational-budget&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2026-vldb-ksa/waste_hu9701639638043197912.webp 400w,
+               /publication/2026-vldb-ksa/waste_hu354913742365003637.webp 760w,
+               /publication/2026-vldb-ksa/waste_hu1040652720473035614.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2026-vldb-ksa/waste_hu9701639638043197912.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;397&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;Traditional AutoML is wasteful. About 14% of pipelines are wasteful and consume 60% of the total computational budget.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Cost-Aware ML Pipeline Selection (CAPS) enhances AutoML by introducing an intermediate selection step between pipeline generation and evaluation, enabling explicit prioritization based on a performance–cost trade-off. While the generation phase focuses on exploring diverse and promising candidates, the selection phase filters them according to desired cost efficiency, significantly reducing wasted computation and allowing more pipelines to be explored within the same budget. CAPS achieves this by estimating both predictive performance and execution cost at a fine-grained level, modeling the runtime of individual pipeline functions and leveraging execution-environment data from prior runs. This detailed cost modeling overcomes limitations of black-box approaches and accounts for system-level optimizations that can obscure true execution costs.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-caps-is-a-cost-aware-automl-system-that-selects-pipelines-for-execution-by-balancing-their-predicted-performance-and-computational-cost&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2026-vldb-ksa/CAPS_hu7928149499870139244.webp 400w,
+               /publication/2026-vldb-ksa/CAPS_hu3747488009509859208.webp 760w,
+               /publication/2026-vldb-ksa/CAPS_hu5403653289990906706.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2026-vldb-ksa/CAPS_hu7928149499870139244.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;391&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;CAPS is a cost-aware AutoML system that selects pipelines for execution by balancing their predicted performance and computational cost.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>AAAI 2026 paper</title>
+      <link>https://dsachar.net/post/aaai-2026/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/post/aaai-2026/</guid>
+      <description>&lt;p&gt;Our work on global counterfactual explanations has been accepted at AAAI 2026.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  
+  &lt;div class=&#34;article-style&#34;&gt;
+    &lt;hr&gt;
+&lt;p&gt;We propose a method for global explainability of black box models using counterfactual explanations. A counterfactual explanation locally explains an outcome by providing the minimal changes necessary to reverse the outcome, e.g., &amp;ldquo;if you had five more years of experience, your job application would have been accepted&amp;rdquo;. We develop a method, termed GLANCE, that summarizes all counterfactual explanations for a given model.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-three-actions-that-summarize-all-counterfactual-explanations&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2026-aaai-kpt/GLANCE_hu10903146438223607317.webp 400w,
+               /publication/2026-aaai-kpt/GLANCE_hu17815352061748901114.webp 760w,
+               /publication/2026-aaai-kpt/GLANCE_hu3463568111219529215.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2026-aaai-kpt/GLANCE_hu10903146438223607317.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;119&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;Three actions that summarize all counterfactual explanations.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Solving this global version of counterfactual explainability is different than finding the local counterfatual explanations and picking among them.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-a-toy-example-depicting-two-negative-instancesx1-x2-and-five-actions-a-the-feature-space-the-line-is-thedecision-boundary-b-the-action-space-l1-l2-depict-the-de-cision-boundary-from-the-perspective-of-x1-x2-respectively&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2026-aaai-kpt/example_hu1589924553338578423.webp 400w,
+               /publication/2026-aaai-kpt/example_hu9797865795064969311.webp 760w,
+               /publication/2026-aaai-kpt/example_hu15232130839713007938.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2026-aaai-kpt/example_hu1589924553338578423.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;440&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;A toy example depicting two negative instances
+x1, x2, and five actions. (a) The feature space; the line is the
+decision boundary. (b) The action space; l1, l2 depict the de-
+cision boundary from the perspective of x1, x2, respectively.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

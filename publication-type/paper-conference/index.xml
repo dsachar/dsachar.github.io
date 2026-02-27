@@ -5,12 +5,181 @@
     <link>https://dsachar.net/publication-type/paper-conference/</link>
       <atom:link href="https://dsachar.net/publication-type/paper-conference/index.xml" rel="self" type="application/rss+xml" />
     <description>Paper-Conference</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dsachar.net/media/icon_hu7925680949909669101.png</url>
       <title>Paper-Conference</title>
       <link>https://dsachar.net/publication-type/paper-conference/</link>
     </image>
+    
+    <item>
+      <title>GLANCE: Global Actions in a Nutshell for Counterfactual Explainability</title>
+      <link>https://dsachar.net/publication/2026-aaai-kpt/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2026-aaai-kpt/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;We propose a method for global explainability of black box models using counterfactual explanations. A counterfactual explanation locally explains an outcome by providing the minimal changes necessary to reverse the outcome, e.g., &amp;ldquo;if you had five more years of experience, your job application would have been accepted&amp;rdquo;. We develop a method, termed GLANCE, that summarizes all counterfactual explanations for a given model.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-three-actions-that-summarize-all-counterfactual-explanations&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2026-aaai-kpt/GLANCE_hu10903146438223607317.webp 400w,
+               /publication/2026-aaai-kpt/GLANCE_hu17815352061748901114.webp 760w,
+               /publication/2026-aaai-kpt/GLANCE_hu3463568111219529215.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2026-aaai-kpt/GLANCE_hu10903146438223607317.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;119&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;Three actions that summarize all counterfactual explanations.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Solving this global version of counterfactual explainability is different than finding the local counterfatual explanations and picking among them.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-a-toy-example-depicting-two-negative-instancesx1-x2-and-five-actions-a-the-feature-space-the-line-is-thedecision-boundary-b-the-action-space-l1-l2-depict-the-de-cision-boundary-from-the-perspective-of-x1-x2-respectively&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2026-aaai-kpt/example_hu1589924553338578423.webp 400w,
+               /publication/2026-aaai-kpt/example_hu9797865795064969311.webp 760w,
+               /publication/2026-aaai-kpt/example_hu15232130839713007938.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2026-aaai-kpt/example_hu1589924553338578423.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;440&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;A toy example depicting two negative instances
+x1, x2, and five actions. (a) The feature space; the line is the
+decision boundary. (b) The action space; l1, l2 depict the de-
+cision boundary from the perspective of x1, x2, respectively.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hyppo: Efficient Discovery and Execution of Data Science Pipelines in Collaborative Environments</title>
+      <link>https://dsachar.net/publication/2025-edbt-kss/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2025-edbt-kss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Individual Fairness in Algorithmic Hiring</title>
+      <link>https://dsachar.net/publication/2025-ewaf-dss/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2025-ewaf-dss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Integrating Robotic Data with GIS Tools in a Cloud Environment</title>
+      <link>https://dsachar.net/publication/2025-edbt-w-kbb/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2025-edbt-w-kbb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PROMIS: A Post-Processing Framework for Mitigating Spatial Bias</title>
+      <link>https://dsachar.net/publication/2025-sigspatial-ksg/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2025-sigspatial-ksg/</guid>
+      <description>&lt;p&gt;In many cases, it is important to ensure that a model does not discriminate against individuals on the basis of their &lt;em&gt;location&lt;/em&gt; (place of origin, home address, etc.). We consider location as the &lt;em&gt;protected attribute&lt;/em&gt; and we want the algorithm to exhibit &lt;em&gt;spatial fairness&lt;/em&gt;
+For example, consider a model that predicts whether mortgage loan applications are accepted. Its decisions should not discriminate based on the home address of the applicant. This could be to avoid redlining, i.e., indirectly discriminating based on ethnicity/race due to strong correlations between the home address and certain ethnic/racial groups, or to avoid gentrification, e.g., when applications in a poor urban area are systematically rejected to attract wealthier people.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-discovered-areas-in-the-usa-where-spatial-unfairness-exists-for-mortgage-loan-applications&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2025-sigspatial-ksg/spatial_hu8240665862697724322.webp 400w,
+               /publication/2025-sigspatial-ksg/spatial_hu4086708590153223242.webp 760w,
+               /publication/2025-sigspatial-ksg/spatial_hu8185717874908182342.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2025-sigspatial-ksg/spatial_hu8240665862697724322.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;374&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;Discovered areas in the USA where spatial unfairness exists for mortgage loan applications.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This work introduces PROMIS, a post-processing optimization framework designed to reduce spatial bias while maintaining predictive performance. Building on threshold-based equal opportunity adjustments and a robust definition of spatial fairness, PROMIS formulates an optimization problem that minimizes a normalized Spatial Bias Index (SBI), which quantifies expected spatial bias across regions. Unlike heuristic correction methods, PROMIS derives globally optimal, interpretable, and computationally efficient fairness adjustments through mathematical optimization, and, unlike white-box approaches, it can be applied to any classification model.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-overview-of-the-promis-framework-for-spatial-bias-mitigation-regions-are-colored-by-bias-based-on-true-positive-rates-tprs-blue-unfavored-red-favored-and-grey-fair-left-a-global-threshold-05-produces-tpr-disparities-across-regions-right-promis-applies-region-specific-thresholds-aligning-tprs-and-reducing-spatial-bias-as-reflected-by-the-shift-to-grey-in-the-bar-plots&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2025-sigspatial-ksg/PROMIS_hu5893642958215238676.webp 400w,
+               /publication/2025-sigspatial-ksg/PROMIS_hu214848055143811853.webp 760w,
+               /publication/2025-sigspatial-ksg/PROMIS_hu10781782014680487505.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2025-sigspatial-ksg/PROMIS_hu5893642958215238676.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;138&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;Overview of the PROMIS framework for spatial bias mitigation. Regions are colored by bias based on true positive rates (TPRs): blue (unfavored), red (favored), and grey (fair). Left: a global threshold (0.5) produces TPR disparities across regions. Right: PROMIS applies region-specific thresholds, aligning TPRs and reducing spatial bias, as reflected by the shift to grey in the bar plots.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>HYPPO - Using Equivalences to Optimize Pipelines in Exploratory Machine Learning</title>
@@ -88,6 +257,69 @@
     &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>A FAIR Public Permissioned Blockchain System for monitoring Deforestation in the Amazon</title>
+      <link>https://dsachar.net/publication/2024-localrec-ds/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2024-localrec-ds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AIDE: Antithetical, Intent-based, and Diverse Example-Based Explanations</title>
+      <link>https://dsachar.net/publication/2024-aies-nsh/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2024-aies-nsh/</guid>
+      <description>&lt;p&gt;For many use-cases, it is often important to explain the prediction of a black-box model by identifying the most &lt;em&gt;influential training data samples&lt;/em&gt;. We propose AIDE, Antithetical, Intent-based, and Diverse Example-Based Explanations, an approach for providing antithetical (i.e., contrastive), intent-based, diverse explanations for opaque and complex models. AIDE distinguishes three types of explainability intents: interpreting a correct, investigating a wrong, and clarifying an ambiguous prediction. For each intent, AIDE selects an appropriate set of influential training samples that support or oppose the prediction either directly or by contrast. To provide a succinct summary, AIDE uses diversity-aware sampling to avoid redundancy and increase coverage of the training data.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-to-explain-an-ambiguous-prediction-aide-provides-influential-training-samples-that-support-and-oppose-it&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2024-aies-nsh/AIDE_hu9911068347374307218.webp 400w,
+               /publication/2024-aies-nsh/AIDE_hu12063181795439809382.webp 760w,
+               /publication/2024-aies-nsh/AIDE_hu3717002462222689418.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2024-aies-nsh/AIDE_hu9911068347374307218.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;382&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;To explain an ambiguous prediction, AIDE provides influential training samples that support and oppose it.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fairness in AI: challenges in bridging the gap between algorithms and law</title>
+      <link>https://dsachar.net/publication/2024-icde-w-gpk/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2024-icde-w-gpk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Technological and Research Challenges in Data Engineering for Sustainable Agriculture</title>
+      <link>https://dsachar.net/publication/2024-bidede-bbp/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2024-bidede-bbp/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -175,6 +407,22 @@ For example, consider a model that predicts whether mortgage loan applications a
       <link>https://dsachar.net/publication/2023-www-c-sbd/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/publication/2023-www-c-sbd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FALE: Fairness-Aware ALE Plots for Auditing Bias in Subgroups</title>
+      <link>https://dsachar.net/publication/2023-ecml-w-gst/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2023-ecml-w-gst/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SpatialFlip: A Postprocessing Method to Improve Spatial Fairness</title>
+      <link>https://dsachar.net/publication/2023-sigspatial-as/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2023-sigspatial-as/</guid>
       <description></description>
     </item>
     
@@ -469,6 +717,14 @@ For example, consider a model that predicts whether mortgage loan applications a
     
     <item>
       <title>Keyword-based retrieval of frequent location sets in geotagged photo trails</title>
+      <link>https://dsachar.net/publication/2016-web-sci-mss/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2016-web-sci-mss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keyword-based retrieval of frequent location sets in geotagged photo trails</title>
       <link>https://dsachar.net/publication/2016-websci-mss/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/publication/2016-websci-mss/</guid>
@@ -488,6 +744,14 @@ For example, consider a model that predicts whether mortgage loan applications a
       <link>https://dsachar.net/publication/2015-dmrs-sdn/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/publication/2015-dmrs-sdn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LocalRec&#39;15: Workshop on Location-Aware Recommendations</title>
+      <link>https://dsachar.net/publication/2015-rec-sys-blr/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2015-rec-sys-blr/</guid>
       <description></description>
     </item>
     

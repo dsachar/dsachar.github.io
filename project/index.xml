@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Dimitris Sacharidis</title>
+    <link>https://dsachar.net/project/</link>
+      <atom:link href="https://dsachar.net/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dsachar.net/media/icon_hu7925680949909669101.png</url>
+      <title>Projects</title>
+      <link>https://dsachar.net/project/</link>
+    </image>
+    
+    <item>
+      <title>GreenFieldData</title>
+      <link>https://dsachar.net/project/greenfielddata/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/project/greenfielddata/</guid>
+      <description>&lt;img src=&#34;GreenFieldData.png&#34; alt=&#34;GreenFieldData logo&#34; width=&#34;200&#34;&gt;
+&lt;h2 id=&#34;iort-data-management-and-analysis-for-sustainable-agriculture&#34;&gt;IoRT Data Management and Analysis for Sustainable Agriculture&lt;/h2&gt;
+&lt;h3 id=&#34;project-summary-greenfielddata-eu4greenfielddata&#34;&gt;Project Summary: GreenFieldData (EU4GreenFieldData)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;GreenFieldData&lt;/strong&gt;, formally titled &amp;ldquo;IoRT Data Management and Analysis for Sustainable Agriculture,&amp;rdquo; is a prestigious Marie Skłodowska-Curie Actions (MSCA) Joint Doctorate program funded under the European Union&amp;rsquo;s Horizon Europe framework. The project aims to bridge the critical gap between Data Engineering, Data Science, and Sustainable Agriculture by leveraging the &lt;strong&gt;Internet of Robotic Things (IoRT)&lt;/strong&gt;. By focusing on the &amp;ldquo;green and digital twin transition,&amp;rdquo; the initiative seeks to modernize European farming practices through high-tech, data-driven solutions that address climate change and socio-economic resource constraints.&lt;/p&gt;
+&lt;p&gt;The research focus of GreenFieldData is centered on developing a human-centric approach to the entire agricultural data value chain—from collection and cleaning to advanced analysis and prescriptive decision-making. Doctoral candidates within the network work on cutting-edge technologies, including autonomous robotic fleets, multimodal sensing, and generative AI abstractions. These tools are designed to optimize crop protection, reduce pesticide use, and manage resource allocation (such as water and fertilizer) in real-time. By integrating stream processing and machine learning, the project enables more resilient farming systems capable of adapting to sudden environmental shifts.&lt;/p&gt;
+&lt;p&gt;A core pillar of the project is its unique &amp;ldquo;triple-i&amp;rdquo; approach: interdisciplinary, inter-sectoral, and international. The consortium mobilizes 14 Doctoral Candidates (DCs) across a network of 12 academic main beneficiaries and over 20 associated partners from 7 EU countries. Each researcher participates in a double-degree program, receiving co-supervision from two different international universities and completing &amp;ldquo;secondments&amp;rdquo; at industrial partners. This structure ensures that theoretical research is directly validated by real-world industrial challenges, significantly boosting the employability of the researchers in the digital and agricultural sectors.&lt;/p&gt;
+&lt;p&gt;Ultimately, GreenFieldData serves as an innovation hub that aligns with the EU’s Strategic Plan for 2025–2027 and the European Green Deal. By training a new generation of &amp;ldquo;creative and autonomous intellectual risk-takers,&amp;rdquo; the project provides the next-generation operational workforce with the tools necessary to mitigate the impacts of climate change. Through these efforts, the initiative strengthens the EU’s agricultural competitiveness while promoting sustainable, low-input practices for the common good.&lt;/p&gt;
+&lt;h3 id=&#34;our-role&#34;&gt;Our role&lt;/h3&gt;
+&lt;h3 id=&#34;factsheet&#34;&gt;Factsheet&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Item&lt;/th&gt;
+          &lt;th&gt;Details&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Funding Program&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Horizon Europe&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Call&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;HORIZON-MSCA-2022-DN-01 (Doctoral Networks)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Grant Agreement No.&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;101226371&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Type of Action&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Marie Skłodowska-Curie Actions (MSCA)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Duration&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;1 March 2026 – 28 February 2031&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Total Cost&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;€ 3.91 million&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Consortium&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;12 academic beneficiaries + 24+ associated partners&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Coordinator&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;INRAE, France&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DEAI</title>
+      <link>https://dsachar.net/project/deai/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/project/deai/</guid>
+      <description>&lt;img src=&#34;DEAI.png&#34; alt=&#34;DEAI logo&#34; width=&#34;200&#34;&gt;
+&lt;h2 id=&#34;data-engineering-for-data-science-doctoral-network&#34;&gt;Data Engineering for Data Science Doctoral Network&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Data Engineering and Artificial Intelligence (DEAI)&lt;/strong&gt; is an Erasmus Mundus Joint Master (EMJM) program coordinated by ULB. It aims to establish a worldwide reference for developing talent and leadership at the intersection of Data Engineering (DE) and Artificial Intelligence (AI). The program&amp;rsquo;s core philosophy is that the successful operationalization and scaling of cutting-edge AI initiatives are only possible through rigorous data engineering. By bridging these two fields, DEAI addresses the current global productivity gap in large-scale, data-driven projects and seeks to boost Europe’s competitiveness in the international AI landscape.&lt;/p&gt;
+&lt;p&gt;The curriculum is delivered through a high-level academic consortium consisting of five leading European institutions: &lt;strong&gt;ULB (Belgium)&lt;/strong&gt;, &lt;strong&gt;UPC (Spain)&lt;/strong&gt;, &lt;strong&gt;TU Wien (Austria)&lt;/strong&gt;, &lt;strong&gt;UniPD (Italy)&lt;/strong&gt;, and &lt;strong&gt;UCBL (France)&lt;/strong&gt;. Over a two-year period, students undergo a structured mobility scheme that begins with foundational training in data management and AI at ULB and UPC. In the second year, the program offers specialized tracks tailored to modern industrial needs, including Knowledge-Driven AI at TU Wien, Financial Data Science at UniPD, and Heterogeneous Systems Intelligence at UCBL. This integrated approach ensures that graduates possess a holistic view of the data value chain, from infrastructure and processing to advanced reasoning and human-centered design.&lt;/p&gt;
+&lt;p&gt;Beyond its academic curriculum, DEAI fosters a robust &amp;ldquo;knowledge triangle&amp;rdquo; by integrating research, education, and innovation. The program includes unique components such as the European Business Intelligence Summer School (eBISS) and a &amp;ldquo;Summer of Code,&amp;rdquo; where students engage with real-world, large-scale innovation projects. The consortium maintains strong ties with industry partners and public research institutes, facilitating internships and master’s theses that solve actual professional challenges. This structure not only prepares graduates for immediate roles as Data Engineers and AI Researchers but also provides a direct pathway into prestigious doctoral programs across the European Research Area.&lt;/p&gt;
+&lt;p&gt;Ultimately, the DEAI project serves as a strategic investment in Europe&amp;rsquo;s digital future. By training a diverse cohort of highly skilled professionals and promoting open-science dissemination, the program ensures that the next generation of AI leaders can navigate the complexities of &amp;ldquo;Big Data&amp;rdquo; while prioritizing transparency, efficiency, and ethical standards. Through its joint-degree model and extensive network of associated partners, DEAI strengthens the European data economy and provides a blueprint for interdisciplinary excellence in the era of artificial intelligence.&lt;/p&gt;
+&lt;h3 id=&#34;my-role&#34;&gt;My role&lt;/h3&gt;
+&lt;p&gt;In addition to teaching and supervision of DEAI student, I serve as a &lt;strong&gt;Local Administrator&lt;/strong&gt; for DEAI. In this capacity, I am responsible for the critical operational coordination of student mobility, specifically overseeing the exchange and validation of official transcripts and grades across the five partner institutions.&lt;/p&gt;
+&lt;h3 id=&#34;factsheet&#34;&gt;Factsheet&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Item&lt;/th&gt;
+          &lt;th&gt;Details&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Funding Program&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Erasmus+ (Erasmus Mundus Joint Masters)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Call&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;ERASMUS-EDU-2023-PEX-EMJM-MOB&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Grant Agreement No.&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;101241133&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Type of Action&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;EMJM (Erasmus Mundus Joint Master)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Duration&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;1 October 2025 – 30 November 2031&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Funding&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;€ 3.6 million&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Consortium&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;5 Main Academic Partners + Industry Network&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Coordinator&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Université Libre de Bruxelles (ULB), Belgium&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GIS4IoRT</title>
+      <link>https://dsachar.net/project/gis4iort/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/project/gis4iort/</guid>
+      <description>&lt;img src=&#34;gis4iort.png&#34; alt=&#34;GIS4IoRT logo&#34;&gt;
+&lt;h2 id=&#34;gis4iort-bridging-the-gap-between-robots-and-maps&#34;&gt;GIS4IoRT: Bridging the Gap Between Robots and Maps&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;GIS4IoRT project&lt;/strong&gt; is a research and innovation initiative focused on developing a &amp;ldquo;plug-and-play&amp;rdquo; middleware to integrate data from the Internet of Robotic Things (IoRT) with Geographic Information Systems (GIS). By leveraging cloud-based infrastructure and advanced AI, the project aims to solve the interoperability challenges that currently prevent robot sensor data from being easily visualized and analyzed within standard mapping environments. Funded through the CHIST-ERA program, the project facilitates the seamless handling of heterogeneous, multi-modal, and multi-dimensional datasets to support smarter decision-making in sectors like agriculture and urban planning.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.geoscity.uliege.be/cms/c_13470217/en/gis4iort&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GIS4IoRT Project Website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;At its core, GIS4IoRT focuses on building a technical bridge between autonomous machinery and GIS software. The project is developing a dedicated &lt;strong&gt;QGIS plugin&lt;/strong&gt; that serves as a user-friendly interface, allowing users to browse real-time robot data and perform complex spatio-temporal queries. Key technological pillars include AI-based approaches to ensure data reliability and a cloud-native architecture capable of processing diverse data types—including Lidar, multi-modal imagery, robot trajectories, and record-like sensor data. These tools are designed to transform raw robotic output into actionable geographic insights without requiring specialized technical expertise.&lt;/p&gt;
+&lt;p&gt;A key feature of the project is its &lt;strong&gt;validation through real-world use cases&lt;/strong&gt;, particularly in the field of precision agriculture. By testing the middleware in agricultural settings, the project demonstrates how robotic sensors can monitor crop health or environmental conditions and immediately sync that data with spatial analysis tools. This practical approach ensures that the &amp;ldquo;plug-and-play&amp;rdquo; middleware is robust enough to handle the complexity of dynamic spatio-temporal data and the pattern evolution typical of real-world robotic deployments.&lt;/p&gt;
+&lt;p&gt;By democratizing access to robotic data and simplifying its integration into GIS, GIS4IoRT seeks to advance the methodological framework for next-generation Geographic Information Systems. The project challenges existing research paradigms by addressing data wrangling, reliability, and the interpretability of analytical results, ultimately paving the way for more effective spatio-temporal analysis across various industrial and scientific domains.&lt;/p&gt;
+&lt;h3 id=&#34;my-role&#34;&gt;My role&lt;/h3&gt;
+&lt;p&gt;In the GIS4IoRT project, I define query patterns at the intersection of GIS and IoRT by translating robotic movement and sensor data into spatial queries, including trajectory analysis, real-time proximity alerts, and historical spatio-temporal trends.&lt;/p&gt;
+&lt;h3 id=&#34;factsheet&#34;&gt;Factsheet&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Item&lt;/th&gt;
+          &lt;th&gt;Details&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Funding Program&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;CHIST-ERA (supported by Horizon Europe/NCN)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Call&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;CHIST-ERA Call 2023 (Topic: MultiGIS)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Registration No.&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;2024/06/Y/ST6/00136&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Duration&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;1 June 2025 – 31 May 2028&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Funding&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;€ 660 thousand&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Consortium&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;ULiège, ULB, INRAE, UNIVREN, PUT&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Coordinator&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;ULiège&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WiseFood</title>
+      <link>https://dsachar.net/project/wisefood/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/project/wisefood/</guid>
+      <description>&lt;img src=&#34;WiseFood.png&#34; alt=&#34;WiseFood logo&#34; width=&#34;400&#34;&gt;
+&lt;h2 id=&#34;wisefood-where-data-feeds-decisions&#34;&gt;WiseFood: Where Data Feeds Decisions&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;WiseFood EU Project&lt;/strong&gt; is a Horizon Europe-funded research and innovation initiative that leverages data science and advanced AI technologies to empower citizens to make healthier and more sustainable food choices. By combining reliable food data, personalised recommendations, and user-friendly digital tools, WiseFood aims to bridge the gap between nutritional knowledge and everyday food decisions across Europe. The project was officially launched in January 2025 and runs through 2027, uniting a multidisciplinary consortium of partners from multiple European countries.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wisefood-project.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wisefood Project Website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;At its core, WiseFood will develop three complementary AI-driven applications that support informed decision-making. &lt;strong&gt;FoodScholar&lt;/strong&gt; offers an intuitive interface to explore curated food information on nutrition, health, and sustainability. &lt;strong&gt;RecipeWrangler&lt;/strong&gt; helps users analyse and optimise recipes based on both nutritional value and environmental impact. &lt;strong&gt;FoodChat&lt;/strong&gt; delivers personalised meal planning and recipe suggestions that prioritise health, sustainability, and reduced food waste. These tools are designed to be accessible to everyday users without requiring specialised technical expertise.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /project/wisefood/features_hu3685009083192724660.webp 400w,
+               /project/wisefood/features_hu11892226907315370375.webp 760w,
+               /project/wisefood/features_hu10266519131587221210.webp 1200w&#34;
+               src=&#34;https://dsachar.net/project/wisefood/features_hu3685009083192724660.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;273&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;A key feature of the project is its &lt;strong&gt;co-creation approach&lt;/strong&gt; through Living Labs located in Ireland, Hungary, and Slovenia, where citizens, nutrition experts, food producers, policymakers, and other stakeholders collaboratively design, test, and refine project solutions in real-life settings. This participatory process ensures the applications are practical, effective, and culturally relevant, while also aligning with national nutrition and sustainability policies.&lt;/p&gt;
+&lt;p&gt;By democratising access to trustworthy food information and facilitating behaviour change towards healthier and eco-friendly eating patterns, WiseFood seeks to contribute to broader public health goals and sustainable food systems across Europe. The project also emphasises ethical AI practices and human-in-the-loop design to ensure accuracy, relevance, and user trust in the developed solutions.&lt;/p&gt;
+&lt;h3 id=&#34;my-role&#34;&gt;My role&lt;/h3&gt;
+&lt;p&gt;My role in the WiseFood project is to ensure strict adherence to Responsible AI principles in the development and deployment of its AI-powered tools. In particular, we work to ensure that LLM-based outputs are systematically evaluated and mitigated for bias, aligned with established nutritional guidelines, and designed to be transparent and explainable to end users. Emphasis is placed on safety, reliability, and human oversight, ensuring that recommendations are trustworthy, evidence-based, and supportive of informed, healthy, and sustainable food choices.&lt;/p&gt;
+&lt;h3 id=&#34;factsheet&#34;&gt;Factsheet&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Item&lt;/th&gt;
+          &lt;th&gt;Details&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Funding Program&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Horizon Europe&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Call&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;HORIZON-CL6-2024-FARM2FORK-01-5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Grant Agreement No.&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;101181895&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Type of Action&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;HORIZON Innovation Actions (IA)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Duration&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;1 January 2025 – 31 December 2027&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;EC Funding&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;€ 2.85 million&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Consortium&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;9 partners from 7 countries&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Coordinator&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Athena Research Center, Greece&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AutoFair</title>
+      <link>https://dsachar.net/project/autofair/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/project/autofair/</guid>
+      <description>&lt;img src=&#34;AutoFair.png&#34; alt=&#34;AutoFair logo&#34;&gt;
+&lt;h2 id=&#34;autofair-human-compatible-ai-with-guarantees&#34;&gt;AutoFair: Human-Compatible AI with Guarantees&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;AutoFair project&lt;/strong&gt; (Human-Compatible Artificial Intelligence with Guarantees) is a Horizon Europe-funded research initiative dedicated to making artificial intelligence systems more transparent, explainable, and inherently fair. As AI increasingly powers critical decision-making in society, AutoFair addresses the risk of &amp;ldquo;black-box&amp;rdquo; algorithms by developing a technical framework that guarantees non-discrimination. By combining insights from computer science, control theory, optimization, and legal ethics, the project seeks to move beyond simple bias mitigation toward a system of &amp;ldquo;automatic fairness&amp;rdquo; that aligns AI behavior with human values and European regulatory standards.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://humancompatible.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AutoFair Project Website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;At its core, AutoFair is building a comprehensive suite of tools for the modular certification of AI pipelines. The project targets three primary technological pillars: &lt;strong&gt;a priori guarantees&lt;/strong&gt;, which use hard constraints during the training process to prevent bias from the start; &lt;strong&gt;post-hoc explicability&lt;/strong&gt;, which provides thorough communication of the trade-offs involved in algorithmic choices; and &lt;strong&gt;user-in-the-loop design&lt;/strong&gt;, which allows developers and end-users to interactively navigate fairness-accuracy trade-offs. These methodologies are being validated through three high-impact industrial use cases: fair evaluation in recruitment (HR), the elimination of gender inequality in digital advertising, and the prevention of discrimination against bank clients in FinTech.&lt;/p&gt;
+&lt;p&gt;A key feature of the project is its &lt;strong&gt;interdisciplinary approach to trust&lt;/strong&gt;. AutoFair recognizes that fairness is not just a mathematical constraint but a socio-legal requirement. The project collaborates with major industry partners, including IBM Research and various European startups, to ensure that the developed fairness toolkits are practical for real-world deployment. By providing open-source libraries and clear visualization tools, the project aims to empower practitioners to build AI systems that are not only high-performing but also legally compliant and socially responsible.&lt;/p&gt;
+&lt;p&gt;By bridging the gap between technical optimization and legal frameworks, AutoFair seeks to set new standards for &amp;ldquo;trustworthy AI.&amp;rdquo; The project contributes directly to the implementation of the EU AI Act by providing the mathematical and computational &amp;ldquo;guarantees&amp;rdquo; needed to ensure that automated systems do not inherit or amplify societal inequalities.&lt;/p&gt;
+&lt;h3 id=&#34;my-role&#34;&gt;My role&lt;/h3&gt;
+&lt;p&gt;My role in the AutoFair project is situated at the intersection of AI, law, and ethics. I focus on the development of &lt;strong&gt;fairness and explainability techniques&lt;/strong&gt; specifically grounded in &lt;strong&gt;counterfactual reasoning&lt;/strong&gt;. This involves designing methods that provide &amp;ldquo;what-if&amp;rdquo; explanations to help users and auditors understand how a decision might have changed if certain attributes were different.&lt;/p&gt;
+&lt;h3 id=&#34;factsheet&#34;&gt;Factsheet&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Item&lt;/th&gt;
+          &lt;th&gt;Details&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Funding Program&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Horizon Europe&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Call&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;HORIZON-CL4-2021-HUMAN-01-01&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Grant Agreement No.&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;101070568&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Type of Action&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;HORIZON Research and Innovation Actions (RIA)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Duration&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;1 October 2022 – 30 September 2025&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Funding&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;€ 3.84 million&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Consortium&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;8 partners from 5 countries&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Coordinator&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Czech Technical University in Prague (CTU), Czechia&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DEDS</title>
+      <link>https://dsachar.net/project/deds/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/project/deds/</guid>
+      <description>&lt;img src=&#34;DEDS.png&#34; alt=&#34;DEDS logo&#34; width=&#34;200&#34;&gt;
+&lt;h2 id=&#34;data-engineering-for-data-science-doctoral-network&#34;&gt;Data Engineering for Data Science Doctoral Network&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;Data Engineering for Data Science (DEDS)&lt;/strong&gt; project is a prestigious European Joint Doctorate program coordinated by the Université libre de Bruxelles (ULB) in collaboration with a consortium of leading international universities and industry partners. Its primary mission is to bridge the gap between data engineering—the infrastructure and pipelines that manage data—and data science, which focuses on extracting insights and value. By fostering research at this intersection, DEDS aims to develop a new generation of researchers capable of managing the entire data lifecycle, from initial capture and storage to sophisticated exploitation and decision-making.&lt;/p&gt;
+&lt;p&gt;The research within DEDS is structured around a holistic approach to data management, covering key pillars such as data integration, metadata governance, and large-scale processing. Projects within the program utilize advanced technologies like semantic graphs, machine learning, and spatio-temporal modeling to solve complex problems in various domains. For instance, doctoral candidates explore topics like privacy-aware data processing, automated feature selection, and the optimization of data science workloads across distributed computing platforms, ensuring that the resulting systems are both efficient and trustworthy.&lt;/p&gt;
+&lt;p&gt;A core strength of the DEDS project is its collaborative &amp;ldquo;co-tutelle&amp;rdquo; model, where each doctoral student is co-supervised by experts from two different academic institutions. This academic foundation is further bolstered by &amp;ldquo;secondments,&amp;rdquo; or temporary placements within partner organizations from the public and private sectors—including industries like energy, finance, health, and transport. This structure ensures that the research remains grounded in real-world practicalities, allowing students to validate their theoretical solutions against actual industrial and societal challenges.&lt;/p&gt;
+&lt;p&gt;Ultimately, DEDS serves as a hub for innovation and specialized training in the European data landscape. By integrating technical courses with transversal skills and facilitating open science dissemination, the project strengthens Europe&amp;rsquo;s expertise in the data economy. It addresses the growing demand for highly skilled professionals who can navigate the complexities of &amp;ldquo;Big Data&amp;rdquo; while maintaining a focus on transparency, scalability, and the common good.&lt;/p&gt;
+&lt;h3 id=&#34;my-role&#34;&gt;My role&lt;/h3&gt;
+&lt;p&gt;As supervisor within the &lt;strong&gt;DEDS&lt;/strong&gt; consortium, I lead research focused on the intersection of data engineering and machine learning. I co-supervise four PhD candidates under the MSCA Joint Doctorate framework: &lt;strong&gt;Antonios Kontaxakis&lt;/strong&gt; (ULB/UPC), who is developing frameworks for the optimization of machine learning workflows; &lt;strong&gt;Md Ataur Rahman&lt;/strong&gt; (ULB/UPC), who focuses on semantic-aware heterogeneity management and table-text retrieval; &lt;strong&gt;Ikhtiyor Nematov&lt;/strong&gt; (ULB/AAU), whose work centers on data attribution and explainability for Large Language Models (LLMs); and &lt;strong&gt;Daniele Lunghi&lt;/strong&gt; (ULB/ARC), whose research is on adversarial machine learning and fraud detection.&lt;/p&gt;
+&lt;h3 id=&#34;factsheet&#34;&gt;Factsheet&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Item&lt;/th&gt;
+          &lt;th&gt;Details&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Funding Program&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Horizon 2020&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Call&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;H2020-MSCA-ITN-2020 (Innovative Training Networks)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Grant Agreement No.&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;955895&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Type of Action&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Marie Skłodowska-Curie Actions (MSCA)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Duration&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;1 March 2021 – 31 October 2025&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;EC Funding&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;€ 4.12 million&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Consortium&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;4 main academic partners + industry partners&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Coordinator&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Université Libre de Bruxelles (ULB), Belgium&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

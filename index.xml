@@ -118,10 +118,11 @@
     
     <item>
       <title>PhD Positions in GreenFieldData</title>
-      <link>https://dsachar.net/news/greenfielddata_positions/</link>
+      <link>https://dsachar.net/post/greenfielddata_positions/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.net/news/greenfielddata_positions/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+      <guid>https://dsachar.net/post/greenfielddata_positions/</guid>
+      <description>&lt;img src=&#34;GreenFieldData.png&#34; alt=&#34;GreenFieldData logo&#34; width=&#34;200&#34;&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;GreenFieldData will train a new generation of researchers able to tackle digital and green transition challenges using a human-centric approach to ensure the robustness and relevance of the solutions responding to the specific needs of the EU market in a context of climate change and increasing socio-economic constraints. At a policy level GreenFieldData outcomes will feed in directly to the aims of the HE Strategic Plan 2025-2027, EU Partnership Agriculture of Data and Digital EU Program. GreenFieldData proposes a high-level interdisciplinary, inter-sectoral and international (triple ‘i’) research project and training network on new IoRT (Internet of Robotic Things) based solutions for sustainable agriculture.&lt;/p&gt;
 &lt;h2 id=&#34;phd-positions&#34;&gt;PhD Positions&lt;/h2&gt;
 &lt;p&gt;Two fully funded PhD positions are available on &lt;strong&gt;Responsible AI for Sustainable Agriculture&lt;/strong&gt; in the context of GreenFieldData.&lt;/p&gt;
@@ -135,11 +136,527 @@
     </item>
     
     <item>
+      <title>CAPS: Cost-Aware ML Pipeline Selection</title>
+      <link>https://dsachar.net/publication/2026-vldb-ksa/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2026-vldb-ksa/</guid>
+      <description>&lt;p&gt;Selecting an effective machine learning pipeline requires searching through many alternatives that differ in algorithms, hyperparameters, and data preparation steps. This complexity has led to the development of Automated Machine Learning (AutoML), which systematically explores pipeline configurations with minimal human input. However, AutoML is computationally expensive, often evaluating hundreds or thousands of pipelines per dataset, even though only a small fraction are ultimately selected for deployment.&lt;/p&gt;
+&lt;p&gt;In an experiment using a popular AutoML with a five-hour budget per task, approximately 3,000 pipelines were evaluated based on classification accuracy and execution time. The results categorized pipelines into four groups: Baseline (low cost, low performance), Efficient (low cost, high performance), Premium (high cost, high performance), and Waste (high cost, low performance). Notably, about 14% of pipelines fell into the Waste category but consumed 60% of the total computational budget, highlighting substantial inefficiencies in the AutoML search process.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-traditional-automl-is-wasteful-about-14-of-pipelines-are-wasteful-and-consume-60-of-the-total-computational-budget&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2026-vldb-ksa/waste_hu9701639638043197912.webp 400w,
+               /publication/2026-vldb-ksa/waste_hu354913742365003637.webp 760w,
+               /publication/2026-vldb-ksa/waste_hu1040652720473035614.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2026-vldb-ksa/waste_hu9701639638043197912.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;397&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;Traditional AutoML is wasteful. About 14% of pipelines are wasteful and consume 60% of the total computational budget.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Cost-Aware ML Pipeline Selection (CAPS) enhances AutoML by introducing an intermediate selection step between pipeline generation and evaluation, enabling explicit prioritization based on a performance–cost trade-off. While the generation phase focuses on exploring diverse and promising candidates, the selection phase filters them according to desired cost efficiency, significantly reducing wasted computation and allowing more pipelines to be explored within the same budget. CAPS achieves this by estimating both predictive performance and execution cost at a fine-grained level, modeling the runtime of individual pipeline functions and leveraging execution-environment data from prior runs. This detailed cost modeling overcomes limitations of black-box approaches and accounts for system-level optimizations that can obscure true execution costs.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-caps-is-a-cost-aware-automl-system-that-selects-pipelines-for-execution-by-balancing-their-predicted-performance-and-computational-cost&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2026-vldb-ksa/CAPS_hu7928149499870139244.webp 400w,
+               /publication/2026-vldb-ksa/CAPS_hu3747488009509859208.webp 760w,
+               /publication/2026-vldb-ksa/CAPS_hu5403653289990906706.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2026-vldb-ksa/CAPS_hu7928149499870139244.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;391&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;CAPS is a cost-aware AutoML system that selects pipelines for execution by balancing their predicted performance and computational cost.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GLANCE: Global Actions in a Nutshell for Counterfactual Explainability</title>
+      <link>https://dsachar.net/publication/2026-aaai-kpt/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2026-aaai-kpt/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;We propose a method for global explainability of black box models using counterfactual explanations. A counterfactual explanation locally explains an outcome by providing the minimal changes necessary to reverse the outcome, e.g., &amp;ldquo;if you had five more years of experience, your job application would have been accepted&amp;rdquo;. We develop a method, termed GLANCE, that summarizes all counterfactual explanations for a given model.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-three-actions-that-summarize-all-counterfactual-explanations&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2026-aaai-kpt/GLANCE_hu10903146438223607317.webp 400w,
+               /publication/2026-aaai-kpt/GLANCE_hu17815352061748901114.webp 760w,
+               /publication/2026-aaai-kpt/GLANCE_hu3463568111219529215.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2026-aaai-kpt/GLANCE_hu10903146438223607317.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;119&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;Three actions that summarize all counterfactual explanations.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Solving this global version of counterfactual explainability is different than finding the local counterfatual explanations and picking among them.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-a-toy-example-depicting-two-negative-instancesx1-x2-and-five-actions-a-the-feature-space-the-line-is-thedecision-boundary-b-the-action-space-l1-l2-depict-the-de-cision-boundary-from-the-perspective-of-x1-x2-respectively&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2026-aaai-kpt/example_hu1589924553338578423.webp 400w,
+               /publication/2026-aaai-kpt/example_hu9797865795064969311.webp 760w,
+               /publication/2026-aaai-kpt/example_hu15232130839713007938.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2026-aaai-kpt/example_hu1589924553338578423.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;440&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;A toy example depicting two negative instances
+x1, x2, and five actions. (a) The feature space; the line is the
+decision boundary. (b) The action space; l1, l2 depict the de-
+cision boundary from the perspective of x1, x2, respectively.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GreenFieldData</title>
+      <link>https://dsachar.net/project/greenfielddata/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/project/greenfielddata/</guid>
+      <description>&lt;img src=&#34;GreenFieldData.png&#34; alt=&#34;GreenFieldData logo&#34; width=&#34;200&#34;&gt;
+&lt;h2 id=&#34;iort-data-management-and-analysis-for-sustainable-agriculture&#34;&gt;IoRT Data Management and Analysis for Sustainable Agriculture&lt;/h2&gt;
+&lt;h3 id=&#34;project-summary-greenfielddata-eu4greenfielddata&#34;&gt;Project Summary: GreenFieldData (EU4GreenFieldData)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;GreenFieldData&lt;/strong&gt;, formally titled &amp;ldquo;IoRT Data Management and Analysis for Sustainable Agriculture,&amp;rdquo; is a prestigious Marie Skłodowska-Curie Actions (MSCA) Joint Doctorate program funded under the European Union&amp;rsquo;s Horizon Europe framework. The project aims to bridge the critical gap between Data Engineering, Data Science, and Sustainable Agriculture by leveraging the &lt;strong&gt;Internet of Robotic Things (IoRT)&lt;/strong&gt;. By focusing on the &amp;ldquo;green and digital twin transition,&amp;rdquo; the initiative seeks to modernize European farming practices through high-tech, data-driven solutions that address climate change and socio-economic resource constraints.&lt;/p&gt;
+&lt;p&gt;The research focus of GreenFieldData is centered on developing a human-centric approach to the entire agricultural data value chain—from collection and cleaning to advanced analysis and prescriptive decision-making. Doctoral candidates within the network work on cutting-edge technologies, including autonomous robotic fleets, multimodal sensing, and generative AI abstractions. These tools are designed to optimize crop protection, reduce pesticide use, and manage resource allocation (such as water and fertilizer) in real-time. By integrating stream processing and machine learning, the project enables more resilient farming systems capable of adapting to sudden environmental shifts.&lt;/p&gt;
+&lt;p&gt;A core pillar of the project is its unique &amp;ldquo;triple-i&amp;rdquo; approach: interdisciplinary, inter-sectoral, and international. The consortium mobilizes 14 Doctoral Candidates (DCs) across a network of 12 academic main beneficiaries and over 20 associated partners from 7 EU countries. Each researcher participates in a double-degree program, receiving co-supervision from two different international universities and completing &amp;ldquo;secondments&amp;rdquo; at industrial partners. This structure ensures that theoretical research is directly validated by real-world industrial challenges, significantly boosting the employability of the researchers in the digital and agricultural sectors.&lt;/p&gt;
+&lt;p&gt;Ultimately, GreenFieldData serves as an innovation hub that aligns with the EU’s Strategic Plan for 2025–2027 and the European Green Deal. By training a new generation of &amp;ldquo;creative and autonomous intellectual risk-takers,&amp;rdquo; the project provides the next-generation operational workforce with the tools necessary to mitigate the impacts of climate change. Through these efforts, the initiative strengthens the EU’s agricultural competitiveness while promoting sustainable, low-input practices for the common good.&lt;/p&gt;
+&lt;h3 id=&#34;our-role&#34;&gt;Our role&lt;/h3&gt;
+&lt;h3 id=&#34;factsheet&#34;&gt;Factsheet&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Item&lt;/th&gt;
+          &lt;th&gt;Details&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Funding Program&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Horizon Europe&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Call&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;HORIZON-MSCA-2022-DN-01 (Doctoral Networks)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Grant Agreement No.&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;101226371&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Type of Action&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Marie Skłodowska-Curie Actions (MSCA)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Duration&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;1 March 2026 – 28 February 2031&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Total Cost&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;€ 3.91 million&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Consortium&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;12 academic beneficiaries + 24+ associated partners&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Coordinator&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;INRAE, France&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>VLDB 2026 paper</title>
+      <link>https://dsachar.net/post/vldb-2026/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/post/vldb-2026/</guid>
+      <description>&lt;p&gt;Our work on cost-aware AutoML has been accepted at VLDB 2026.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  
+  &lt;div class=&#34;article-style&#34;&gt;
+    &lt;p&gt;Selecting an effective machine learning pipeline requires searching through many alternatives that differ in algorithms, hyperparameters, and data preparation steps. This complexity has led to the development of Automated Machine Learning (AutoML), which systematically explores pipeline configurations with minimal human input. However, AutoML is computationally expensive, often evaluating hundreds or thousands of pipelines per dataset, even though only a small fraction are ultimately selected for deployment.&lt;/p&gt;
+&lt;p&gt;In an experiment using a popular AutoML with a five-hour budget per task, approximately 3,000 pipelines were evaluated based on classification accuracy and execution time. The results categorized pipelines into four groups: Baseline (low cost, low performance), Efficient (low cost, high performance), Premium (high cost, high performance), and Waste (high cost, low performance). Notably, about 14% of pipelines fell into the Waste category but consumed 60% of the total computational budget, highlighting substantial inefficiencies in the AutoML search process.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-traditional-automl-is-wasteful-about-14-of-pipelines-are-wasteful-and-consume-60-of-the-total-computational-budget&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2026-vldb-ksa/waste_hu9701639638043197912.webp 400w,
+               /publication/2026-vldb-ksa/waste_hu354913742365003637.webp 760w,
+               /publication/2026-vldb-ksa/waste_hu1040652720473035614.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2026-vldb-ksa/waste_hu9701639638043197912.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;397&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;Traditional AutoML is wasteful. About 14% of pipelines are wasteful and consume 60% of the total computational budget.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Cost-Aware ML Pipeline Selection (CAPS) enhances AutoML by introducing an intermediate selection step between pipeline generation and evaluation, enabling explicit prioritization based on a performance–cost trade-off. While the generation phase focuses on exploring diverse and promising candidates, the selection phase filters them according to desired cost efficiency, significantly reducing wasted computation and allowing more pipelines to be explored within the same budget. CAPS achieves this by estimating both predictive performance and execution cost at a fine-grained level, modeling the runtime of individual pipeline functions and leveraging execution-environment data from prior runs. This detailed cost modeling overcomes limitations of black-box approaches and accounts for system-level optimizations that can obscure true execution costs.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-caps-is-a-cost-aware-automl-system-that-selects-pipelines-for-execution-by-balancing-their-predicted-performance-and-computational-cost&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2026-vldb-ksa/CAPS_hu7928149499870139244.webp 400w,
+               /publication/2026-vldb-ksa/CAPS_hu3747488009509859208.webp 760w,
+               /publication/2026-vldb-ksa/CAPS_hu5403653289990906706.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2026-vldb-ksa/CAPS_hu7928149499870139244.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;391&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;CAPS is a cost-aware AutoML system that selects pipelines for execution by balancing their predicted performance and computational cost.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>AAAI 2026 paper</title>
+      <link>https://dsachar.net/post/aaai-2026/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/post/aaai-2026/</guid>
+      <description>&lt;p&gt;Our work on global counterfactual explanations has been accepted at AAAI 2026.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  
+  &lt;div class=&#34;article-style&#34;&gt;
+    &lt;hr&gt;
+&lt;p&gt;We propose a method for global explainability of black box models using counterfactual explanations. A counterfactual explanation locally explains an outcome by providing the minimal changes necessary to reverse the outcome, e.g., &amp;ldquo;if you had five more years of experience, your job application would have been accepted&amp;rdquo;. We develop a method, termed GLANCE, that summarizes all counterfactual explanations for a given model.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-three-actions-that-summarize-all-counterfactual-explanations&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2026-aaai-kpt/GLANCE_hu10903146438223607317.webp 400w,
+               /publication/2026-aaai-kpt/GLANCE_hu17815352061748901114.webp 760w,
+               /publication/2026-aaai-kpt/GLANCE_hu3463568111219529215.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2026-aaai-kpt/GLANCE_hu10903146438223607317.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;119&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;Three actions that summarize all counterfactual explanations.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Solving this global version of counterfactual explainability is different than finding the local counterfatual explanations and picking among them.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-a-toy-example-depicting-two-negative-instancesx1-x2-and-five-actions-a-the-feature-space-the-line-is-thedecision-boundary-b-the-action-space-l1-l2-depict-the-de-cision-boundary-from-the-perspective-of-x1-x2-respectively&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2026-aaai-kpt/example_hu1589924553338578423.webp 400w,
+               /publication/2026-aaai-kpt/example_hu9797865795064969311.webp 760w,
+               /publication/2026-aaai-kpt/example_hu15232130839713007938.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2026-aaai-kpt/example_hu1589924553338578423.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;440&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;A toy example depicting two negative instances
+x1, x2, and five actions. (a) The feature space; the line is the
+decision boundary. (b) The action space; l1, l2 depict the de-
+cision boundary from the perspective of x1, x2, respectively.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>DEAI</title>
+      <link>https://dsachar.net/project/deai/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/project/deai/</guid>
+      <description>&lt;img src=&#34;DEAI.png&#34; alt=&#34;DEAI logo&#34; width=&#34;200&#34;&gt;
+&lt;h2 id=&#34;data-engineering-for-data-science-doctoral-network&#34;&gt;Data Engineering for Data Science Doctoral Network&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Data Engineering and Artificial Intelligence (DEAI)&lt;/strong&gt; is an Erasmus Mundus Joint Master (EMJM) program coordinated by ULB. It aims to establish a worldwide reference for developing talent and leadership at the intersection of Data Engineering (DE) and Artificial Intelligence (AI). The program&amp;rsquo;s core philosophy is that the successful operationalization and scaling of cutting-edge AI initiatives are only possible through rigorous data engineering. By bridging these two fields, DEAI addresses the current global productivity gap in large-scale, data-driven projects and seeks to boost Europe’s competitiveness in the international AI landscape.&lt;/p&gt;
+&lt;p&gt;The curriculum is delivered through a high-level academic consortium consisting of five leading European institutions: &lt;strong&gt;ULB (Belgium)&lt;/strong&gt;, &lt;strong&gt;UPC (Spain)&lt;/strong&gt;, &lt;strong&gt;TU Wien (Austria)&lt;/strong&gt;, &lt;strong&gt;UniPD (Italy)&lt;/strong&gt;, and &lt;strong&gt;UCBL (France)&lt;/strong&gt;. Over a two-year period, students undergo a structured mobility scheme that begins with foundational training in data management and AI at ULB and UPC. In the second year, the program offers specialized tracks tailored to modern industrial needs, including Knowledge-Driven AI at TU Wien, Financial Data Science at UniPD, and Heterogeneous Systems Intelligence at UCBL. This integrated approach ensures that graduates possess a holistic view of the data value chain, from infrastructure and processing to advanced reasoning and human-centered design.&lt;/p&gt;
+&lt;p&gt;Beyond its academic curriculum, DEAI fosters a robust &amp;ldquo;knowledge triangle&amp;rdquo; by integrating research, education, and innovation. The program includes unique components such as the European Business Intelligence Summer School (eBISS) and a &amp;ldquo;Summer of Code,&amp;rdquo; where students engage with real-world, large-scale innovation projects. The consortium maintains strong ties with industry partners and public research institutes, facilitating internships and master’s theses that solve actual professional challenges. This structure not only prepares graduates for immediate roles as Data Engineers and AI Researchers but also provides a direct pathway into prestigious doctoral programs across the European Research Area.&lt;/p&gt;
+&lt;p&gt;Ultimately, the DEAI project serves as a strategic investment in Europe&amp;rsquo;s digital future. By training a diverse cohort of highly skilled professionals and promoting open-science dissemination, the program ensures that the next generation of AI leaders can navigate the complexities of &amp;ldquo;Big Data&amp;rdquo; while prioritizing transparency, efficiency, and ethical standards. Through its joint-degree model and extensive network of associated partners, DEAI strengthens the European data economy and provides a blueprint for interdisciplinary excellence in the era of artificial intelligence.&lt;/p&gt;
+&lt;h3 id=&#34;my-role&#34;&gt;My role&lt;/h3&gt;
+&lt;p&gt;In addition to teaching and supervision of DEAI student, I serve as a &lt;strong&gt;Local Administrator&lt;/strong&gt; for DEAI. In this capacity, I am responsible for the critical operational coordination of student mobility, specifically overseeing the exchange and validation of official transcripts and grades across the five partner institutions.&lt;/p&gt;
+&lt;h3 id=&#34;factsheet&#34;&gt;Factsheet&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Item&lt;/th&gt;
+          &lt;th&gt;Details&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Funding Program&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Erasmus+ (Erasmus Mundus Joint Masters)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Call&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;ERASMUS-EDU-2023-PEX-EMJM-MOB&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Grant Agreement No.&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;101241133&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Type of Action&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;EMJM (Erasmus Mundus Joint Master)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Duration&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;1 October 2025 – 30 November 2031&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Funding&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;€ 3.6 million&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Consortium&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;5 Main Academic Partners + Industry Network&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Coordinator&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Université Libre de Bruxelles (ULB), Belgium&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GIS4IoRT</title>
+      <link>https://dsachar.net/project/gis4iort/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/project/gis4iort/</guid>
+      <description>&lt;img src=&#34;gis4iort.png&#34; alt=&#34;GIS4IoRT logo&#34;&gt;
+&lt;h2 id=&#34;gis4iort-bridging-the-gap-between-robots-and-maps&#34;&gt;GIS4IoRT: Bridging the Gap Between Robots and Maps&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;GIS4IoRT project&lt;/strong&gt; is a research and innovation initiative focused on developing a &amp;ldquo;plug-and-play&amp;rdquo; middleware to integrate data from the Internet of Robotic Things (IoRT) with Geographic Information Systems (GIS). By leveraging cloud-based infrastructure and advanced AI, the project aims to solve the interoperability challenges that currently prevent robot sensor data from being easily visualized and analyzed within standard mapping environments. Funded through the CHIST-ERA program, the project facilitates the seamless handling of heterogeneous, multi-modal, and multi-dimensional datasets to support smarter decision-making in sectors like agriculture and urban planning.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.geoscity.uliege.be/cms/c_13470217/en/gis4iort&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GIS4IoRT Project Website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;At its core, GIS4IoRT focuses on building a technical bridge between autonomous machinery and GIS software. The project is developing a dedicated &lt;strong&gt;QGIS plugin&lt;/strong&gt; that serves as a user-friendly interface, allowing users to browse real-time robot data and perform complex spatio-temporal queries. Key technological pillars include AI-based approaches to ensure data reliability and a cloud-native architecture capable of processing diverse data types—including Lidar, multi-modal imagery, robot trajectories, and record-like sensor data. These tools are designed to transform raw robotic output into actionable geographic insights without requiring specialized technical expertise.&lt;/p&gt;
+&lt;p&gt;A key feature of the project is its &lt;strong&gt;validation through real-world use cases&lt;/strong&gt;, particularly in the field of precision agriculture. By testing the middleware in agricultural settings, the project demonstrates how robotic sensors can monitor crop health or environmental conditions and immediately sync that data with spatial analysis tools. This practical approach ensures that the &amp;ldquo;plug-and-play&amp;rdquo; middleware is robust enough to handle the complexity of dynamic spatio-temporal data and the pattern evolution typical of real-world robotic deployments.&lt;/p&gt;
+&lt;p&gt;By democratizing access to robotic data and simplifying its integration into GIS, GIS4IoRT seeks to advance the methodological framework for next-generation Geographic Information Systems. The project challenges existing research paradigms by addressing data wrangling, reliability, and the interpretability of analytical results, ultimately paving the way for more effective spatio-temporal analysis across various industrial and scientific domains.&lt;/p&gt;
+&lt;h3 id=&#34;my-role&#34;&gt;My role&lt;/h3&gt;
+&lt;p&gt;In the GIS4IoRT project, I define query patterns at the intersection of GIS and IoRT by translating robotic movement and sensor data into spatial queries, including trajectory analysis, real-time proximity alerts, and historical spatio-temporal trends.&lt;/p&gt;
+&lt;h3 id=&#34;factsheet&#34;&gt;Factsheet&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Item&lt;/th&gt;
+          &lt;th&gt;Details&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Funding Program&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;CHIST-ERA (supported by Horizon Europe/NCN)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Call&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;CHIST-ERA Call 2023 (Topic: MultiGIS)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Registration No.&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;2024/06/Y/ST6/00136&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Duration&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;1 June 2025 – 31 May 2028&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Funding&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;€ 660 thousand&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Consortium&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;ULiège, ULB, INRAE, UNIVREN, PUT&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Coordinator&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;ULiège&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
       <title>BRAIN Forum 2025</title>
-      <link>https://dsachar.net/news/brain2025/</link>
+      <link>https://dsachar.net/post/brain-2025/</link>
       <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.net/news/brain2025/</guid>
-      <description>&lt;img src=&#34;featured.png&#34; alt=&#34;BRAIN logo&#34; width=&#34;100&#34;&gt;
+      <guid>https://dsachar.net/post/brain-2025/</guid>
+      <description>&lt;img src=&#34;brain.png&#34; alt=&#34;BRAIN logo&#34; width=&#34;200&#34;&gt;
 &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;The Brussels Responsible AI Network (BRAIN) Forum is a one-day event that invites researchers, practitioners, and policymakers from Belgium and beyond to discuss the latest advances in AI and its societal implications. The forum is hosted at the Brussels Institute for Advanced Studies (BrIAS) and is part of the BrIAS series of public forums.&lt;/p&gt;
 &lt;p&gt;BRAIN brings together the three Belgian AI research programmes: the &lt;a href=&#34;https://fari.brussels/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AI for the Common Good Institute (FARI)&lt;/a&gt; in Brussels; the &lt;a href=&#34;https://trail.ac/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trusted AI Labs (TRAIL)&lt;/a&gt; of the Walloon and Brussels regions; and the &lt;a href=&#34;https://www.flandersairesearch.be/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Flanders AI Research programme (FAIR)&lt;/a&gt;.&lt;/p&gt;
@@ -155,6 +672,205 @@
       &gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
+</description>
+    </item>
+    
+    <item>
+      <title>Hyppo: Efficient Discovery and Execution of Data Science Pipelines in Collaborative Environments</title>
+      <link>https://dsachar.net/publication/2025-edbt-kss/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2025-edbt-kss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Individual Fairness in Algorithmic Hiring</title>
+      <link>https://dsachar.net/publication/2025-ewaf-dss/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2025-ewaf-dss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Integrating Robotic Data with GIS Tools in a Cloud Environment</title>
+      <link>https://dsachar.net/publication/2025-edbt-w-kbb/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2025-edbt-w-kbb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proceedings of the 8th ACM SIGSPATIAL International Workshop on Location-based Recommendations, Geosocial Networks and Geoadvertising, LocalRec 2024, Atlanta, GA, USA, October 29 - November 1, 2024</title>
+      <link>https://dsachar.net/publication/2025-localrec-p-abk/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2025-localrec-p-abk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PROMIS: A Post-Processing Framework for Mitigating Spatial Bias</title>
+      <link>https://dsachar.net/publication/2025-sigspatial-ksg/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2025-sigspatial-ksg/</guid>
+      <description>&lt;p&gt;In many cases, it is important to ensure that a model does not discriminate against individuals on the basis of their &lt;em&gt;location&lt;/em&gt; (place of origin, home address, etc.). We consider location as the &lt;em&gt;protected attribute&lt;/em&gt; and we want the algorithm to exhibit &lt;em&gt;spatial fairness&lt;/em&gt;
+For example, consider a model that predicts whether mortgage loan applications are accepted. Its decisions should not discriminate based on the home address of the applicant. This could be to avoid redlining, i.e., indirectly discriminating based on ethnicity/race due to strong correlations between the home address and certain ethnic/racial groups, or to avoid gentrification, e.g., when applications in a poor urban area are systematically rejected to attract wealthier people.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-discovered-areas-in-the-usa-where-spatial-unfairness-exists-for-mortgage-loan-applications&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2025-sigspatial-ksg/spatial_hu8240665862697724322.webp 400w,
+               /publication/2025-sigspatial-ksg/spatial_hu4086708590153223242.webp 760w,
+               /publication/2025-sigspatial-ksg/spatial_hu8185717874908182342.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2025-sigspatial-ksg/spatial_hu8240665862697724322.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;374&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;Discovered areas in the USA where spatial unfairness exists for mortgage loan applications.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This work introduces PROMIS, a post-processing optimization framework designed to reduce spatial bias while maintaining predictive performance. Building on threshold-based equal opportunity adjustments and a robust definition of spatial fairness, PROMIS formulates an optimization problem that minimizes a normalized Spatial Bias Index (SBI), which quantifies expected spatial bias across regions. Unlike heuristic correction methods, PROMIS derives globally optimal, interpretable, and computationally efficient fairness adjustments through mathematical optimization, and, unlike white-box approaches, it can be applied to any classification model.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-overview-of-the-promis-framework-for-spatial-bias-mitigation-regions-are-colored-by-bias-based-on-true-positive-rates-tprs-blue-unfavored-red-favored-and-grey-fair-left-a-global-threshold-05-produces-tpr-disparities-across-regions-right-promis-applies-region-specific-thresholds-aligning-tprs-and-reducing-spatial-bias-as-reflected-by-the-shift-to-grey-in-the-bar-plots&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2025-sigspatial-ksg/PROMIS_hu5893642958215238676.webp 400w,
+               /publication/2025-sigspatial-ksg/PROMIS_hu214848055143811853.webp 760w,
+               /publication/2025-sigspatial-ksg/PROMIS_hu10781782014680487505.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2025-sigspatial-ksg/PROMIS_hu5893642958215238676.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;138&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;Overview of the PROMIS framework for spatial bias mitigation. Regions are colored by bias based on true positive rates (TPRs): blue (unfavored), red (favored), and grey (fair). Left: a global threshold (0.5) produces TPR disparities across regions. Right: PROMIS applies region-specific thresholds, aligning TPRs and reducing spatial bias, as reflected by the shift to grey in the bar plots.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Source Attribution in Retrieval-Augmented Generation</title>
+      <link>https://dsachar.net/publication/2025-arxiv-nkk/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2025-arxiv-nkk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WiseFood</title>
+      <link>https://dsachar.net/project/wisefood/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/project/wisefood/</guid>
+      <description>&lt;img src=&#34;WiseFood.png&#34; alt=&#34;WiseFood logo&#34; width=&#34;400&#34;&gt;
+&lt;h2 id=&#34;wisefood-where-data-feeds-decisions&#34;&gt;WiseFood: Where Data Feeds Decisions&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;WiseFood EU Project&lt;/strong&gt; is a Horizon Europe-funded research and innovation initiative that leverages data science and advanced AI technologies to empower citizens to make healthier and more sustainable food choices. By combining reliable food data, personalised recommendations, and user-friendly digital tools, WiseFood aims to bridge the gap between nutritional knowledge and everyday food decisions across Europe. The project was officially launched in January 2025 and runs through 2027, uniting a multidisciplinary consortium of partners from multiple European countries.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wisefood-project.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wisefood Project Website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;At its core, WiseFood will develop three complementary AI-driven applications that support informed decision-making. &lt;strong&gt;FoodScholar&lt;/strong&gt; offers an intuitive interface to explore curated food information on nutrition, health, and sustainability. &lt;strong&gt;RecipeWrangler&lt;/strong&gt; helps users analyse and optimise recipes based on both nutritional value and environmental impact. &lt;strong&gt;FoodChat&lt;/strong&gt; delivers personalised meal planning and recipe suggestions that prioritise health, sustainability, and reduced food waste. These tools are designed to be accessible to everyday users without requiring specialised technical expertise.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /project/wisefood/features_hu3685009083192724660.webp 400w,
+               /project/wisefood/features_hu11892226907315370375.webp 760w,
+               /project/wisefood/features_hu10266519131587221210.webp 1200w&#34;
+               src=&#34;https://dsachar.net/project/wisefood/features_hu3685009083192724660.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;273&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;A key feature of the project is its &lt;strong&gt;co-creation approach&lt;/strong&gt; through Living Labs located in Ireland, Hungary, and Slovenia, where citizens, nutrition experts, food producers, policymakers, and other stakeholders collaboratively design, test, and refine project solutions in real-life settings. This participatory process ensures the applications are practical, effective, and culturally relevant, while also aligning with national nutrition and sustainability policies.&lt;/p&gt;
+&lt;p&gt;By democratising access to trustworthy food information and facilitating behaviour change towards healthier and eco-friendly eating patterns, WiseFood seeks to contribute to broader public health goals and sustainable food systems across Europe. The project also emphasises ethical AI practices and human-in-the-loop design to ensure accuracy, relevance, and user trust in the developed solutions.&lt;/p&gt;
+&lt;h3 id=&#34;my-role&#34;&gt;My role&lt;/h3&gt;
+&lt;p&gt;My role in the WiseFood project is to ensure strict adherence to Responsible AI principles in the development and deployment of its AI-powered tools. In particular, we work to ensure that LLM-based outputs are systematically evaluated and mitigated for bias, aligned with established nutritional guidelines, and designed to be transparent and explainable to end users. Emphasis is placed on safety, reliability, and human oversight, ensuring that recommendations are trustworthy, evidence-based, and supportive of informed, healthy, and sustainable food choices.&lt;/p&gt;
+&lt;h3 id=&#34;factsheet&#34;&gt;Factsheet&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Item&lt;/th&gt;
+          &lt;th&gt;Details&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Funding Program&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Horizon Europe&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Call&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;HORIZON-CL6-2024-FARM2FORK-01-5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Grant Agreement No.&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;101181895&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Type of Action&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;HORIZON Innovation Actions (IA)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Duration&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;1 January 2025 – 31 December 2027&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;EC Funding&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;€ 2.85 million&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Consortium&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;9 partners from 7 countries&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Coordinator&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Athena Research Center, Greece&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 </description>
     </item>
     
@@ -237,6 +953,14 @@
     </item>
     
     <item>
+      <title>A FAIR Public Permissioned Blockchain System for monitoring Deforestation in the Amazon</title>
+      <link>https://dsachar.net/publication/2024-localrec-ds/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2024-localrec-ds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>AIDE - Antithetical, Intent-based, and Diverse Example-Based Explanations</title>
       <link>https://dsachar.net/preprint/aide/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
@@ -276,6 +1000,77 @@
     </item>
     
     <item>
+      <title>AIDE: Antithetical, Intent-based, and Diverse Example-Based Explanations</title>
+      <link>https://dsachar.net/publication/2024-aies-nsh/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2024-aies-nsh/</guid>
+      <description>&lt;p&gt;For many use-cases, it is often important to explain the prediction of a black-box model by identifying the most &lt;em&gt;influential training data samples&lt;/em&gt;. We propose AIDE, Antithetical, Intent-based, and Diverse Example-Based Explanations, an approach for providing antithetical (i.e., contrastive), intent-based, diverse explanations for opaque and complex models. AIDE distinguishes three types of explainability intents: interpreting a correct, investigating a wrong, and clarifying an ambiguous prediction. For each intent, AIDE selects an appropriate set of influential training samples that support or oppose the prediction either directly or by contrast. To provide a succinct summary, AIDE uses diversity-aware sampling to avoid redundancy and increase coverage of the training data.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-to-explain-an-ambiguous-prediction-aide-provides-influential-training-samples-that-support-and-oppose-it&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2024-aies-nsh/AIDE_hu9911068347374307218.webp 400w,
+               /publication/2024-aies-nsh/AIDE_hu12063181795439809382.webp 760w,
+               /publication/2024-aies-nsh/AIDE_hu3717002462222689418.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2024-aies-nsh/AIDE_hu9911068347374307218.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;382&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;To explain an ambiguous prediction, AIDE provides influential training samples that support and oppose it.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AIDE: Antithetical, Intent-based, and Diverse Example-Based Explanations</title>
+      <link>https://dsachar.net/publication/2024-arxiv-nss/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2024-arxiv-nss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fairness in AI: challenges in bridging the gap between algorithms and law</title>
+      <link>https://dsachar.net/publication/2024-arxiv-gpk/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2024-arxiv-gpk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fairness in AI: challenges in bridging the gap between algorithms and law</title>
+      <link>https://dsachar.net/publication/2024-icde-w-gpk/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2024-icde-w-gpk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FALE: Fairness-Aware ALE Plots for Auditing Bias in Subgroups</title>
+      <link>https://dsachar.net/publication/2024-arxiv-gst/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2024-arxiv-gst/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>GLANCE - Global Actions in a Nutshell for Counterfactual Explainability</title>
       <link>https://dsachar.net/preprint/glance/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
@@ -312,6 +1107,38 @@
     &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>GLANCE: Global Actions in a Nutshell for Counterfactual Explainability</title>
+      <link>https://dsachar.net/publication/2024-arxiv-efg/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2024-arxiv-efg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobility Data Science: Perspectives and Challenges</title>
+      <link>https://dsachar.net/publication/2024-tsas-msx/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2024-tsas-msx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Technological and Research Challenges in Data Engineering for Sustainable Agriculture</title>
+      <link>https://dsachar.net/publication/2024-bidede-bbp/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2024-bidede-bbp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Susceptibility of Example-Based Explainability Methods to Class Outliers</title>
+      <link>https://dsachar.net/publication/2024-arxiv-nssb/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2024-arxiv-nssb/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -442,11 +1269,111 @@ For example, consider a model that predicts whether mortgage loan applications a
     </item>
     
     <item>
+      <title>Auditing for Spatial Fairness</title>
+      <link>https://dsachar.net/publication/2023-arxiv-sgp/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2023-arxiv-sgp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fairness Aware Counterfactuals for Subgroups</title>
+      <link>https://dsachar.net/publication/2023-arxiv-ktg/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2023-arxiv-ktg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FALE: Fairness-Aware ALE Plots for Auditing Bias in Subgroups</title>
+      <link>https://dsachar.net/publication/2023-ecml-w-gst/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2023-ecml-w-gst/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proceedings of the 7th ACM SIGSPATIAL Workshop on Location-based Recommendations, Geosocial Networks and Geoadvertising, LocalRec 2023, Hamburg, Germany, 13 November 2023</title>
+      <link>https://dsachar.net/publication/2023-localrec-p-bdk/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2023-localrec-p-bdk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SpatialFlip: A Postprocessing Method to Improve Spatial Fairness</title>
+      <link>https://dsachar.net/publication/2023-sigspatial-as/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2023-sigspatial-as/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Towards Mobility Data Science (Vision Paper)</title>
       <link>https://dsachar.net/publication/2023-arxiv-msx/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/publication/2023-arxiv-msx/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>AutoFair</title>
+      <link>https://dsachar.net/project/autofair/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/project/autofair/</guid>
+      <description>&lt;img src=&#34;AutoFair.png&#34; alt=&#34;AutoFair logo&#34;&gt;
+&lt;h2 id=&#34;autofair-human-compatible-ai-with-guarantees&#34;&gt;AutoFair: Human-Compatible AI with Guarantees&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;AutoFair project&lt;/strong&gt; (Human-Compatible Artificial Intelligence with Guarantees) is a Horizon Europe-funded research initiative dedicated to making artificial intelligence systems more transparent, explainable, and inherently fair. As AI increasingly powers critical decision-making in society, AutoFair addresses the risk of &amp;ldquo;black-box&amp;rdquo; algorithms by developing a technical framework that guarantees non-discrimination. By combining insights from computer science, control theory, optimization, and legal ethics, the project seeks to move beyond simple bias mitigation toward a system of &amp;ldquo;automatic fairness&amp;rdquo; that aligns AI behavior with human values and European regulatory standards.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://humancompatible.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AutoFair Project Website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;At its core, AutoFair is building a comprehensive suite of tools for the modular certification of AI pipelines. The project targets three primary technological pillars: &lt;strong&gt;a priori guarantees&lt;/strong&gt;, which use hard constraints during the training process to prevent bias from the start; &lt;strong&gt;post-hoc explicability&lt;/strong&gt;, which provides thorough communication of the trade-offs involved in algorithmic choices; and &lt;strong&gt;user-in-the-loop design&lt;/strong&gt;, which allows developers and end-users to interactively navigate fairness-accuracy trade-offs. These methodologies are being validated through three high-impact industrial use cases: fair evaluation in recruitment (HR), the elimination of gender inequality in digital advertising, and the prevention of discrimination against bank clients in FinTech.&lt;/p&gt;
+&lt;p&gt;A key feature of the project is its &lt;strong&gt;interdisciplinary approach to trust&lt;/strong&gt;. AutoFair recognizes that fairness is not just a mathematical constraint but a socio-legal requirement. The project collaborates with major industry partners, including IBM Research and various European startups, to ensure that the developed fairness toolkits are practical for real-world deployment. By providing open-source libraries and clear visualization tools, the project aims to empower practitioners to build AI systems that are not only high-performing but also legally compliant and socially responsible.&lt;/p&gt;
+&lt;p&gt;By bridging the gap between technical optimization and legal frameworks, AutoFair seeks to set new standards for &amp;ldquo;trustworthy AI.&amp;rdquo; The project contributes directly to the implementation of the EU AI Act by providing the mathematical and computational &amp;ldquo;guarantees&amp;rdquo; needed to ensure that automated systems do not inherit or amplify societal inequalities.&lt;/p&gt;
+&lt;h3 id=&#34;my-role&#34;&gt;My role&lt;/h3&gt;
+&lt;p&gt;My role in the AutoFair project is situated at the intersection of AI, law, and ethics. I focus on the development of &lt;strong&gt;fairness and explainability techniques&lt;/strong&gt; specifically grounded in &lt;strong&gt;counterfactual reasoning&lt;/strong&gt;. This involves designing methods that provide &amp;ldquo;what-if&amp;rdquo; explanations to help users and auditors understand how a decision might have changed if certain attributes were different.&lt;/p&gt;
+&lt;h3 id=&#34;factsheet&#34;&gt;Factsheet&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Item&lt;/th&gt;
+          &lt;th&gt;Details&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Funding Program&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Horizon Europe&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Call&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;HORIZON-CL4-2021-HUMAN-01-01&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Grant Agreement No.&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;101070568&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Type of Action&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;HORIZON Research and Innovation Actions (RIA)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Duration&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;1 October 2022 – 30 September 2025&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Funding&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;€ 3.84 million&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Consortium&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;8 partners from 5 countries&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Coordinator&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Czech Technical University in Prague (CTU), Czechia&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
     </item>
     
     <item>
@@ -772,6 +1699,14 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
     
     <item>
       <title>Proceedings of the 6th ACM SIGSPATIAL International Workshop on Location-based Recommendations, Geosocial Networks and Geoadvertising, LocalRec 2022, Seattle, Washington, USA, 1 November 2022</title>
+      <link>https://dsachar.net/publication/2022-localrec-p-bdk/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2022-localrec-p-bdk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proceedings of the 6th ACM SIGSPATIAL International Workshop on Location-based Recommendations, Geosocial Networks and Geoadvertising, LocalRec 2022, Seattle, Washington, USA, 1 November 2022</title>
       <link>https://dsachar.net/publication/2022-sigspatial-bdk/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/publication/2022-sigspatial-bdk/</guid>
@@ -826,6 +1761,65 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
     </item>
     
     <item>
+      <title>DEDS</title>
+      <link>https://dsachar.net/project/deds/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/project/deds/</guid>
+      <description>&lt;img src=&#34;DEDS.png&#34; alt=&#34;DEDS logo&#34; width=&#34;200&#34;&gt;
+&lt;h2 id=&#34;data-engineering-for-data-science-doctoral-network&#34;&gt;Data Engineering for Data Science Doctoral Network&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;Data Engineering for Data Science (DEDS)&lt;/strong&gt; project is a prestigious European Joint Doctorate program coordinated by the Université libre de Bruxelles (ULB) in collaboration with a consortium of leading international universities and industry partners. Its primary mission is to bridge the gap between data engineering—the infrastructure and pipelines that manage data—and data science, which focuses on extracting insights and value. By fostering research at this intersection, DEDS aims to develop a new generation of researchers capable of managing the entire data lifecycle, from initial capture and storage to sophisticated exploitation and decision-making.&lt;/p&gt;
+&lt;p&gt;The research within DEDS is structured around a holistic approach to data management, covering key pillars such as data integration, metadata governance, and large-scale processing. Projects within the program utilize advanced technologies like semantic graphs, machine learning, and spatio-temporal modeling to solve complex problems in various domains. For instance, doctoral candidates explore topics like privacy-aware data processing, automated feature selection, and the optimization of data science workloads across distributed computing platforms, ensuring that the resulting systems are both efficient and trustworthy.&lt;/p&gt;
+&lt;p&gt;A core strength of the DEDS project is its collaborative &amp;ldquo;co-tutelle&amp;rdquo; model, where each doctoral student is co-supervised by experts from two different academic institutions. This academic foundation is further bolstered by &amp;ldquo;secondments,&amp;rdquo; or temporary placements within partner organizations from the public and private sectors—including industries like energy, finance, health, and transport. This structure ensures that the research remains grounded in real-world practicalities, allowing students to validate their theoretical solutions against actual industrial and societal challenges.&lt;/p&gt;
+&lt;p&gt;Ultimately, DEDS serves as a hub for innovation and specialized training in the European data landscape. By integrating technical courses with transversal skills and facilitating open science dissemination, the project strengthens Europe&amp;rsquo;s expertise in the data economy. It addresses the growing demand for highly skilled professionals who can navigate the complexities of &amp;ldquo;Big Data&amp;rdquo; while maintaining a focus on transparency, scalability, and the common good.&lt;/p&gt;
+&lt;h3 id=&#34;my-role&#34;&gt;My role&lt;/h3&gt;
+&lt;p&gt;As supervisor within the &lt;strong&gt;DEDS&lt;/strong&gt; consortium, I lead research focused on the intersection of data engineering and machine learning. I co-supervise four PhD candidates under the MSCA Joint Doctorate framework: &lt;strong&gt;Antonios Kontaxakis&lt;/strong&gt; (ULB/UPC), who is developing frameworks for the optimization of machine learning workflows; &lt;strong&gt;Md Ataur Rahman&lt;/strong&gt; (ULB/UPC), who focuses on semantic-aware heterogeneity management and table-text retrieval; &lt;strong&gt;Ikhtiyor Nematov&lt;/strong&gt; (ULB/AAU), whose work centers on data attribution and explainability for Large Language Models (LLMs); and &lt;strong&gt;Daniele Lunghi&lt;/strong&gt; (ULB/ARC), whose research is on adversarial machine learning and fraud detection.&lt;/p&gt;
+&lt;h3 id=&#34;factsheet&#34;&gt;Factsheet&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Item&lt;/th&gt;
+          &lt;th&gt;Details&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Funding Program&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Horizon 2020&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Call&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;H2020-MSCA-ITN-2020 (Innovative Training Networks)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Grant Agreement No.&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;955895&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Type of Action&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Marie Skłodowska-Curie Actions (MSCA)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Duration&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;1 March 2021 – 31 October 2025&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;EC Funding&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;€ 4.12 million&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Consortium&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;4 main academic partners + industry partners&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Coordinator&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Université Libre de Bruxelles (ULB), Belgium&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Discovering Mixture-Based Best Regions of Arbitrary Shapes</title>
       <link>https://dsachar.net/publication/2021-sigspatial-ssp/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
@@ -854,6 +1848,22 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
       <link>https://dsachar.net/publication/2021-localrec-bdk/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/publication/2021-localrec-bdk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LocalRec &#39;21: Proceedings of the 5th ACM SIGSPATIAL International Workshop on Location-based Recommendations, Geosocial Networks and Geoadvertising, Virtual Event / Beijing, China, 2 November 2021</title>
+      <link>https://dsachar.net/publication/2021-localrec-p-bdk/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2021-localrec-p-bdk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LocalRec 2021 Workshop Report: The Fifth ACM SIGSPATIAL Workshop on Location-Based Recommendations, Geosocial Networks and Geoadvertising: online event - November 2, 2021</title>
+      <link>https://dsachar.net/publication/2021-sigspatial-s-bdk/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2021-sigspatial-s-bdk/</guid>
       <description></description>
     </item>
     
@@ -901,6 +1911,14 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
       <link>https://dsachar.net/publication/2021-qss-mmo/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/publication/2021-qss-mmo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ranking Papers by Expected Short-Term Impact</title>
+      <link>https://dsachar.net/publication/2021-b-pdri-kvs/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2021-b-pdri-kvs/</guid>
       <description></description>
     </item>
     
@@ -994,9 +2012,25 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
     
     <item>
       <title>Ranking Papers by their Short-Term Scientific Impact</title>
+      <link>https://dsachar.net/publication/2020-arxiv-kvs/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2020-arxiv-kvs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ranking Papers by their Short-Term Scientific Impact</title>
       <link>https://dsachar.net/publication/2020-corr-kvs/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/publication/2020-corr-kvs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SSDBM 2020: 32nd International Conference on Scientific and Statistical Database Management, Vienna, Austria, July 7-9, 2020</title>
+      <link>https://dsachar.net/publication/2020-ssdbm-p-pss/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2020-ssdbm-p-pss/</guid>
       <description></description>
     </item>
     
@@ -1054,6 +2088,14 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
       <link>https://dsachar.net/publication/2019-sstd-abb/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/publication/2019-sstd-abb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proceedings of the 16th International Symposium on Spatial and Temporal Databases, SSTD 2019, Vienna, Austria, August 19-21, 2019</title>
+      <link>https://dsachar.net/publication/2019-sstd-p-abb/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2019-sstd-p-abb/</guid>
       <description></description>
     </item>
     
@@ -1119,6 +2161,14 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
       <link>https://dsachar.net/publication/2018-localrec-brs/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/publication/2018-localrec-brs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proceedings of the 30th International Conference on Scientific and Statistical Database Management, SSDBM 2018, Bozen-Bolzano, Italy, July 09-11, 2018</title>
+      <link>https://dsachar.net/publication/2018-ssdbm-p-sgb/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2018-ssdbm-p-sgb/</guid>
       <description></description>
     </item>
     
@@ -1244,6 +2294,14 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
     
     <item>
       <title>Keyword-based retrieval of frequent location sets in geotagged photo trails</title>
+      <link>https://dsachar.net/publication/2016-web-sci-mss/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2016-web-sci-mss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keyword-based retrieval of frequent location sets in geotagged photo trails</title>
       <link>https://dsachar.net/publication/2016-websci-mss/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/publication/2016-websci-mss/</guid>
@@ -1255,6 +2313,14 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
       <link>https://dsachar.net/publication/2015-sstd-qbs/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/publication/2015-sstd-qbs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finding Desirable Objects under Group Categorical Preferences</title>
+      <link>https://dsachar.net/publication/2015-arxiv-bbs/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2015-arxiv-bbs/</guid>
       <description></description>
     </item>
     
@@ -1276,6 +2342,14 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
     
     <item>
       <title>LocalRec&#39;15: Workshop on Location-Aware Recommendations</title>
+      <link>https://dsachar.net/publication/2015-rec-sys-blr/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2015-rec-sys-blr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LocalRec&#39;15: Workshop on Location-Aware Recommendations</title>
       <link>https://dsachar.net/publication/2015-recsys-blr/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/publication/2015-recsys-blr/</guid>
@@ -1291,10 +2365,26 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
     </item>
     
     <item>
+      <title>Proceedings of the 8th ACM SIGSPATIAL International Workshop on Location-Based Social Networks, LBSN 2015, Bellevue, WA, USA, November 3-6, 2015</title>
+      <link>https://dsachar.net/publication/2015-lbsn-p-psx/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2015-lbsn-p-psx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Proceedings of the Workshop on Location-Aware Recommendations, LocalRec 2015, co-located with the 9th ACM Conference on Recommender Systems (RecSys 2015), Vienna, Austria, September 19, 2015</title>
       <link>https://dsachar.net/publication/2015-localrec-blr/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/publication/2015-localrec-blr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proceedings of the Workshop on Location-Aware Recommendations, LocalRec 2015, co-located with the 9th ACM Conference on Recommender Systems (RecSys 2015), Vienna, Austria, September 19, 2015</title>
+      <link>https://dsachar.net/publication/2015-localrec-p-blr/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2015-localrec-p-blr/</guid>
       <description></description>
     </item>
     
@@ -1367,6 +2457,14 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
       <link>https://dsachar.net/publication/2013-geoinformatica-tss/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/publication/2013-geoinformatica-tss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Routing Directions: Keeping it Fast and Simple</title>
+      <link>https://dsachar.net/publication/2013-arxiv-sb/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2013-arxiv-sb/</guid>
       <description></description>
     </item>
     
@@ -1600,7 +2698,7 @@ p(H|do(C)) = p(H|C) = p(H,C) = \sum_E p(H|E,C) \cdot p(E).
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/research/</guid>
       <description>&lt;p&gt;My research is on Responsible AI, Data Science, and Data Engineering. Here you may find my current research activities.
-A complete list of publications is &lt;a href=&#34;publication&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+A complete list of publications is &lt;a href=&#34;https://dsachar.net/publication&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;algorithmic-fairness&#34;&gt;Algorithmic Fairness&lt;/h2&gt;
 &lt;h3 id=&#34;fairness-of-recourse&#34;&gt;Fairness of Recourse&lt;/h3&gt;
 
@@ -1828,7 +2926,7 @@ A complete list of publications is &lt;a href=&#34;publication&#34;&gt;here&lt;/
   
   &lt;div class=&#34;article-style&#34;&gt;
     &lt;p&gt;In many cases, it is important to ensure that a model does not discriminate against individuals on the basis of their &lt;em&gt;location&lt;/em&gt; (place of origin, home address, etc.). We consider location as the &lt;em&gt;protected attribute&lt;/em&gt; and we want the algorithm to exhibit &lt;em&gt;spatial fairness&lt;/em&gt;
-For example, consider a model that predicts whether mortgage loan applications are accepted. Its decisions should not discriminate based on the home address of the applicant. This could be to avoid redlining, i.e., indirectly discriminating based on ethnicity/race due to strong correlations between the home address and certain ethnic/racial groups, or to avoid gentrification, e.g., when applications in a poor urban area are systematically rejected to attract wealthier people. We have developed a method to audit a model for spatial fairness, i.e., find areas where spatial unfairness exists.&lt;/p&gt;
+For example, consider a model that predicts whether mortgage loan applications are accepted. Its decisions should not discriminate based on the home address of the applicant. This could be to avoid redlining, i.e., indirectly discriminating based on ethnicity/race due to strong correlations between the home address and certain ethnic/racial groups, or to avoid gentrification, e.g., when applications in a poor urban area are systematically rejected to attract wealthier people.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -1848,15 +2946,46 @@ For example, consider a model that predicts whether mortgage loan applications a
 &lt;figure  id=&#34;figure-discovered-areas-in-the-usa-where-spatial-unfairness-exists-for-mortgage-loan-applications&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /publication/2023-edbt-sgp/spatial_hu8240665862697724322.webp 400w,
-               /publication/2023-edbt-sgp/spatial_hu4086708590153223242.webp 760w,
-               /publication/2023-edbt-sgp/spatial_hu8185717874908182342.webp 1200w&#34;
-               src=&#34;https://dsachar.net/publication/2023-edbt-sgp/spatial_hu8240665862697724322.webp&#34;
+               /publication/2025-sigspatial-ksg/spatial_hu8240665862697724322.webp 400w,
+               /publication/2025-sigspatial-ksg/spatial_hu4086708590153223242.webp 760w,
+               /publication/2025-sigspatial-ksg/spatial_hu8185717874908182342.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2025-sigspatial-ksg/spatial_hu8240665862697724322.webp&#34;
                width=&#34;760&#34;
                height=&#34;374&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       &lt;em&gt;Discovered areas in the USA where spatial unfairness exists for mortgage loan applications.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This work introduces PROMIS, a post-processing optimization framework designed to reduce spatial bias while maintaining predictive performance. Building on threshold-based equal opportunity adjustments and a robust definition of spatial fairness, PROMIS formulates an optimization problem that minimizes a normalized Spatial Bias Index (SBI), which quantifies expected spatial bias across regions. Unlike heuristic correction methods, PROMIS derives globally optimal, interpretable, and computationally efficient fairness adjustments through mathematical optimization, and, unlike white-box approaches, it can be applied to any classification model.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-overview-of-the-promis-framework-for-spatial-bias-mitigation-regions-are-colored-by-bias-based-on-true-positive-rates-tprs-blue-unfavored-red-favored-and-grey-fair-left-a-global-threshold-05-produces-tpr-disparities-across-regions-right-promis-applies-region-specific-thresholds-aligning-tprs-and-reducing-spatial-bias-as-reflected-by-the-shift-to-grey-in-the-bar-plots&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2025-sigspatial-ksg/PROMIS_hu5893642958215238676.webp 400w,
+               /publication/2025-sigspatial-ksg/PROMIS_hu214848055143811853.webp 760w,
+               /publication/2025-sigspatial-ksg/PROMIS_hu10781782014680487505.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2025-sigspatial-ksg/PROMIS_hu5893642958215238676.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;138&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;Overview of the PROMIS framework for spatial bias mitigation. Regions are colored by bias based on true positive rates (TPRs): blue (unfavored), red (favored), and grey (fair). Left: a global threshold (0.5) produces TPR disparities across regions. Right: PROMIS applies region-specific thresholds, aligning TPRs and reducing spatial bias, as reflected by the shift to grey in the bar plots.&lt;/em&gt;
     &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/p&gt;
 
@@ -1866,8 +2995,8 @@ For example, consider a model that predicts whether mortgage loan applications a
 
 
 
-&lt;p&gt;&lt;strong&gt;Publication&lt;/strong&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;strong&gt;Publications&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -2017,6 +3146,109 @@ For example, consider a model that predicts whether mortgage loan applications a
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  &lt;span &gt;
+      Dimitris Kyriakopoulos&lt;/span&gt;, &lt;span &gt;
+      Dimitris Sacharidis&lt;/span&gt;, &lt;span &gt;
+      Giorgos Giannopoulos&lt;/span&gt;, &lt;span &gt;
+      Dimitrios Gunopulos&lt;/span&gt;, &lt;span &gt;
+      Theodore Dalamagas&lt;/span&gt;
+  &lt;/span&gt;
+  (2025).
+  &lt;a href=&#34;https://dsachar.net/publication/2025-sigspatial-ksg/&#34;&gt;PROMIS: A Post-Processing Framework for Mitigating Spatial Bias&lt;/a&gt;.
+  &lt;em&gt;Proceedings of the 33rd ACM International Conference on Advances in Geographic Information Systems, SIGSPATIAL 2025, The Graduate Hotel Minneapolis, Minneapolis, MN, USA, November 3-6, 2025&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://dsachar.net/publication/2025-sigspatial-ksg/2025-sigspatial-ksg.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  PDF
+&lt;/a&gt;
+  
+
+
+
+&lt;a href=&#34;#&#34; class=&#34;btn btn-outline-primary btn-page-header btn-sm js-cite-modal&#34;
+        data-filename=&#34;/publication/2025-sigspatial-ksg/cite.bib&#34;&gt;
+  Cite
+&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://doi.org/10.1145/3748636.3762760&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  DOI
+&lt;/a&gt;
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://doi.org/10.1145/3748636.3762760&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+    
+    URL
+  &lt;/a&gt;
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+
+&lt;/p&gt;
 &lt;h3 id=&#34;fairness-in-recommender-systems&#34;&gt;Fairness in Recommender Systems&lt;/h3&gt;
 
 
@@ -2295,7 +3527,8 @@ For example, consider a model that predicts whether mortgage loan applications a
 &lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
   
   &lt;div class=&#34;article-style&#34;&gt;
-    &lt;p&gt;We propose a method for global explainability of black box models using counterfactual explanations. A counterfactual explanation locally explains an outcome by providing the minimal changes necessary to reverse the outcome, e.g., &amp;ldquo;if you had five more years of experience, your job application would have been accepted&amp;rdquo;. We develop a method, termed GLANCE, that summarizes all counterfactual explanations for a given model.&lt;/p&gt;
+    &lt;hr&gt;
+&lt;p&gt;We propose a method for global explainability of black box models using counterfactual explanations. A counterfactual explanation locally explains an outcome by providing the minimal changes necessary to reverse the outcome, e.g., &amp;ldquo;if you had five more years of experience, your job application would have been accepted&amp;rdquo;. We develop a method, termed GLANCE, that summarizes all counterfactual explanations for a given model.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -2315,15 +3548,49 @@ For example, consider a model that predicts whether mortgage loan applications a
 &lt;figure  id=&#34;figure-three-actions-that-summarize-all-counterfactual-explanations&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /preprint/glance/GLANCE_hu10903146438223607317.webp 400w,
-               /preprint/glance/GLANCE_hu17815352061748901114.webp 760w,
-               /preprint/glance/GLANCE_hu3463568111219529215.webp 1200w&#34;
-               src=&#34;https://dsachar.net/preprint/glance/GLANCE_hu10903146438223607317.webp&#34;
+               /publication/2026-aaai-kpt/GLANCE_hu10903146438223607317.webp 400w,
+               /publication/2026-aaai-kpt/GLANCE_hu17815352061748901114.webp 760w,
+               /publication/2026-aaai-kpt/GLANCE_hu3463568111219529215.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2026-aaai-kpt/GLANCE_hu10903146438223607317.webp&#34;
                width=&#34;760&#34;
                height=&#34;119&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       &lt;em&gt;Three actions that summarize all counterfactual explanations.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Solving this global version of counterfactual explainability is different than finding the local counterfatual explanations and picking among them.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-a-toy-example-depicting-two-negative-instancesx1-x2-and-five-actions-a-the-feature-space-the-line-is-thedecision-boundary-b-the-action-space-l1-l2-depict-the-de-cision-boundary-from-the-perspective-of-x1-x2-respectively&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2026-aaai-kpt/example_hu1589924553338578423.webp 400w,
+               /publication/2026-aaai-kpt/example_hu9797865795064969311.webp 760w,
+               /publication/2026-aaai-kpt/example_hu15232130839713007938.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2026-aaai-kpt/example_hu1589924553338578423.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;440&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;A toy example depicting two negative instances
+x1, x2, and five actions. (a) The feature space; the line is the
+decision boundary. (b) The action space; l1, l2 depict the de-
+cision boundary from the perspective of x1, x2, respectively.&lt;/em&gt;
     &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/p&gt;
 
@@ -2333,7 +3600,7 @@ For example, consider a model that predicts whether mortgage loan applications a
 
 
 
-&lt;p&gt;&lt;strong&gt;Preprint&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Publication&lt;/strong&gt;&lt;/p&gt;
 
 
 
@@ -2359,21 +3626,22 @@ For example, consider a model that predicts whether mortgage loan applications a
     
 
   &lt;span &gt;
-      Ioannis Z. Emiris&lt;/span&gt;, &lt;span &gt;
-      Dimitris Fotakis&lt;/span&gt;, &lt;span &gt;
-      Giorgos Giannopoulos&lt;/span&gt;, &lt;span &gt;
-      Dimitrios Gunopulos&lt;/span&gt;, &lt;span &gt;
       Loukas Kavouras&lt;/span&gt;, &lt;span &gt;
-      Kleopatra Markou&lt;/span&gt;, &lt;span &gt;
       Eleni Psaroudaki&lt;/span&gt;, &lt;span &gt;
+      Konstantinos Tsopelas&lt;/span&gt;, &lt;span &gt;
       Dimitrios Rontogiannis&lt;/span&gt;, &lt;span &gt;
-      Dimitris Sacharidis&lt;/span&gt;, &lt;span &gt;
       Nikolaos Theologitis&lt;/span&gt;, &lt;span &gt;
+      Dimitris Sacharidis&lt;/span&gt;, &lt;span &gt;
+      Giorgos Giannopoulos&lt;/span&gt;, &lt;span &gt;
       Dimitrios Tomaras&lt;/span&gt;, &lt;span &gt;
-      Konstantinos Tsopelas&lt;/span&gt;
+      Kleopatra Markou&lt;/span&gt;, &lt;span &gt;
+      Dimitrios Gunopulos&lt;/span&gt;, &lt;span &gt;
+      Dimitris Fotakis&lt;/span&gt;, &lt;span &gt;
+      Ioannis Z. Emiris&lt;/span&gt;
   &lt;/span&gt;
-  (2024).
-  &lt;a href=&#34;https://dsachar.net/preprint/glance/&#34;&gt;GLANCE - Global Actions in a Nutshell for Counterfactual Explainability&lt;/a&gt;.
+  (2026).
+  &lt;a href=&#34;https://dsachar.net/publication/2026-aaai-kpt/&#34;&gt;GLANCE: Global Actions in a Nutshell for Counterfactual Explainability&lt;/a&gt;.
+  &lt;em&gt;The Fortieth AAAI Conference on Artificial Intelligence (AAAI-26)&lt;/em&gt;.
   
   &lt;p&gt;
 
@@ -2389,12 +3657,17 @@ For example, consider a model that predicts whether mortgage loan applications a
 
 
   
-&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://dsachar.net/preprint/glance/glance.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://dsachar.net/publication/2026-aaai-kpt/2026-aaai-kpt.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
   PDF
 &lt;/a&gt;
   
 
 
+
+&lt;a href=&#34;#&#34; class=&#34;btn btn-outline-primary btn-page-header btn-sm js-cite-modal&#34;
+        data-filename=&#34;/publication/2026-aaai-kpt/cite.bib&#34;&gt;
+  Cite
+&lt;/a&gt;
 
 
   
@@ -2417,6 +3690,22 @@ For example, consider a model that predicts whether mortgage loan applications a
 
 
 
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://portal.core.edu.au/conf-ranks/1629/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+    
+    Rank A*
+  &lt;/a&gt;
 
 &lt;/p&gt;
 
@@ -2465,10 +3754,10 @@ For example, consider a model that predicts whether mortgage loan applications a
 &lt;figure  id=&#34;figure-to-explain-an-ambiguous-prediction-aide-provides-influential-training-samples-that-support-and-oppose-it&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
-               /preprint/aide/AIDE_hu9911068347374307218.webp 400w,
-               /preprint/aide/AIDE_hu12063181795439809382.webp 760w,
-               /preprint/aide/AIDE_hu3717002462222689418.webp 1200w&#34;
-               src=&#34;https://dsachar.net/preprint/aide/AIDE_hu9911068347374307218.webp&#34;
+               /publication/2024-aies-nsh/AIDE_hu9911068347374307218.webp 400w,
+               /publication/2024-aies-nsh/AIDE_hu12063181795439809382.webp 760w,
+               /publication/2024-aies-nsh/AIDE_hu3717002462222689418.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2024-aies-nsh/AIDE_hu9911068347374307218.webp&#34;
                width=&#34;760&#34;
                height=&#34;382&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2483,8 +3772,8 @@ For example, consider a model that predicts whether mortgage loan applications a
 
 
 
-&lt;p&gt;&lt;strong&gt;Preprint&lt;/strong&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;strong&gt;Publication&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -2515,7 +3804,7 @@ For example, consider a model that predicts whether mortgage loan applications a
       Tomer Sagi&lt;/span&gt;
   &lt;/span&gt;
   (2024).
-  &lt;a href=&#34;https://dsachar.net/preprint/aide/&#34;&gt;AIDE - Antithetical, Intent-based, and Diverse Example-Based Explanations&lt;/a&gt;.
+  &lt;a href=&#34;https://dsachar.net/publication/2024-aies-nsh/&#34;&gt;AIDE: Antithetical, Intent-based, and Diverse Example-Based Explanations&lt;/a&gt;.
   AIES.
   
   &lt;p&gt;
@@ -2532,13 +3821,17 @@ For example, consider a model that predicts whether mortgage loan applications a
 
 
   
-&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://dsachar.net/preprint/aide/aide.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://dsachar.net/publication/2024-aies-nsh/2024-aies-nsh.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
   PDF
 &lt;/a&gt;
   
 
 
 
+&lt;a href=&#34;#&#34; class=&#34;btn btn-outline-primary btn-page-header btn-sm js-cite-modal&#34;
+        data-filename=&#34;/publication/2024-aies-nsh/cite.bib&#34;&gt;
+  Cite
+&lt;/a&gt;
 
 
 
@@ -2552,6 +3845,27 @@ For example, consider a model that predicts whether mortgage loan applications a
 
 
 
+
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://doi.org/10.1609/AIES.V7I1.31702&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  DOI
+&lt;/a&gt;
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://doi.org/10.1609/aies.v7i1.31702&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+    
+    URL
+  &lt;/a&gt;
 
 &lt;/p&gt;
 
@@ -2561,6 +3875,108 @@ For example, consider a model that predicts whether mortgage loan applications a
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  &lt;span &gt;
+      Ikhtiyor Nematov&lt;/span&gt;, &lt;span &gt;
+      Dimitris Sacharidis&lt;/span&gt;, &lt;span &gt;
+      Tomer Sagi&lt;/span&gt;, &lt;span &gt;
+      Katja Hose&lt;/span&gt;
+  &lt;/span&gt;
+  (2024).
+  &lt;a href=&#34;https://dsachar.net/publication/2024-arxiv-nssb/&#34;&gt;The Susceptibility of Example-Based Explainability Methods to Class Outliers&lt;/a&gt;.
+  &lt;em&gt;CoRR&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://dsachar.net/publication/2024-arxiv-nssb/2024-arxiv-nssb.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  PDF
+&lt;/a&gt;
+  
+
+
+
+&lt;a href=&#34;#&#34; class=&#34;btn btn-outline-primary btn-page-header btn-sm js-cite-modal&#34;
+        data-filename=&#34;/publication/2024-arxiv-nssb/cite.bib&#34;&gt;
+  Cite
+&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://doi.org/10.48550/ARXIV.2407.20678&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  DOI
+&lt;/a&gt;
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://doi.org/10.48550/arXiv.2407.20678&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+    
+    URL
+  &lt;/a&gt;
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+
+&lt;/p&gt;
 &lt;h3 id=&#34;counterfactual-explanations-for-recommendations&#34;&gt;Counterfactual Explanations for Recommendations&lt;/h3&gt;
 
 
@@ -3079,6 +4495,195 @@ For example, consider a model that predicts whether mortgage loan applications a
 
 
 &lt;h2 id=&#34;data-intensive-pipelines&#34;&gt;Data Intensive Pipelines&lt;/h2&gt;
+&lt;h3 id=&#34;cost-aware-automated-machine-learning&#34;&gt;Cost-Aware Automated Machine Learning&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  
+  &lt;div class=&#34;article-style&#34;&gt;
+    &lt;p&gt;Selecting an effective machine learning pipeline requires searching through many alternatives that differ in algorithms, hyperparameters, and data preparation steps. This complexity has led to the development of Automated Machine Learning (AutoML), which systematically explores pipeline configurations with minimal human input. However, AutoML is computationally expensive, often evaluating hundreds or thousands of pipelines per dataset, even though only a small fraction are ultimately selected for deployment.&lt;/p&gt;
+&lt;p&gt;In an experiment using a popular AutoML with a five-hour budget per task, approximately 3,000 pipelines were evaluated based on classification accuracy and execution time. The results categorized pipelines into four groups: Baseline (low cost, low performance), Efficient (low cost, high performance), Premium (high cost, high performance), and Waste (high cost, low performance). Notably, about 14% of pipelines fell into the Waste category but consumed 60% of the total computational budget, highlighting substantial inefficiencies in the AutoML search process.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-traditional-automl-is-wasteful-about-14-of-pipelines-are-wasteful-and-consume-60-of-the-total-computational-budget&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2026-vldb-ksa/waste_hu9701639638043197912.webp 400w,
+               /publication/2026-vldb-ksa/waste_hu354913742365003637.webp 760w,
+               /publication/2026-vldb-ksa/waste_hu1040652720473035614.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2026-vldb-ksa/waste_hu9701639638043197912.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;397&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;Traditional AutoML is wasteful. About 14% of pipelines are wasteful and consume 60% of the total computational budget.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Cost-Aware ML Pipeline Selection (CAPS) enhances AutoML by introducing an intermediate selection step between pipeline generation and evaluation, enabling explicit prioritization based on a performance–cost trade-off. While the generation phase focuses on exploring diverse and promising candidates, the selection phase filters them according to desired cost efficiency, significantly reducing wasted computation and allowing more pipelines to be explored within the same budget. CAPS achieves this by estimating both predictive performance and execution cost at a fine-grained level, modeling the runtime of individual pipeline functions and leveraging execution-environment data from prior runs. This detailed cost modeling overcomes limitations of black-box approaches and accounts for system-level optimizations that can obscure true execution costs.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-caps-is-a-cost-aware-automl-system-that-selects-pipelines-for-execution-by-balancing-their-predicted-performance-and-computational-cost&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2026-vldb-ksa/CAPS_hu7928149499870139244.webp 400w,
+               /publication/2026-vldb-ksa/CAPS_hu3747488009509859208.webp 760w,
+               /publication/2026-vldb-ksa/CAPS_hu5403653289990906706.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2026-vldb-ksa/CAPS_hu7928149499870139244.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;391&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;CAPS is a cost-aware AutoML system that selects pipelines for execution by balancing their predicted performance and computational cost.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Publication&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  &lt;span &gt;
+      Antonios Kontaxakis&lt;/span&gt;, &lt;span &gt;
+      Dimitris Sacharidis&lt;/span&gt;, &lt;span &gt;
+      Alberto Abelló&lt;/span&gt;, &lt;span &gt;
+      Sergi Nadal&lt;/span&gt;, &lt;span &gt;
+      Alkis Simitsis&lt;/span&gt;
+  &lt;/span&gt;
+  (2026).
+  &lt;a href=&#34;https://dsachar.net/publication/2026-vldb-ksa/&#34;&gt;CAPS: Cost-Aware ML Pipeline Selection&lt;/a&gt;.
+  &lt;em&gt;Proc. VLDB Endow.&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://dsachar.net/publication/2026-vldb-ksa/2026-vldb-ksa.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  PDF
+&lt;/a&gt;
+  
+
+
+
+&lt;a href=&#34;#&#34; class=&#34;btn btn-outline-primary btn-page-header btn-sm js-cite-modal&#34;
+        data-filename=&#34;/publication/2026-vldb-ksa/cite.bib&#34;&gt;
+  Cite
+&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://portal.core.edu.au/conf-ranks/1261/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+    
+    Rank A*
+  &lt;/a&gt;
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+
+
 &lt;h3 id=&#34;optimizing-machine-learning-pipelines&#34;&gt;Optimizing Machine Learning Pipelines&lt;/h3&gt;
 
 

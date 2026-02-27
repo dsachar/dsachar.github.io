@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News | Dimitris Sacharidis</title>
-    <link>https://dsachar.net/news/</link>
-      <atom:link href="https://dsachar.net/news/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/news/</link>
+      <atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://dsachar.net/media/icon_hu7925680949909669101.png</url>
+      <url>http://localhost:1313/media/icon_hu7925680949909669101.png</url>
       <title>News</title>
-      <link>https://dsachar.net/news/</link>
+      <link>http://localhost:1313/news/</link>
     </image>
     
     <item>
       <title>PhD Positions in GreenFieldData</title>
-      <link>https://dsachar.net/news/greenfielddata_positions/</link>
+      <link>http://localhost:1313/news/greenfielddata_positions/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.net/news/greenfielddata_positions/</guid>
+      <guid>http://localhost:1313/news/greenfielddata_positions/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;GreenFieldData will train a new generation of researchers able to tackle digital and green transition challenges using a human-centric approach to ensure the robustness and relevance of the solutions responding to the specific needs of the EU market in a context of climate change and increasing socio-economic constraints. At a policy level GreenFieldData outcomes will feed in directly to the aims of the HE Strategic Plan 2025-2027, EU Partnership Agriculture of Data and Digital EU Program. GreenFieldData proposes a high-level interdisciplinary, inter-sectoral and international (triple ‘i’) research project and training network on new IoRT (Internet of Robotic Things) based solutions for sustainable agriculture.&lt;/p&gt;
 &lt;h2 id=&#34;phd-positions&#34;&gt;PhD Positions&lt;/h2&gt;
@@ -32,9 +32,9 @@
     
     <item>
       <title>BRAIN Forum 2025</title>
-      <link>https://dsachar.net/news/brain2025/</link>
+      <link>http://localhost:1313/news/brain2025/</link>
       <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://dsachar.net/news/brain2025/</guid>
+      <guid>http://localhost:1313/news/brain2025/</guid>
       <description>&lt;img src=&#34;featured.png&#34; alt=&#34;BRAIN logo&#34; width=&#34;100&#34;&gt;
 &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;The Brussels Responsible AI Network (BRAIN) Forum is a one-day event that invites researchers, practitioners, and policymakers from Belgium and beyond to discuss the latest advances in AI and its societal implications. The forum is hosted at the Brussels Institute for Advanced Studies (BrIAS) and is part of the BrIAS series of public forums.&lt;/p&gt;

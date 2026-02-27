@@ -5,12 +5,252 @@
     <link>https://dsachar.net/post/</link>
       <atom:link href="https://dsachar.net/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dsachar.net/media/icon_hu7925680949909669101.png</url>
       <title>Posts</title>
       <link>https://dsachar.net/post/</link>
     </image>
+    
+    <item>
+      <title>PhD Positions in GreenFieldData</title>
+      <link>https://dsachar.net/post/greenfielddata_positions/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/post/greenfielddata_positions/</guid>
+      <description>&lt;img src=&#34;GreenFieldData.png&#34; alt=&#34;GreenFieldData logo&#34; width=&#34;200&#34;&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;GreenFieldData will train a new generation of researchers able to tackle digital and green transition challenges using a human-centric approach to ensure the robustness and relevance of the solutions responding to the specific needs of the EU market in a context of climate change and increasing socio-economic constraints. At a policy level GreenFieldData outcomes will feed in directly to the aims of the HE Strategic Plan 2025-2027, EU Partnership Agriculture of Data and Digital EU Program. GreenFieldData proposes a high-level interdisciplinary, inter-sectoral and international (triple ‘i’) research project and training network on new IoRT (Internet of Robotic Things) based solutions for sustainable agriculture.&lt;/p&gt;
+&lt;h2 id=&#34;phd-positions&#34;&gt;PhD Positions&lt;/h2&gt;
+&lt;p&gt;Two fully funded PhD positions are available on &lt;strong&gt;Responsible AI for Sustainable Agriculture&lt;/strong&gt; in the context of GreenFieldData.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PhD C: Powering data-driven sustainability assessment tasks in Agrifood systems with IoT-data Datalakes and Large Language Models. In collaboration with &lt;a href=&#34;https://international.au.dk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Aarhus University&lt;/a&gt;, Denmark.&lt;/li&gt;
+&lt;li&gt;PhD D: Human-centric Digital twins for monitoring robotized biostimulants application practices. In collaboration with &lt;a href=&#34;https://www.unimi.it/en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University of Milan&lt;/a&gt;, Italy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Deadline for applications is &lt;strong&gt;April 15, 2026&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.eu4greenfielddata.eu/phd-positions-application/how-to-apply&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Apply now!&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>VLDB 2026 paper</title>
+      <link>https://dsachar.net/post/vldb-2026/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/post/vldb-2026/</guid>
+      <description>&lt;p&gt;Our work on cost-aware AutoML has been accepted at VLDB 2026.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  
+  &lt;div class=&#34;article-style&#34;&gt;
+    &lt;p&gt;Selecting an effective machine learning pipeline requires searching through many alternatives that differ in algorithms, hyperparameters, and data preparation steps. This complexity has led to the development of Automated Machine Learning (AutoML), which systematically explores pipeline configurations with minimal human input. However, AutoML is computationally expensive, often evaluating hundreds or thousands of pipelines per dataset, even though only a small fraction are ultimately selected for deployment.&lt;/p&gt;
+&lt;p&gt;In an experiment using a popular AutoML with a five-hour budget per task, approximately 3,000 pipelines were evaluated based on classification accuracy and execution time. The results categorized pipelines into four groups: Baseline (low cost, low performance), Efficient (low cost, high performance), Premium (high cost, high performance), and Waste (high cost, low performance). Notably, about 14% of pipelines fell into the Waste category but consumed 60% of the total computational budget, highlighting substantial inefficiencies in the AutoML search process.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-traditional-automl-is-wasteful-about-14-of-pipelines-are-wasteful-and-consume-60-of-the-total-computational-budget&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2026-vldb-ksa/waste_hu9701639638043197912.webp 400w,
+               /publication/2026-vldb-ksa/waste_hu354913742365003637.webp 760w,
+               /publication/2026-vldb-ksa/waste_hu1040652720473035614.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2026-vldb-ksa/waste_hu9701639638043197912.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;397&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;Traditional AutoML is wasteful. About 14% of pipelines are wasteful and consume 60% of the total computational budget.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Cost-Aware ML Pipeline Selection (CAPS) enhances AutoML by introducing an intermediate selection step between pipeline generation and evaluation, enabling explicit prioritization based on a performance–cost trade-off. While the generation phase focuses on exploring diverse and promising candidates, the selection phase filters them according to desired cost efficiency, significantly reducing wasted computation and allowing more pipelines to be explored within the same budget. CAPS achieves this by estimating both predictive performance and execution cost at a fine-grained level, modeling the runtime of individual pipeline functions and leveraging execution-environment data from prior runs. This detailed cost modeling overcomes limitations of black-box approaches and accounts for system-level optimizations that can obscure true execution costs.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-caps-is-a-cost-aware-automl-system-that-selects-pipelines-for-execution-by-balancing-their-predicted-performance-and-computational-cost&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2026-vldb-ksa/CAPS_hu7928149499870139244.webp 400w,
+               /publication/2026-vldb-ksa/CAPS_hu3747488009509859208.webp 760w,
+               /publication/2026-vldb-ksa/CAPS_hu5403653289990906706.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2026-vldb-ksa/CAPS_hu7928149499870139244.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;391&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;CAPS is a cost-aware AutoML system that selects pipelines for execution by balancing their predicted performance and computational cost.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>AAAI 2026 paper</title>
+      <link>https://dsachar.net/post/aaai-2026/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/post/aaai-2026/</guid>
+      <description>&lt;p&gt;Our work on global counterfactual explanations has been accepted at AAAI 2026.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;pub-list-item view-citation&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  
+  &lt;div class=&#34;article-style&#34;&gt;
+    &lt;hr&gt;
+&lt;p&gt;We propose a method for global explainability of black box models using counterfactual explanations. A counterfactual explanation locally explains an outcome by providing the minimal changes necessary to reverse the outcome, e.g., &amp;ldquo;if you had five more years of experience, your job application would have been accepted&amp;rdquo;. We develop a method, termed GLANCE, that summarizes all counterfactual explanations for a given model.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-three-actions-that-summarize-all-counterfactual-explanations&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2026-aaai-kpt/GLANCE_hu10903146438223607317.webp 400w,
+               /publication/2026-aaai-kpt/GLANCE_hu17815352061748901114.webp 760w,
+               /publication/2026-aaai-kpt/GLANCE_hu3463568111219529215.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2026-aaai-kpt/GLANCE_hu10903146438223607317.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;119&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;Three actions that summarize all counterfactual explanations.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Solving this global version of counterfactual explainability is different than finding the local counterfatual explanations and picking among them.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-a-toy-example-depicting-two-negative-instancesx1-x2-and-five-actions-a-the-feature-space-the-line-is-thedecision-boundary-b-the-action-space-l1-l2-depict-the-de-cision-boundary-from-the-perspective-of-x1-x2-respectively&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /publication/2026-aaai-kpt/example_hu1589924553338578423.webp 400w,
+               /publication/2026-aaai-kpt/example_hu9797865795064969311.webp 760w,
+               /publication/2026-aaai-kpt/example_hu15232130839713007938.webp 1200w&#34;
+               src=&#34;https://dsachar.net/publication/2026-aaai-kpt/example_hu1589924553338578423.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;440&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;em&gt;A toy example depicting two negative instances
+x1, x2, and five actions. (a) The feature space; the line is the
+decision boundary. (b) The action space; l1, l2 depict the de-
+cision boundary from the perspective of x1, x2, respectively.&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>BRAIN Forum 2025</title>
+      <link>https://dsachar.net/post/brain-2025/</link>
+      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/post/brain-2025/</guid>
+      <description>&lt;img src=&#34;brain.png&#34; alt=&#34;BRAIN logo&#34; width=&#34;200&#34;&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The Brussels Responsible AI Network (BRAIN) Forum is a one-day event that invites researchers, practitioners, and policymakers from Belgium and beyond to discuss the latest advances in AI and its societal implications. The forum is hosted at the Brussels Institute for Advanced Studies (BrIAS) and is part of the BrIAS series of public forums.&lt;/p&gt;
+&lt;p&gt;BRAIN brings together the three Belgian AI research programmes: the &lt;a href=&#34;https://fari.brussels/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AI for the Common Good Institute (FARI)&lt;/a&gt; in Brussels; the &lt;a href=&#34;https://trail.ac/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trusted AI Labs (TRAIL)&lt;/a&gt; of the Walloon and Brussels regions; and the &lt;a href=&#34;https://www.flandersairesearch.be/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Flanders AI Research programme (FAIR)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The BRAIN Forum is co-organised by the &lt;a href=&#34;https://brias.be/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Brussels Institute for Advanced Studies (BrIAS)&lt;/a&gt;, &lt;a href=&#34;https://www.ulb.be/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Université Libre de Bruxelles (ULB)&lt;/a&gt;, &lt;a href=&#34;https://www.vub.be/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vrije Universiteit Brussel (VUB)&lt;/a&gt;, &lt;a href=&#34;https://fari.brussels/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AI for the Common Good Institute (FARI)&lt;/a&gt;, and &lt;a href=&#34;https://www.unamur.be/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Université de Namur (UNamur)&lt;/a&gt;, with funding from the &lt;a href=&#34;https://brias.be/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Brussels Institute of Advanced Studies (BrIAS)&lt;/a&gt;, the &lt;a href=&#34;https://www.frs-fnrs.be/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fund for Scientific Research (F.R.S.–FNRS)&lt;/a&gt;, and the &lt;a href=&#34;https://european-union.europa.eu/index_en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;European Union&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For more information see the &lt;a href=&#34;https://brainforum.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official webpage&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;update&#34;&gt;Update&lt;/h3&gt;
+&lt;p&gt;Here&amp;rsquo;s a &lt;a href=&#34;https://www.youtube.com/watch?v=G8j7cjt3AhM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;recording of the event&lt;/a&gt;.&lt;/p&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/G8j7cjt3AhM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+</description>
+    </item>
     
     <item>
       <title>Causality, Fairness, and Statistical Parity</title>

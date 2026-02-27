@@ -5,12 +5,36 @@
     <link>https://dsachar.net/publication-type/book/</link>
       <atom:link href="https://dsachar.net/publication-type/book/index.xml" rel="self" type="application/rss+xml" />
     <description>Book</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dsachar.net/media/icon_hu7925680949909669101.png</url>
       <title>Book</title>
       <link>https://dsachar.net/publication-type/book/</link>
     </image>
+    
+    <item>
+      <title>Proceedings of the 8th ACM SIGSPATIAL International Workshop on Location-based Recommendations, Geosocial Networks and Geoadvertising, LocalRec 2024, Atlanta, GA, USA, October 29 - November 1, 2024</title>
+      <link>https://dsachar.net/publication/2025-localrec-p-abk/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2025-localrec-p-abk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proceedings of the 7th ACM SIGSPATIAL Workshop on Location-based Recommendations, Geosocial Networks and Geoadvertising, LocalRec 2023, Hamburg, Germany, 13 November 2023</title>
+      <link>https://dsachar.net/publication/2023-localrec-p-bdk/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2023-localrec-p-bdk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proceedings of the 6th ACM SIGSPATIAL International Workshop on Location-based Recommendations, Geosocial Networks and Geoadvertising, LocalRec 2022, Seattle, Washington, USA, 1 November 2022</title>
+      <link>https://dsachar.net/publication/2022-localrec-p-bdk/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2022-localrec-p-bdk/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Proceedings of the 6th ACM SIGSPATIAL International Workshop on Location-based Recommendations, Geosocial Networks and Geoadvertising, LocalRec 2022, Seattle, Washington, USA, 1 November 2022</title>
@@ -29,10 +53,26 @@
     </item>
     
     <item>
+      <title>LocalRec &#39;21: Proceedings of the 5th ACM SIGSPATIAL International Workshop on Location-based Recommendations, Geosocial Networks and Geoadvertising, Virtual Event / Beijing, China, 2 November 2021</title>
+      <link>https://dsachar.net/publication/2021-localrec-p-bdk/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2021-localrec-p-bdk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Proceedings of the 4th ACM SIGSPATIAL Workshop on Location-Based Recommendations, Geosocial Networks, and Geoadvertising (LocalRec)</title>
       <link>https://dsachar.net/publication/2020-localrec-bdk/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/publication/2020-localrec-bdk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SSDBM 2020: 32nd International Conference on Scientific and Statistical Database Management, Vienna, Austria, July 7-9, 2020</title>
+      <link>https://dsachar.net/publication/2020-ssdbm-p-pss/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2020-ssdbm-p-pss/</guid>
       <description></description>
     </item>
     
@@ -53,6 +93,14 @@
     </item>
     
     <item>
+      <title>Proceedings of the 16th International Symposium on Spatial and Temporal Databases, SSTD 2019, Vienna, Austria, August 19-21, 2019</title>
+      <link>https://dsachar.net/publication/2019-sstd-p-abb/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2019-sstd-p-abb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Proceedings of the 3rd ACM SIGSPATIAL Workshop on Location-Based Recommendations, Geosocial Networks and Geoadvertising (LocalRec)</title>
       <link>https://dsachar.net/publication/2019-localrec-bdk/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -65,6 +113,14 @@
       <link>https://dsachar.net/publication/2018-localrec-brs/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/publication/2018-localrec-brs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proceedings of the 30th International Conference on Scientific and Statistical Database Management, SSDBM 2018, Bozen-Bolzano, Italy, July 09-11, 2018</title>
+      <link>https://dsachar.net/publication/2018-ssdbm-p-sgb/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2018-ssdbm-p-sgb/</guid>
       <description></description>
     </item>
     
@@ -93,10 +149,26 @@
     </item>
     
     <item>
+      <title>Proceedings of the 8th ACM SIGSPATIAL International Workshop on Location-Based Social Networks, LBSN 2015, Bellevue, WA, USA, November 3-6, 2015</title>
+      <link>https://dsachar.net/publication/2015-lbsn-p-psx/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2015-lbsn-p-psx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Proceedings of the Workshop on Location-Aware Recommendations, LocalRec 2015, co-located with the 9th ACM Conference on Recommender Systems (RecSys 2015), Vienna, Austria, September 19, 2015</title>
       <link>https://dsachar.net/publication/2015-localrec-blr/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://dsachar.net/publication/2015-localrec-blr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proceedings of the Workshop on Location-Aware Recommendations, LocalRec 2015, co-located with the 9th ACM Conference on Recommender Systems (RecSys 2015), Vienna, Austria, September 19, 2015</title>
+      <link>https://dsachar.net/publication/2015-localrec-p-blr/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://dsachar.net/publication/2015-localrec-p-blr/</guid>
       <description></description>
     </item>
     
